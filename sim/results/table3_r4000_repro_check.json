@@ -1,0 +1,29 @@
+{
+ "cell": {
+  "net": "E unequal loads, costs",
+  "cap": "uniform",
+  "c2": 61.73692726200922,
+  "r": 4000,
+  "T": 250.0,
+  "batch": 25.0,
+  "seed": 1
+ },
+ "comparison": {
+  "JE": true,
+  "level": true,
+  "E_frac": true,
+  "events": true,
+  "JE_1st": true,
+  "JE_2nd": true,
+  "batches.hq": true,
+  "batches.hq.max_abs_diff": 0.0,
+  "batches.hhat": true,
+  "batches.hhat.max_abs_diff": 0.0,
+  "batches.hg": true,
+  "batches.hg.max_abs_diff": 0.0
+ },
+ "identical": true,
+ "JE_new": 5.190342332924667,
+ "JE_stored": 5.190342332924667,
+ "wall_s": 1388.2510974407196
+}

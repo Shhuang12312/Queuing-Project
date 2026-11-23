@@ -1,0 +1,78 @@
+G ranking-map fails (BJ20 Ex. 6.6)(I=3, J=6)
+  alpha=[1. 1. 1. 1. 1. 1.]
+  beta =[1. 1. 1. 1. 1. 1.]
+  h    =[ 5.  5.  5.  7.  8. 11.]
+  rho  =[1. 1. 1. 1. 1. 1.]  C=[3. 4. 3.]
+  eta  =[-0.5 -0.5 -0.5 -0.5 -0.5 -0.5]  [canonical split (alpha_bar = beta*eta, beta_bar = 0)]
+  theta=[-1.5 -2.  -1.5]  [stable]
+  local types s_i = {0: 0, 1: 1, 2: 2}
+Offline pass for G ranking-map fails (BJ20 Ex. 6.6) (I=3, J=6, dim ker K=3)
+  u_(J-I)   = [-0.589256 -0.589256 -0.353553  0.235702  0.        0.353553]
+  lambda    = -2.121320
+  |M|       = 42 of 64
+  LP-c solves = 47 (pruned enumeration)
+  lambda~   = -0.490000
+  b_max     = 0.002845  (gamma_c=0.98, gamma_b=0.98)
+  v^b table = all 64 patterns precomputed and asserted
+dual vertices: [[2.0, 5.0, 3.0], [3.0, 3.0, 5.0], [3.0, 4.0, 4.0], [5.0, 1.0, 5.0], [5.0, 2.0, 4.0]]  vertex-LP err 7.105427357601002e-15
+HGI_E = 24.7907 +- 0.1640   rule c2 = nan   chosenProcess SpawnPoolWorker-2:
+Process SpawnPoolWorker-1:
+Traceback (most recent rule   r= 4000 s=2 JE= 58.943 sameHGI=17.137 excess= 168.6% gap=5.108 1st/2nd=60.88/57.00 floor pred=0.784 Efrac=3.2e-04 (696s)
+rule   r= 4000 s=1 JE= 64.736 sameHGI=22.490 excess= 170.4% gap=4.892 1st/2nd=57.59/71.88 floor pred=0.784 Efrac=2.9e-04 (696s)
+rule   r= 2000 s=1 JE= 85.166 sameHGI=20.734 excess= 259.9% gap=7.179 1st/2nd=86.67/83.66 floor pred=0.652 Efrac=3.3e-04 (900s)
+rule   r= 2000 s=2 JE= 94.596 sameHGI=27.388 excess= 271.1% gap=7.871 1st/2nd=89.28/99.91 floor pred=0.652 Efrac=2.6e-04 (900s)
+rule   r= 1000 s=1 JE=134.239 sameHGI=27.676 excess= 429.9% gap=11.253 1st/2nd=145.57/122.90 floor pred=0.563 Efrac=9.9e-04 (950s)
+rule   r= 1000 s=2 JE=132.839 sameHGI=25.318 excess= 433.7% gap=12.049 1st/2nd=134.48/131.19 floor pred=0.563 Efrac=8.7e-04 (950s)
+c2=30  r= 1000 s=1 JE=3098.419 sameHGI=26.515 excess=12391.4% gap=0.429 1st/2nd=2298.57/3898.26 floor pred=12.718 Efrac=3.5e-02 (1000s)
+c2=30  r= 1000 s=2 JE=3008.802 sameHGI=25.806 excess=12032.7% gap=0.429 1st/2nd=2195.57/3822.03 floor pred=12.718 Efrac=3.5e-02 (1001s)
+ALL DONE
+ython3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/anaconda3/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/anaconda3/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/opt/anaconda3/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/opt/anaconda3/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/opt/anaconda3/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/opt/anaconda3/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+  File "/opt/anaconda3/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/anaconda3/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/anaconda3/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/opt/anaconda3/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/opt/anaconda3/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/opt/anaconda3/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/opt/anaconda3/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+/opt/anaconda3/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

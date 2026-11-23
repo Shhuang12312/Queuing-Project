@@ -1,0 +1,58 @@
+{
+ "1.0": {
+  "HGI_D": 1.3363390258562642,
+  "se": 0.005488476248291826,
+  "per_dt": {
+   "0.001": [
+    1.3000817413511343,
+    0.005486327656045374
+   ],
+   "0.0005": [
+    1.310701254115277,
+    0.005484744055275291
+   ],
+   "se_difference": 8.382497099231612e-05
+  },
+  "T": 20.0,
+  "n_paths": 10000,
+  "legs_paired": "common random numbers: coarse path = fine increments summed in pairs"
+ },
+ "0.5": {
+  "HGI_D": 3.31981641162662,
+  "se": 0.013385260683972087,
+  "per_dt": {
+   "0.001": [
+    3.247135174701071,
+    0.01338240569048414
+   ],
+   "0.0005": [
+    3.268423016131538,
+    0.013380093327833947
+   ],
+   "se_difference": 0.00015404407825700883
+  },
+  "T": 20.0,
+  "n_paths": 10000,
+  "legs_paired": "common random numbers: coarse path = fine increments summed in pairs"
+ },
+ "2.0": {
+  "HGI_D": 0.5188310258472378,
+  "se": 0.002124365740975801,
+  "per_dt": {
+   "0.001": [
+    0.5008539464283436,
+    0.0021227274394237127
+   ],
+   "0.0005": [
+    0.5061193110842086,
+    0.002121661752833057
+   ],
+   "se_difference": 4.43831484624122e-05
+  },
+  "T": 20.0,
+  "n_paths": 10000,
+  "legs_paired": "common random numbers: coarse path = fine increments summed in pairs"
+ },
+ "commit": "9f9523c206e2d39f5183c08cb9b311bde956001b",
+ "note": "Unnormalized convention of eq. (11); all queueing-side J_D use varsigma = 1 (toykern3.c). Scratch check Nov 14: dt = 2e-3 / 1e-3 / 5e-4 gave 1.2846 / 1.2998 / 1.3107 at varsigma = 1."
+}

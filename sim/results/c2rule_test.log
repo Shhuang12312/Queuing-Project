@@ -1,0 +1,9 @@
+D unequal rates          c2= 31.0 r= 2000 s=2 JE=  4.063 sameHGI= 3.720 excess=  11.1% gap=0.115 1st/2nd=5.27/2.85 Efrac=9.7e-06 (87s)
+D unequal rates          c2= 31.0 r= 2000 s=1 JE=  2.769 sameHGI= 2.446 excess=  10.4% gap=0.123 1st/2nd=3.11/2.43 Efrac=1.8e-06 (87s)
+D unequal rates          c2= 31.0 r= 1000 s=1 JE=  5.142 sameHGI= 4.613 excess=  17.0% gap=0.194 1st/2nd=5.12/5.16 Efrac=3.5e-05 (102s)
+D unequal rates          c2= 31.0 r= 1000 s=2 JE=  3.673 sameHGI= 3.133 excess=  17.4% gap=0.199 1st/2nd=2.56/4.79 Efrac=3.4e-05 (102s)
+E unequal loads, costs   c2= 57.0 r= 2000 s=1 JE=  3.761 sameHGI= 3.037 excess=  17.1% gap=0.244 1st/2nd=4.10/3.43 Efrac=1.9e-05 (150s)
+E unequal loads, costs   c2= 57.0 r= 2000 s=2 JE=  5.110 sameHGI= 4.382 excess=  17.2% gap=0.248 1st/2nd=6.54/3.68 Efrac=3.1e-06 (150s)
+E unequal loads, costs   c2= 57.0 r= 1000 s=1 JE=  6.136 sameHGI= 4.886 excess=  29.6% gap=0.410 1st/2nd=4.00/8.27 Efrac=7.6e-05 (161s)
+E unequal loads, costs   c2= 57.0 r= 1000 s=2 JE=  3.163 sameHGI= 1.986 excess=  27.8% gap=0.410 1st/2nd=3.25/3.07 Efrac=6.7e-05 (162s)
+ALL DONE

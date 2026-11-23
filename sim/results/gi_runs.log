@@ -1,0 +1,10 @@
+Sigma = [[5.0, 2.5], [2.5, 5.0]]  scv_u [2.0, 2.0, 2.0]  scv_v [0.5, 0.5, 0.5]
+HGI_E(Sigma = 2.5 K K^T) = 3.5128 +- 0.0382  (18s)
+r= 4000 T=30 s=1 JE=  5.017 sameHGI= 4.723 excess=   8.4% gap=0.097 1st/2nd=4.71/5.32 Efrac=4.3e-05 2.88e+09 ev (214s)
+r= 4000 T=30 s=2 JE=  3.522 sameHGI= 3.100 excess=  12.0% gap=0.097 1st/2nd=2.90/4.14 Efrac=5.1e-05 2.88e+09 ev (214s)
+r= 2000 T=40 s=1 JE=  3.330 sameHGI= 2.651 excess=  19.3% gap=0.161 1st/2nd=2.38/4.28 Efrac=1.7e-04 9.60e+08 ev (274s)
+r= 2000 T=40 s=2 JE=  3.160 sameHGI= 2.348 excess=  23.1% gap=0.160 1st/2nd=3.27/3.05 Efrac=2.1e-04 9.60e+08 ev (274s)
+r= 1000 T=40 s=2 JE=  3.910 sameHGI= 2.805 excess=  31.5% gap=0.265 1st/2nd=4.29/3.53 Efrac=3.5e-04 2.40e+08 ev (288s)
+r= 1000 T=40 s=1 JE=  5.492 sameHGI= 4.220 excess=  36.2% gap=0.266 1st/2nd=7.04/3.94 Efrac=4.6e-04 2.40e+08 ev (288s)
+r= 1000 T=40 s=3 JE=  3.389 sameHGI= 2.479 excess=  25.9% gap=0.265 1st/2nd=3.17/3.61 Efrac=2.5e-04 2.40e+08 ev (303s)
+ALL DONE

@@ -1,0 +1,4350 @@
+{
+ "note": "Every number printed by analysis/make_paper_numbers.py: formatted text, source file, key in that file and value.",
+ "benchmark": {
+  "HGI_E": {
+   "A toy (Ex. 2.2)": 2.7628090934320664,
+   "B cost-trivial (Ex. 2.1)": 4.014571292279396,
+   "C shared type costly": 4.014571292279396,
+   "D unequal rates": 3.068961734296546,
+   "E unequal loads, costs": 4.237872226706658,
+   "F 3x5 network": 8.794486786235368,
+   "G ranking-map fails (BJ20 Ex. 6.6)": 24.444932040461747
+  },
+  "hw95": {
+   "A toy (Ex. 2.2)": 0.04750545834857128,
+   "B cost-trivial (Ex. 2.1)": 0.06507535101047666,
+   "C shared type costly": 0.06507535101047666,
+   "D unequal rates": 0.04949664882522603,
+   "E unequal loads, costs": 0.09673368305947593,
+   "F 3x5 network": 0.13781489090306123,
+   "G ranking-map fails (BJ20 Ex. 6.6)": 0.2785250331137957
+  }
+ },
+ "numbers": {
+  "HGI_E.A": {
+   "text": "2.76 \u00b1 0.02",
+   "source": "sim/results/multi_bench_crn.json",
+   "key": "networks['A toy (Ex. 2.2)'].HGI_E, .se",
+   "value": [
+    2.7628090934320664,
+    0.020090066452026004
+   ]
+  },
+  "HGI_E.B": {
+   "text": "4.01 \u00b1 0.03",
+   "source": "sim/results/multi_bench_crn.json",
+   "key": "networks['B cost-trivial (Ex. 2.1)'].HGI_E, .se",
+   "value": [
+    4.014571292279396,
+    0.027520377060601762
+   ]
+  },
+  "HGI_E.C": {
+   "text": "4.01 \u00b1 0.03",
+   "source": "sim/results/multi_bench_crn.json",
+   "key": "networks['C shared type costly'].HGI_E, .se",
+   "value": [
+    4.014571292279396,
+    0.027520377060601762
+   ]
+  },
+  "HGI_E.D": {
+   "text": "3.07 \u00b1 0.02",
+   "source": "sim/results/multi_bench_crn.json",
+   "key": "networks['D unequal rates'].HGI_E, .se",
+   "value": [
+    3.068961734296546,
+    0.0209321412448027
+   ]
+  },
+  "HGI_E.E": {
+   "text": "4.24 \u00b1 0.04",
+   "source": "sim/results/multi_bench_crn.json",
+   "key": "networks['E unequal loads, costs'].HGI_E, .se",
+   "value": [
+    4.237872226706658,
+    0.04090869109302132
+   ]
+  },
+  "HGI_E.F": {
+   "text": "8.79 \u00b1 0.06",
+   "source": "sim/results/multi_bench_crn.json",
+   "key": "networks['F 3x5 network'].HGI_E, .se",
+   "value": [
+    8.794486786235368,
+    0.058281940908890995
+   ]
+  },
+  "HGI_E.G": {
+   "text": "24.44 \u00b1 0.12",
+   "source": "sim/results/multi_bench_crn.json",
+   "key": "networks['G ranking-map fails (BJ20 Ex. 6.6)'].HGI_E, .se",
+   "value": [
+    24.444932040461747,
+    0.11778828409045725
+   ]
+  },
+  "HGI_E.toy.hw95": {
+   "text": "0.048",
+   "source": "sim/results/multi_bench_crn.json",
+   "key": "networks['A toy (Ex. 2.2)'].hw95",
+   "value": 0.04750545834857128
+  },
+  "HGI_E.B.exact_check": {
+   "text": "exact 4; estimate 4.015 \u00b1 0.028 (z = +0.53)",
+   "source": "sim/results/multi_bench_crn.json",
+   "key": "networks['B cost-trivial (Ex. 2.1)'].exact, .z_vs_exact",
+   "value": null
+  },
+  "HGI_E.C.exact_check": {
+   "text": "exact 4; estimate 4.015 \u00b1 0.028 (z = +0.53)",
+   "source": "sim/results/multi_bench_crn.json",
+   "key": "networks['C shared type costly'].exact, .z_vs_exact",
+   "value": null
+  },
+  "scale.toy": {
+   "text": "1.0169",
+   "source": "sim/results/multi_bench_crn.json, multi_bench.json",
+   "key": "multi_bench.json['A toy (Ex. 2.2)'].HGI_E (independent extrapolation legs) / multi_bench_crn.json networks['A toy (Ex. 2.2)'].HGI_E",
+   "value": 1.0168623334681572
+  },
+  "HGI_D.stored": {
+   "text": "1.3363 \u00b1 0.0055",
+   "source": "sim/results/hgi_d_toy.json",
+   "key": "['1.0'].HGI_D, .se",
+   "value": [
+    1.3363390258562642,
+    0.005488476248291826
+   ]
+  },
+  "HGI_D.recomputed.seed12345": {
+   "text": "1.3363 \u00b1 0.0055",
+   "source": "sim/results/hgi_d_toy_crn.json",
+   "key": "runs['12345'].HGI_D, .se",
+   "value": [
+    1.3363390258562642,
+    0.005488476248291826
+   ]
+  },
+  "HGI_D.recomputed.seed20261117": {
+   "text": "1.3283 \u00b1 0.0053",
+   "source": "sim/results/hgi_d_toy_crn.json",
+   "key": "runs['20261117'].HGI_D, .se",
+   "value": [
+    1.3283157470963014,
+    0.005342561678835453
+   ]
+  },
+  "HGI_D.pooled": {
+   "text": "1.3323 \u00b1 0.0038",
+   "source": "sim/results/hgi_d_toy_crn.json",
+   "key": "pooled.HGI_D, .se",
+   "value": [
+    1.3323273864762828,
+    0.0038296976649673216
+   ]
+  },
+  "tab1.c2=10.r=1000": {
+   "text": "J_E 777 \u00b1 11; halves 566 -> 989; flag drift 15.7 / 16.0",
+   "source": "sim/results/table1_drift.json (rows reproduce production.json bit for bit); halves: production.json JE_1st, JE_2nd",
+   "key": "rows[consts=reference, r=1000].JE, .JE_se, .predicted_flag_drift, .flag_drift_local",
+   "value": {
+    "c2": 10.0,
+    "r": 1000,
+    "T": 80,
+    "n_seeds": 2,
+    "JE": 777.4767027456246,
+    "JE_se": 11.08331347190875,
+    "halves": [
+     566.1492664554564,
+     988.8041390357929
+    ],
+    "predicted": 15.665477904236827,
+    "flag_only": 15.950960799125527,
+    "flag_only_se": 0.06131622353916377,
+    "flag_only_Efrac": 15.89766586882811,
+    "total_idle": 15.950960799125284,
+    "total_idle_se": 0.06131622353872146,
+    "pred_over_meas": 0.9821024640155626
+   }
+  },
+  "tab1.c2=30.r=100": {
+   "text": "J_E 5.45 \u00b1 0.52; halves 5.5 -> 5.3; flag drift 0.57 / 0.61",
+   "source": "sim/results/table1_drift.json (rows reproduce production.json bit for bit); halves: production.json JE_1st, JE_2nd",
+   "key": "rows[consts=tuned, r=100].JE, .JE_se, .predicted_flag_drift, .flag_drift_local",
+   "value": {
+    "c2": 30.0,
+    "r": 100,
+    "T": 160,
+    "n_seeds": 4,
+    "JE": 5.446724896845928,
+    "JE_se": 0.5217259598944269,
+    "halves": [
+     5.5491485781739645,
+     5.34430121551789
+    ],
+    "predicted": 0.5696593801109119,
+    "flag_only": 0.6095518448722845,
+    "flag_only_se": 0.03009892002378963,
+    "flag_only_Efrac": 0.6451903870174172,
+    "total_idle": 1.0129847244085044,
+    "total_idle_se": 0.078013528760255,
+    "pred_over_meas": 0.9345544352019293
+   }
+  },
+  "tab1.c2=30.r=400": {
+   "text": "J_E 7.56 \u00b1 1.39; halves 6.6 -> 8.6; flag drift 0.95 / 0.92",
+   "source": "sim/results/table1_drift.json (rows reproduce production.json bit for bit); halves: production.json JE_1st, JE_2nd",
+   "key": "rows[consts=tuned, r=400].JE, .JE_se, .predicted_flag_drift, .flag_drift_local",
+   "value": {
+    "c2": 30.0,
+    "r": 400,
+    "T": 160,
+    "n_seeds": 4,
+    "JE": 7.5600179349630166,
+    "JE_se": 1.390628931993496,
+    "halves": [
+     6.558199300073267,
+     8.561836569852769
+    ],
+    "predicted": 0.9515003880603393,
+    "flag_only": 0.921814637595701,
+    "flag_only_se": 0.01100445481636234,
+    "flag_only_Efrac": 0.9301319382325348,
+    "total_idle": 1.0828593384456042,
+    "total_idle_se": 0.06413952744266084,
+    "pred_over_meas": 1.032203600652367
+   }
+  },
+  "tab1.c2=30.r=1000": {
+   "text": "J_E 32.84 \u00b1 7.25; halves 23.5 -> 42.2; flag drift 1.24 / 1.22",
+   "source": "sim/results/table1_drift.json (rows reproduce production.json bit for bit); halves: production.json JE_1st, JE_2nd",
+   "key": "rows[consts=tuned, r=1000].JE, .JE_se, .predicted_flag_drift, .flag_drift_local",
+   "value": {
+    "c2": 30.0,
+    "r": 1000,
+    "T": 160,
+    "n_seeds": 4,
+    "JE": 32.83631862282916,
+    "JE_se": 7.245528968648482,
+    "halves": [
+     23.506375531961194,
+     42.16626171369712
+    ],
+    "predicted": 1.2438506348469716,
+    "flag_only": 1.218881992689413,
+    "flag_only_se": 0.01769538504974754,
+    "flag_only_Efrac": 1.218925201245166,
+    "total_idle": 1.2215795182928133,
+    "total_idle_se": 0.017478810413504926,
+    "pred_over_meas": 1.020484872454688
+   }
+  },
+  "tab1.c2=30.r=4000": {
+   "text": "J_E 18.49 \u00b1 3.63; halves 17.8 -> 19.2; flag drift 1.45 / 1.35",
+   "source": "sim/results/table1_drift.json (rows reproduce production.json bit for bit); halves: production.json JE_1st, JE_2nd",
+   "key": "rows[consts=tuned, r=4000].JE, .JE_se, .predicted_flag_drift, .flag_drift_local",
+   "value": {
+    "c2": 30.0,
+    "r": 4000,
+    "T": 40,
+    "n_seeds": 4,
+    "JE": 18.494892232391322,
+    "JE_se": 3.6332564716370093,
+    "halves": [
+     17.76828421947261,
+     19.221500245310033
+    ],
+    "predicted": 1.449300498770627,
+    "flag_only": 1.3515698068781066,
+    "flag_only_se": 0.023518080832886666,
+    "flag_only_Efrac": 1.3515698068781068,
+    "total_idle": 1.3515698068781146,
+    "total_idle_se": 0.02351808083289565,
+    "pred_over_meas": 1.0723090227342837
+   }
+  },
+  "text.twice_benchmark": {
+   "text": "J_E = 5.45 is 1.97 times HGI_E = 2.76",
+   "source": "sim/results/table1_drift.json, multi_bench_crn.json",
+   "key": "rows[tuned, r=100].JE / networks[A].HGI_E",
+   "value": 1.9714445380226395
+  },
+  "text.r400_times": {
+   "text": "2.74",
+   "source": "sim/results/table1_drift.json, multi_bench_crn.json",
+   "key": "rows[tuned, r=400].JE / HGI_E",
+   "value": 2.736351908257141
+  },
+  "text.flag_formula_error.c2=10.r=1000": {
+   "text": "1.8%",
+   "source": "sim/results/table1_drift.json",
+   "key": "predicted_flag_drift / flag_drift_local - 1",
+   "value": 0.9821024640155626
+  },
+  "text.flag_formula_error.c2=30.r=100": {
+   "text": "6.5%",
+   "source": "sim/results/table1_drift.json",
+   "key": "predicted_flag_drift / flag_drift_local - 1",
+   "value": 0.9345544352019293
+  },
+  "text.flag_formula_error.c2=30.r=400": {
+   "text": "3.2%",
+   "source": "sim/results/table1_drift.json",
+   "key": "predicted_flag_drift / flag_drift_local - 1",
+   "value": 1.032203600652367
+  },
+  "text.flag_formula_error.c2=30.r=1000": {
+   "text": "2.0%",
+   "source": "sim/results/table1_drift.json",
+   "key": "predicted_flag_drift / flag_drift_local - 1",
+   "value": 1.020484872454688
+  },
+  "text.flag_formula_error.c2=30.r=4000": {
+   "text": "7.2%",
+   "source": "sim/results/table1_drift.json",
+   "key": "predicted_flag_drift / flag_drift_local - 1",
+   "value": 1.0723090227342837
+  },
+  "text.flag_range_c2=30": {
+   "text": "450 to 17515",
+   "source": "formula (flag), sim/flagmodel.g_flag, d = 0.976896",
+   "key": "0.5 r d g(L, U) > 1",
+   "value": [
+    450,
+    17515
+   ]
+  },
+  "text.flag_below_0.1_c2=60": {
+   "text": "r >= 307",
+   "source": "formula (flag), sim/flagmodel.g_flag, d = 0.976896",
+   "key": "0.5 r d g(L, U) < 0.1",
+   "value": 307
+  },
+  "text.flag_below_0.05_c2=60": {
+   "text": "r >= 1311",
+   "source": "formula (flag), sim/flagmodel.g_flag, d = 0.976896",
+   "key": "0.5 r d g(L, U) < 0.05",
+   "value": 1311
+  },
+  "tab2.r=300": {
+   "text": "4.66\u00b10.72 | 0.646 | 1.320\u00b10.057 | 71.2\u00b12.1 | -0.07\u00b10.69 | 0.82",
+   "source": "sim/results/paper_cells.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=A, cap=uniform, c2=60, r=300].batches.hq/.hhat/.hg, pooled over seeds 1-2",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 300,
+    "U": 235.8632896750469,
+    "c2": 60.0,
+    "JE": 4.6606449805331875,
+    "JE_hw": 0.7168881419068633,
+    "T1": 0.6455993431364494,
+    "T1_hw": 0.0031377566511499844,
+    "T1_se": 0.001762825536125778,
+    "T2": 1.3204072307063746,
+    "T2_hw": 0.05701806896712106,
+    "T12": 1.966006573842824,
+    "T12_hw": 0.0577793150419043,
+    "T3": -0.06817068674170283,
+    "T3_hw": 0.6924863428244986,
+    "T3_hw_with_benchmark": 0.6941138981257736,
+    "excess": 71.1596967925343,
+    "excess_hw": 2.091324919237494,
+    "T1_over_band": 0.8211528093573653,
+    "T2_over_T1": 2.0452425250180317,
+    "halves_pooled": [
+     1.964229252156318,
+     1.9677838955293299
+    ],
+    "halves_change_pct": 0.18096886445966262,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 1.9649345436058023,
+      "second": 2.0170256924747276,
+      "change_pct": 2.6510373609359084
+     },
+     {
+      "seed": 2,
+      "first": 1.963523960706834,
+      "second": 1.918542098583932,
+      "change_pct": -2.2908741132300325
+     }
+    ],
+    "E_frac": 0.0006523827634292935,
+    "p_flag": [
+     0.0002802130402006682,
+     0.00034348719883296226,
+     2.8682524395663114e-05
+    ],
+    "JE_halves": [
+     4.273731364187401,
+     5.047558596878974
+    ]
+   }
+  },
+  "tab2.r=1000": {
+   "text": "3.60\u00b10.52 | 0.273 | 0.615\u00b10.057 | 32.1\u00b12.1 | -0.05\u00b10.48 | 0.87",
+   "source": "sim/results/paper_cells.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=A, cap=uniform, c2=60, r=1000].batches.hq/.hhat/.hg, pooled over seeds 1-2",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 1000,
+    "U": 314.88447614986353,
+    "c2": 60.0,
+    "JE": 3.6030262217555418,
+    "JE_hw": 0.5224892598463358,
+    "T1": 0.2731870853503832,
+    "T1_hw": 0.00038085809368680406,
+    "T1_se": 0.0002643231584620598,
+    "T2": 0.6146390395575614,
+    "T2_hw": 0.05663707619088876,
+    "T12": 0.8878261249079448,
+    "T12_hw": 0.05676807354739858,
+    "T3": -0.04760899658446882,
+    "T3_hw": 0.4816398508985008,
+    "T3_hw_with_benchmark": 0.48397697728966194,
+    "excess": 32.13490671572438,
+    "excess_hw": 2.0547229876415067,
+    "T1_over_band": 0.8675787663167135,
+    "T2_over_T1": 2.2498832211238686,
+    "halves_pooled": [
+     0.8785732219781428,
+     0.8970790278377463
+    ],
+    "halves_change_pct": 2.106347586822294,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.876615990310985,
+      "second": 0.8191586073921471,
+      "change_pct": -6.554452982138117
+     },
+     {
+      "seed": 2,
+      "first": 0.8805304536453006,
+      "second": 0.9749994482833456,
+      "change_pct": 10.728645925527463
+     }
+    ],
+    "E_frac": 0.00012544975762418339,
+    "p_flag": [
+     4.561743722110987e-05,
+     7.983232040307352e-05,
+     0.0
+    ],
+    "JE_halves": [
+     3.314786443242559,
+     3.8912660002685255
+    ]
+   }
+  },
+  "tab2.r=2000": {
+   "text": "2.82\u00b10.59 | 0.165 | 0.371\u00b10.038 | 19.4\u00b11.4 | -0.48\u00b10.56 | 0.89",
+   "source": "sim/results/paper_cells.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=A, cap=uniform, c2=60, r=2000].batches.hq/.hhat/.hg, pooled over seeds 1-2",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 2000,
+    "U": 371.8762555310708,
+    "c2": 60.0,
+    "JE": 2.8199147964102225,
+    "JE_hw": 0.5947232899104873,
+    "T1": 0.165212806295099,
+    "T1_hw": 9.741660732722042e-05,
+    "T1_se": 2.1559372573545788e-05,
+    "T2": 0.37067589298665776,
+    "T2_hw": 0.0383313764154635,
+    "T12": 0.5358886992817566,
+    "T12_hw": 0.03838676997754701,
+    "T3": -0.4787829963036011,
+    "T3_hw": 0.5592254849535837,
+    "T3_hw_with_benchmark": 0.5612396204781686,
+    "excess": 19.39651568961847,
+    "excess_hw": 1.3894108742005589,
+    "T1_over_band": 0.8885364625346198,
+    "T2_over_T1": 2.2436268791691956,
+    "halves_pooled": [
+     0.5115894831491858,
+     0.5601879154143277
+    ],
+    "halves_change_pct": 9.499497911095627,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.520352786695662,
+      "second": 0.5994652845419429,
+      "change_pct": 15.203627206199888
+     },
+     {
+      "seed": 2,
+      "first": 0.5028261796027096,
+      "second": 0.5209105462867124,
+      "change_pct": 3.59654437608868
+     }
+    ],
+    "E_frac": 3.507876166292599e-05,
+    "p_flag": [
+     1.6526258312463762e-05,
+     1.829562327495643e-05,
+     2.568800755058016e-07
+    ],
+    "JE_halves": [
+     2.4057488242512948,
+     3.23408076856915
+    ]
+   }
+  },
+  "tab2.r=4000": {
+   "text": "3.14\u00b10.42 | 0.100 | 0.210\u00b10.007 | 11.2\u00b10.3 | +0.07\u00b10.42 | 0.91",
+   "source": "sim/results/paper_cells.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=A, cap=uniform, c2=60, r=4000].batches.hq/.hhat/.hg, pooled over seeds 1-2",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 4000,
+    "U": 439.1831287420875,
+    "c2": 60.0,
+    "JE": 3.140989885247637,
+    "JE_hw": 0.41881165404154436,
+    "T1": 0.09961922121086955,
+    "T1_hw": 2.4845584685338685e-05,
+    "T1_se": 5.552217874092712e-06,
+    "T2": 0.21031894629832837,
+    "T2_hw": 0.007283851653545584,
+    "T12": 0.30993816750919795,
+    "T12_hw": 0.007279283029347248,
+    "T3": 0.06824262430637242,
+    "T3_hw": 0.42119463421614933,
+    "T3_hw_with_benchmark": 0.423865177226655,
+    "excess": 11.218225980434319,
+    "excess_hw": 0.26347397822933344,
+    "T1_over_band": 0.9073137348986959,
+    "T2_over_T1": 2.1112285735815437,
+    "halves_pooled": [
+     0.308465159516939,
+     0.3114111755014568
+    ],
+    "halves_change_pct": 0.955056314668188,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.31366994719837926,
+      "second": 0.312702144243232,
+      "change_pct": -0.30854181721629
+     },
+     {
+      "seed": 2,
+      "first": 0.30326037183549875,
+      "second": 0.31012020675968166,
+      "change_pct": 2.2620281320185054
+     }
+    ],
+    "E_frac": 8.956711868175437e-06,
+    "p_flag": [
+     5.5136726559059964e-06,
+     3.373546109667846e-06,
+     6.949310260159628e-08
+    ],
+    "JE_halves": [
+     3.1249232573434966,
+     3.157056513151777
+    ]
+   }
+  },
+  "tab2.r=10000": {
+   "text": "2.53\u00b10.73 | 0.051 | 0.103\u00b10.004 | 5.6\u00b10.1 | -0.39\u00b10.73 | 0.93",
+   "source": "sim/results/paper_cells.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=A, cap=uniform, c2=60, r=10000].batches.hq/.hhat/.hg, pooled over seeds 1-2",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 50.0,
+    "n_batches": 14,
+    "r": 10000,
+    "U": 547.2065036135458,
+    "c2": 60.0,
+    "JE": 2.5286776129463027,
+    "JE_hw": 0.7270436076878719,
+    "T1": 0.050664564444334634,
+    "T1_hw": 9.98179864495327e-06,
+    "T1_se": 2.5311684277024016e-07,
+    "T2": 0.10297641966653716,
+    "T2_hw": 0.0035757254654519652,
+    "T12": 0.15364098411087182,
+    "T12_hw": 0.0035809532610617083,
+    "T3": -0.38777246459663545,
+    "T3_hw": 0.7265034499431625,
+    "T3_hw_with_benchmark": 0.7280549645131369,
+    "excess": 5.5610423635899195,
+    "excess_hw": 0.12961276512280884,
+    "T1_over_band": 0.9258765038384031,
+    "T2_over_T1": 2.032513667016279,
+    "halves_pooled": [
+     0.151825030570429,
+     0.15545693765131458
+    ],
+    "halves_change_pct": 2.392166210828317,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.15238299961618187,
+      "second": 0.16015341322440488,
+      "change_pct": 5.099265421861302
+     },
+     {
+      "seed": 2,
+      "first": 0.15126706152467614,
+      "second": 0.1507604620782243,
+      "change_pct": -0.3349040044446178
+     }
+    ],
+    "E_frac": 7.943084417411259e-07,
+    "p_flag": [
+     4.743800886358534e-07,
+     3.199283531052726e-07,
+     0.0
+    ],
+    "JE_halves": [
+     2.7791589566964685,
+     2.2781962691961364
+    ]
+   }
+  },
+  "text.T3_within_hw": {
+   "text": "5 of 5 rows (max |T3|/hw = 0.86)",
+   "source": "sim/results/paper_cells.json, multi_bench_crn.json",
+   "key": "|mean(hg) - HGI_E| <= batch-means hw of hg",
+   "value": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  "text.excess_300": {
+   "text": "71%",
+   "source": "sim/results/paper_cells.json, multi_bench_crn.json",
+   "key": "tab2 r=300 excess",
+   "value": 71.1596967925343
+  },
+  "text.excess_1e4": {
+   "text": "5.6%",
+   "source": "sim/results/paper_cells.json, multi_bench_crn.json",
+   "key": "tab2 r=10000 excess",
+   "value": 5.5610423635899195
+  },
+  "text.T1_over_band_range": {
+   "text": "0.82 to 0.93",
+   "source": "sim/results/paper_cells.json",
+   "key": "T1 r / U",
+   "value": null
+  },
+  "text.T2_over_T1_range": {
+   "text": "2.03 to 2.25",
+   "source": "sim/results/paper_cells.json",
+   "key": "T2 / T1",
+   "value": null
+  },
+  "text.tab2_halves_range": {
+   "text": "+0.2% to +9.5%",
+   "source": "sim/results/paper_cells.json",
+   "key": "pooled halves of batches.hq - batches.hg, (second - first)/first",
+   "value": [
+    0.18096886445966262,
+    2.106347586822294,
+    9.499497911095627,
+    0.955056314668188,
+    2.392166210828317
+   ]
+  },
+  "text.8seed_excess.r=1000": {
+   "text": "31.6 \u00b1 1.0",
+   "source": "sim/results/paper_cells.json (seeds 1-2), drift_check.json (seeds 3-8); multi_bench_crn.json",
+   "key": "mean over 8 seeds of mean(batches.hq - batches.hg) / HGI_E, t-based 95% hw, r=1000",
+   "value": [
+    0.871702583046843,
+    0.02819355859380581
+   ]
+  },
+  "text.8seed_change.r=1000": {
+   "text": "+3.0% \u00b1 4.4%",
+   "source": "sim/results/paper_cells.json, drift_check.json",
+   "key": "(second half - first half)/mean of T1+T2 per seed",
+   "value": [
+    3.0205119954484023,
+    4.417719254231522
+   ]
+  },
+  "text.8seed_excess.r=2000": {
+   "text": "18.9 \u00b1 0.6",
+   "source": "sim/results/paper_cells.json (seeds 1-2), drift_check.json (seeds 3-8); multi_bench_crn.json",
+   "key": "mean over 8 seeds of mean(batches.hq - batches.hg) / HGI_E, t-based 95% hw, r=2000",
+   "value": [
+    0.5213779730990358,
+    0.015208411871397914
+   ]
+  },
+  "text.8seed_change.r=2000": {
+   "text": "+2.6% \u00b1 5.7%",
+   "source": "sim/results/paper_cells.json, drift_check.json",
+   "key": "(second half - first half)/mean of T1+T2 per seed",
+   "value": [
+    2.636452966073302,
+    5.687874344621383
+   ]
+  },
+  "text.8seed_change.pooled": {
+   "text": "+2.8% \u00b1 3.1%",
+   "source": "sim/results/drift_check.json",
+   "key": "analysis.b_pooled.mean, .hw",
+   "value": {
+    "mean": 2.828482480760852,
+    "hw": 3.1376045950088365,
+    "n": 16
+   }
+  },
+  "text.U_over_r_coefficient": {
+   "text": "2.83 (r >= 1000); 2.76 with r = 300",
+   "source": "sim/results/paper_cells.json",
+   "key": "geometric mean over r of mean(batches.hq - batches.hg) r / U",
+   "value": [
+    2.832905008549856,
+    2.7630884251978864
+   ]
+  },
+  "text.r_for_1pct": {
+   "text": "9.7e+04 (line) / 9.6e+04 (from r = 1e4)",
+   "source": "sim/results/paper_cells.json, multi_bench_crn.json",
+   "key": "solve coef 60 r^(kappa-1) = 0.01 HGI_E",
+   "value": [
+    96731.72415804025,
+    95602.37664414018
+   ]
+  },
+  "tab3.A.uniform.r=1000": {
+   "text": "34.9 \u00b1 1.0",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=A, cap=uniform, c2=68.41, r=1000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 1000,
+    "U": 359.0,
+    "c2": 68.40603977488058,
+    "JE": 3.678980471253,
+    "JE_hw": 0.4850275160891548,
+    "T1": 0.3167266408085445,
+    "T1_hw": 0.000368384096571733,
+    "T1_se": 0.00019536569850925334,
+    "T2": 0.6465371306082351,
+    "T2_hw": 0.028637334987513804,
+    "T12": 0.9632637714167797,
+    "T12_hw": 0.02866544943352995,
+    "T3": -0.04709239359584675,
+    "T3_hw": 0.48471183880235186,
+    "T3_hw_with_benchmark": 0.48703422389814144,
+    "excess": 34.86537574046337,
+    "excess_hw": 1.0375472377615726,
+    "T1_over_band": 0.8822469103302075,
+    "T2_over_T1": 2.0413095941590056,
+    "halves_pooled": [
+     0.9868886921125923,
+     0.9396388507209671
+    ],
+    "halves_change_pct": -4.787757907173851,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.9760242679801788,
+      "second": 0.9265162594782446,
+      "change_pct": -5.0724157304395705
+     },
+     {
+      "seed": 2,
+      "first": 0.9977531162450057,
+      "second": 0.9527614419636896,
+      "change_pct": -4.509299299474007
+     }
+    ],
+    "E_frac": 4.925157650121621e-05,
+    "p_flag": [
+     1.588651587745973e-05,
+     3.336506062375648e-05,
+     0.0
+    ],
+    "JE_halves": [
+     3.4280835877379836,
+     3.9298773547680144
+    ]
+   }
+  },
+  "tab3.A.uniform.r=2000": {
+   "text": "21.0 \u00b1 0.6",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=A, cap=uniform, c2=68.41, r=2000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 2000,
+    "U": 423.9763654532014,
+    "c2": 68.40603977488058,
+    "JE": 2.872908995082734,
+    "JE_hw": 0.5732733110029963,
+    "T1": 0.19113019361241787,
+    "T1_hw": 0.00010041679260560014,
+    "T1_se": 2.9771062720548854e-05,
+    "T2": 0.38997130040213307,
+    "T2_hw": 0.015834486336076953,
+    "T12": 0.581101494014551,
+    "T12_hw": 0.015884442031323304,
+    "T3": -0.471001592363884,
+    "T3_hw": 0.5594248990947112,
+    "T3_hw_with_benchmark": 0.5614383192302033,
+    "excess": 21.03299483833263,
+    "excess_hw": 0.5749380972100048,
+    "T1_over_band": 0.901607774330123,
+    "T2_over_T1": 2.040343773171359,
+    "halves_pooled": [
+     0.5735086666659756,
+     0.5886943213631264
+    ],
+    "halves_change_pct": 2.6478509532263614,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.5770157228916142,
+      "second": 0.6072853844790617,
+      "change_pct": 5.2458989220876555
+     },
+     {
+      "seed": 2,
+      "first": 0.5700016104403369,
+      "second": 0.5701032582471911,
+      "change_pct": 0.017832898187016038
+     }
+    ],
+    "E_frac": 1.0651497528723308e-05,
+    "p_flag": [
+     3.964657051946435e-06,
+     6.686840476776873e-06,
+     0.0
+    ],
+    "JE_halves": [
+     2.477973621277376,
+     3.267844368888091
+    ]
+   }
+  },
+  "tab3.A.uniform.r=4000": {
+   "text": "12.4 \u00b1 0.1",
+   "source": "sim/results/table3_r4000.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=A, cap=uniform, c2=68.41, r=4000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 4000,
+    "U": 500.7129762197956,
+    "c2": 68.40603977488058,
+    "JE": 3.166605149410948,
+    "JE_hw": 0.4201216898946916,
+    "T1": 0.11485413212270713,
+    "T1_hw": 2.314316078780489e-05,
+    "T1_se": 6.38245719129793e-06,
+    "T2": 0.22713399111599233,
+    "T2_hw": 0.0026786321920016084,
+    "T12": 0.3419881232386995,
+    "T12_hw": 0.0026792176633775614,
+    "T3": 0.06180793274018256,
+    "T3_hw": 0.4193209399781612,
+    "T3_hw_with_benchmark": 0.4220033403624627,
+    "excess": 12.37827557653898,
+    "excess_hw": 0.09697440441132094,
+    "T1_over_band": 0.9175247103825018,
+    "T2_over_T1": 1.9775865867266174,
+    "halves_pooled": [
+     0.3430163284322708,
+     0.34095991804512804
+    ],
+    "halves_change_pct": -0.5995080165837682,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.34104643082427455,
+      "second": 0.34427867674317814,
+      "change_pct": 0.9477436579798173
+     },
+     {
+      "seed": 2,
+      "first": 0.3449862260402671,
+      "second": 0.337641159347078,
+      "change_pct": -2.1290898414975414
+     }
+    ],
+    "E_frac": 2.431133792059762e-06,
+    "p_flag": [
+     1.4550028777548245e-06,
+     9.761309143049376e-07,
+     0.0
+    ],
+    "JE_halves": [
+     3.154969220878258,
+     3.1782410779436385
+    ]
+   }
+  },
+  "tab3.A.per_pattern.r=1000": {
+   "text": "7.6 \u00b1 0.7",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=A, cap=per_pattern, c2=13, r=1000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 1000,
+    "U": 68.22496983247044,
+    "c2": 13.0,
+    "JE": 3.2790748518670156,
+    "JE_hw": 0.861277126460492,
+    "T1": 0.06393156115429585,
+    "T1_hw": 1.0232548713358069e-05,
+    "T1_se": 4.01244643758597e-06,
+    "T2": 0.14670885448082147,
+    "T2_hw": 0.01928198704474651,
+    "T12": 0.21064041563511732,
+    "T12_hw": 0.019280067485404263,
+    "T3": 0.3056253427998324,
+    "T3_hw": 0.8634691748096971,
+    "T3_hw_with_benchmark": 0.864774990630191,
+    "excess": 7.624139363659463,
+    "excess_hw": 0.6978429139833846,
+    "T1_over_band": 0.9370698339813525,
+    "T2_over_T1": 2.2947797900124236,
+    "halves_pooled": [
+     0.21462716390098122,
+     0.2066536673692534
+    ],
+    "halves_change_pct": -3.7150453776700965,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.23497635009906434,
+      "second": 0.216595343910108,
+      "change_pct": -7.822492000240461
+     },
+     {
+      "seed": 2,
+      "first": 0.1942779777028981,
+      "second": 0.19671199082839877,
+      "change_pct": 1.2528507627472434
+     }
+    ],
+    "E_frac": 3.510221595998321e-05,
+    "p_flag": [
+     1.5015161668658257e-05,
+     1.9874855121331556e-05,
+     2.1219916999340057e-07
+    ],
+    "JE_halves": [
+     2.6615768492238416,
+     3.8965728545101905
+    ]
+   }
+  },
+  "tab3.A.per_pattern.r=2000": {
+   "text": "4.3 \u00b1 0.2",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=A, cap=per_pattern, c2=13, r=2000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 2000,
+    "U": 80.57318869839868,
+    "c2": 13.0,
+    "JE": 2.566668967504424,
+    "JE_hw": 0.7496983717907821,
+    "T1": 0.03797499972845299,
+    "T1_hw": 3.7729025720969564e-06,
+    "T1_se": 1.6591490021554411e-06,
+    "T2": 0.08036188985002184,
+    "T2_hw": 0.00485285496013371,
+    "T12": 0.11833688957847484,
+    "T12_hw": 0.004854311369558857,
+    "T3": -0.31447701550611734,
+    "T3_hw": 0.7463381839903044,
+    "T3_hw_with_benchmark": 0.7478485498112926,
+    "excess": 4.283209066445929,
+    "excess_hw": 0.17570201940839303,
+    "T1_over_band": 0.9426212451539157,
+    "T2_over_T1": 2.11617881302604,
+    "halves_pooled": [
+     0.11759397046366865,
+     0.119079808693281
+    ],
+    "halves_change_pct": 1.2635326656237063,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.11934092887068148,
+      "second": 0.12505578898760225,
+      "change_pct": 4.788684126225816
+     },
+     {
+      "seed": 2,
+      "first": 0.11584701205665583,
+      "second": 0.11310382839895976,
+      "change_pct": -2.3679364784604893
+     }
+    ],
+    "E_frac": 6.60355919373887e-06,
+    "p_flag": [
+     3.0725888448953627e-06,
+     3.5309703488435065e-06,
+     0.0
+    ],
+    "JE_halves": [
+     2.2193400398354672,
+     2.9139978951733805
+    ]
+   }
+  },
+  "tab3.A.per_pattern.r=4000": {
+   "text": "2.4 \u00b1 0.0",
+   "source": "sim/results/table3_r4000.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=A, cap=per_pattern, c2=13, r=4000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 4000,
+    "U": 95.15634456078563,
+    "c2": 13.0,
+    "JE": 3.209306948159493,
+    "JE_hw": 0.6927916677825517,
+    "T1": 0.02273952644827518,
+    "T1_hw": 5.040793341324253e-07,
+    "T1_se": 2.827842292864313e-07,
+    "T2": 0.04460772949466897,
+    "T2_hw": 0.000258388766635764,
+    "T12": 0.06734725594294415,
+    "T12_hw": 0.00025858371807255834,
+    "T3": 0.37915059878448204,
+    "T3_hw": 0.6926676261879036,
+    "T3_hw_with_benchmark": 0.6942947565275811,
+    "excess": 2.4376369725670344,
+    "excess_hw": 0.009359449362146692,
+    "T1_over_band": 0.9558806216541549,
+    "T2_over_T1": 1.9616824297610875,
+    "halves_pooled": [
+     0.06720605257532761,
+     0.06748845931056069
+    ],
+    "halves_change_pct": 0.4202102703719242,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.06692399191138414,
+      "second": 0.06750395879473212,
+      "change_pct": 0.866605333578919
+     },
+     {
+      "seed": 2,
+      "first": 0.06748811323927109,
+      "second": 0.06747295982638926,
+      "change_pct": -0.022453454622601735
+     }
+    ],
+    "E_frac": 6.925076321618898e-07,
+    "p_flag": [
+     4.477039246899741e-07,
+     2.4480370747191564e-07,
+     0.0
+    ],
+    "JE_halves": [
+     2.965263050804404,
+     3.4533508455145814
+    ]
+   }
+  },
+  "tab3.B.uniform.r=1000": {
+   "text": "6.1 \u00b1 0.1",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=B, cap=uniform, c2=12.96, r=1000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 1000,
+    "U": 68.0,
+    "c2": 12.957132882150082,
+    "JE": 4.089088801524743,
+    "JE_hw": 0.5171601529517467,
+    "T1": 0.0,
+    "T1_hw": 0.0,
+    "T1_se": 0.0,
+    "T2": 0.24465442829840714,
+    "T2_hw": 0.002359234200490262,
+    "T12": 0.24465442829840714,
+    "T12_hw": 0.002359234200490262,
+    "T3": -0.17013691905306091,
+    "T3_hw": 0.517097170050321,
+    "T3_hw_with_benchmark": 0.5211758672302348,
+    "excess": 6.094160758059351,
+    "excess_hw": 0.05876677803748091,
+    "T1_over_band": 0.0,
+    "T2_over_T1": NaN,
+    "halves_pooled": [
+     0.2430994960166183,
+     0.246209360580196
+    ],
+    "halves_change_pct": 1.2792558662339275,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.2425445172637499,
+      "second": 0.24697880533148206,
+      "change_pct": 1.828236778038643
+     },
+     {
+      "seed": 2,
+      "first": 0.2436544747694867,
+      "second": 0.24543991582890992,
+      "change_pct": 0.7327758134187196
+     }
+    ],
+    "E_frac": 1.8110060157094682e-06,
+    "p_flag": [
+     3.904891184398106e-07,
+     2.4296654369149887e-07,
+     1.1775503535781588e-06
+    ],
+    "JE_halves": [
+     3.8574309762085135,
+     4.320746626840972
+    ]
+   }
+  },
+  "tab3.B.uniform.r=2000": {
+   "text": "3.7 \u00b1 0.0",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=B, cap=uniform, c2=12.96, r=2000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 2000,
+    "U": 80.30750097720806,
+    "c2": 12.957132882150082,
+    "JE": 3.6824754613538966,
+    "JE_hw": 0.8940960464611095,
+    "T1": 0.0,
+    "T1_hw": 0.0,
+    "T1_se": 0.0,
+    "T2": 0.14841859896150594,
+    "T2_hw": 0.0006118113257498106,
+    "T12": 0.14841859896150594,
+    "T12_hw": 0.0006118113257498106,
+    "T3": -0.48051442988700493,
+    "T3_hw": 0.8941908877996345,
+    "T3_hw_with_benchmark": 0.8965557122304421,
+    "excess": 3.6969974663779537,
+    "excess_hw": 0.01523976736759944,
+    "T1_over_band": 0.0,
+    "T2_over_T1": NaN,
+    "halves_pooled": [
+     0.1485484977822445,
+     0.1482887001407674
+    ],
+    "halves_change_pct": -0.1748907901161909,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.14861937801307068,
+      "second": 0.14774395727820583,
+      "change_pct": -0.5890353913255244
+     },
+     {
+      "seed": 2,
+      "first": 0.14847761755141833,
+      "second": 0.14883344300332896,
+      "change_pct": 0.23964921971313316
+     }
+    ],
+    "E_frac": 1.1580437242984772e-07,
+    "p_flag": [
+     0.0,
+     0.0,
+     1.1580437242984772e-07
+    ],
+    "JE_halves": [
+     3.0841412934244534,
+     4.2808096292833415
+    ]
+   }
+  },
+  "tab3.B.uniform.r=4000": {
+   "text": "2.2 \u00b1 0.0",
+   "source": "sim/results/table3_r4000.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=B, cap=uniform, c2=12.96, r=4000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 4000,
+    "U": 94.84256931182757,
+    "c2": 12.957132882150082,
+    "JE": 4.3407027823996644,
+    "JE_hw": 0.8549315557452553,
+    "T1": 0.0,
+    "T1_hw": 0.0,
+    "T1_se": 0.0,
+    "T2": 0.08809254154024157,
+    "T2_hw": 0.00036857363528844573,
+    "T12": 0.08809254154024157,
+    "T12_hw": 0.00036857363528844573,
+    "T3": 0.23803894858002622,
+    "T3_hw": 0.8549642188666242,
+    "T3_hw_with_benchmark": 0.8574372378497179,
+    "excess": 2.194320018918491,
+    "excess_hw": 0.009180896500636727,
+    "T1_over_band": 0.0,
+    "T2_over_T1": NaN,
+    "halves_pooled": [
+     0.08839744415790579,
+     0.08778763892257735
+    ],
+    "halves_change_pct": -0.6898448718032358,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.08817862045194115,
+      "second": 0.08738510235571141,
+      "change_pct": -0.8998985152667708
+     },
+     {
+      "seed": 2,
+      "first": 0.08861626786387042,
+      "second": 0.08819017548944329,
+      "change_pct": -0.48082861612010236
+     }
+    ],
+    "E_frac": 3.6357342004776004e-08,
+    "p_flag": [
+     1.8134773118155343e-08,
+     0.0,
+     1.8222568886620658e-08
+    ],
+    "JE_halves": [
+     4.266659003648526,
+     4.414746561150803
+    ]
+   }
+  },
+  "tab3.C.uniform.r=1000": {
+   "text": "59.3 \u00b1 2.0",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=C, cap=uniform, c2=68.41, r=1000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 1000,
+    "U": 359.0,
+    "c2": 68.40603977488058,
+    "JE": 6.497342525234509,
+    "JE_hw": 0.5997674154650945,
+    "T1": 0.9518381050275638,
+    "T1_hw": 0.0010139130227123172,
+    "T1_se": 0.00014075243651567868,
+    "T2": 1.427222963995272,
+    "T2_hw": 0.08140893727470173,
+    "T12": 2.379061069022836,
+    "T12_hw": 0.08133437788301655,
+    "T3": 0.1037101639322774,
+    "T3_hw": 0.5819824395563772,
+    "T3_hw_with_benchmark": 0.5856093930779535,
+    "excess": 59.26065066021161,
+    "excess_hw": 2.0259791634398012,
+    "T1_over_band": 2.6513596240322115,
+    "T2_over_T1": 1.499438776885216,
+    "halves_pooled": [
+     2.3829060578748766,
+     2.375216080170795
+    ],
+    "halves_change_pct": -0.3227142622206361,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 2.3995745119282046,
+      "second": 2.3255768313391,
+      "change_pct": -3.08378340498553
+     },
+     {
+      "seed": 2,
+      "first": 2.366237603821549,
+      "second": 2.4248553290024897,
+      "change_pct": 2.4772544010910424
+     }
+    ],
+    "E_frac": 5.31627188087787e-05,
+    "p_flag": [
+     9.864677780866623e-07,
+     0.0,
+     5.217625103069203e-05
+    ],
+    "JE_halves": [
+     6.227860130751916,
+     6.766824919717102
+    ]
+   }
+  },
+  "tab3.C.uniform.r=2000": {
+   "text": "34.1 \u00b1 0.8",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=C, cap=uniform, c2=68.41, r=2000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 2000,
+    "U": 423.9763654532014,
+    "c2": 68.40603977488058,
+    "JE": 4.818874018474139,
+    "JE_hw": 0.8315905216373909,
+    "T1": 0.5735191171957891,
+    "T1_hw": 0.00036417904571593116,
+    "T1_se": 6.562607144638966e-05,
+    "T2": 0.7966719610973332,
+    "T2_hw": 0.030880479933892747,
+    "T12": 1.370191078293122,
+    "T12_hw": 0.03107933527671929,
+    "T3": -0.5658883520983803,
+    "T3_hw": 0.807441021742093,
+    "T3_hw_with_benchmark": 0.8100591366690779,
+    "excess": 34.130445782048966,
+    "excess_hw": 0.7741632421994689,
+    "T1_over_band": 2.7054296603667365,
+    "T2_over_T1": 1.3890939939241185,
+    "halves_pooled": [
+     1.3442805032982164,
+     1.3961016532880277
+    ],
+    "halves_change_pct": 3.8549357714158043,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 1.3373212360030604,
+      "second": 1.4019119425351572,
+      "change_pct": 4.829857239472487
+     },
+     {
+      "seed": 2,
+      "first": 1.351239770593372,
+      "second": 1.3902913640408983,
+      "change_pct": 2.890056546394974
+     }
+    ],
+    "E_frac": 9.068462642218384e-06,
+    "p_flag": [
+     0.0,
+     0.0,
+     9.068462642218384e-06
+    ],
+    "JE_halves": [
+     4.2938437740537445,
+     5.343904262894532
+    ]
+   }
+  },
+  "tab3.C.uniform.r=4000": {
+   "text": "20.7 \u00b1 0.5",
+   "source": "sim/results/table3_r4000.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=C, cap=uniform, c2=68.41, r=4000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 4000,
+    "U": 500.7129762197956,
+    "c2": 68.40603977488058,
+    "JE": 5.1757441602838,
+    "JE_hw": 0.8769862113763011,
+    "T1": 0.3446842471206174,
+    "T1_hw": 4.3218029689028713e-05,
+    "T1_se": 3.430808626531112e-05,
+    "T2": 0.4869860940761334,
+    "T2_hw": 0.02160954163916984,
+    "T12": 0.8316703411967509,
+    "T12_hw": 0.021623352336853714,
+    "T3": 0.3295025268076541,
+    "T3_hw": 0.8763513211901233,
+    "T3_hw_with_benchmark": 0.8787641546289945,
+    "excess": 20.71629274080084,
+    "excess_hw": 0.5386217048489974,
+    "T1_over_band": 2.7535475491197414,
+    "T2_over_T1": 1.4128469697825194,
+    "halves_pooled": [
+     0.8207893409159184,
+     0.8425513414775833
+    ],
+    "halves_change_pct": 2.651350288903689,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.8195769205416402,
+      "second": 0.8557166068857194,
+      "change_pct": 4.409553934265894
+     },
+     {
+      "seed": 2,
+      "first": 0.8220017612901965,
+      "second": 0.8293860760694471,
+      "change_pct": 0.8983332064471915
+     }
+    ],
+    "E_frac": 2.9398975376997672e-06,
+    "p_flag": [
+     0.0,
+     0.0,
+     2.9398975376997672e-06
+    ],
+    "JE_halves": [
+     5.050766847096543,
+     5.300721473471059
+    ]
+   }
+  },
+  "tab3.C.per_pattern.r=1000": {
+   "text": "14.0 \u00b1 1.0",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=C, cap=per_pattern, c2=13, r=1000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 1000,
+    "U": 68.22496983247044,
+    "c2": 13.0,
+    "JE": 4.380924673360619,
+    "JE_hw": 0.6929692542697616,
+    "T1": 0.19186278356842182,
+    "T1_hw": 2.8290513458407518e-05,
+    "T1_se": 4.041409398941597e-07,
+    "T2": 0.3709645429465495,
+    "T2_hw": 0.03924204189374323,
+    "T12": 0.5628273265149714,
+    "T12_hw": 0.03924955601449921,
+    "T3": -0.19647394543374824,
+    "T3_hw": 0.6625841655771713,
+    "T3_hw_with_benchmark": 0.6657721665725693,
+    "excess": 14.019612196135862,
+    "excess_hw": 0.9776773945945813,
+    "T1_over_band": 2.8122076717593245,
+    "T2_over_T1": 1.9334887988542953,
+    "halves_pooled": [
+     0.5251607192000638,
+     0.6004939338298789
+    ],
+    "halves_change_pct": 14.34479234177383,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.5153018723437067,
+      "second": 0.5791493157553366,
+      "change_pct": 12.390299131116596
+     },
+     {
+      "seed": 2,
+      "first": 0.5350195660564209,
+      "second": 0.6218385519044212,
+      "change_pct": 16.227254357805062
+     }
+    ],
+    "E_frac": 3.872445608760629e-05,
+    "p_flag": [
+     0.0,
+     0.0,
+     3.872445608760629e-05
+    ],
+    "JE_halves": [
+     3.9811165237036987,
+     4.780732823017541
+    ]
+   }
+  },
+  "tab3.C.per_pattern.r=2000": {
+   "text": "7.3 \u00b1 0.6",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=C, cap=per_pattern, c2=13, r=2000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 2000,
+    "U": 80.57318869839868,
+    "c2": 13.0,
+    "JE": 3.870977827078758,
+    "JE_hw": 0.9421253227290365,
+    "T1": 0.11393826492245156,
+    "T1_hw": 1.0779995995863416e-05,
+    "T1_se": 3.5045075588158166e-06,
+    "T2": 0.17957682964469843,
+    "T2_hw": 0.024695822753854683,
+    "T12": 0.29351509456714997,
+    "T12_hw": 0.02469868370890877,
+    "T3": -0.4371085597677889,
+    "T3_hw": 0.9202401816514812,
+    "T3_hw_with_benchmark": 0.9225382340234404,
+    "excess": 7.311243796607178,
+    "excess_hw": 0.6152259334989997,
+    "T1_over_band": 2.8281930196146243,
+    "T2_over_T1": 1.5760888562496687,
+    "halves_pooled": [
+     0.2810833761313605,
+     0.30594681300293947
+    ],
+    "halves_change_pct": 8.845573585240917,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.2890580794107519,
+      "second": 0.34003417534805924,
+      "change_pct": 17.63524342278295
+     },
+     {
+      "seed": 2,
+      "first": 0.27310867285196905,
+      "second": 0.27185945065781975,
+      "change_pct": -0.4574084671512457
+     }
+    ],
+    "E_frac": 5.901031498355525e-06,
+    "p_flag": [
+     0.0,
+     0.0,
+     5.901031498355525e-06
+    ],
+    "JE_halves": [
+     3.2310077686755743,
+     4.510947885481941
+    ]
+   }
+  },
+  "tab3.C.per_pattern.r=4000": {
+   "text": "4.1 \u00b1 0.1",
+   "source": "sim/results/table3_r4000.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=C, cap=per_pattern, c2=13, r=4000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 4000,
+    "U": 95.15634456078563,
+    "c2": 13.0,
+    "JE": 4.083057308357789,
+    "JE_hw": 0.9459333970257214,
+    "T1": 0.068224712092244,
+    "T1_hw": 1.2012796221335327e-06,
+    "T1_se": 6.340591387765658e-07,
+    "T2": 0.09809092202654256,
+    "T2_hw": 0.0036773421408340255,
+    "T12": 0.16631563411878655,
+    "T12_hw": 0.0036780330353562178,
+    "T3": -0.0978296180403935,
+    "T3_hw": 0.9449611298739803,
+    "T3_hw_with_benchmark": 0.9471992072852712,
+    "excess": 4.142799367858672,
+    "excess_hw": 0.0916170810674009,
+    "T1_over_band": 2.8678996616420975,
+    "T2_over_T1": 1.4377623447339376,
+    "halves_pooled": [
+     0.16626799774157214,
+     0.16636327049600094
+    ],
+    "halves_change_pct": 0.05730071674820165,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.17206305821088913,
+      "second": 0.16962636556949073,
+      "change_pct": -1.4161625782635248
+     },
+     {
+      "seed": 2,
+      "first": 0.16047293727225517,
+      "second": 0.16310017542251115,
+      "change_pct": 1.6371845589132943
+     }
+    ],
+    "E_frac": 8.479401015809605e-07,
+    "p_flag": [
+     0.0,
+     0.0,
+     8.479401015809605e-07
+    ],
+    "JE_halves": [
+     3.835029139468146,
+     4.331085477247433
+    ]
+   }
+  },
+  "tab3.D.uniform.r=1000": {
+   "text": "23.9 \u00b1 0.1",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=D, cap=uniform, c2=41.16, r=1000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 1000,
+    "U": 216.0,
+    "c2": 41.15795150800614,
+    "JE": 4.172878730852507,
+    "JE_hw": 0.4811418526137448,
+    "T1": 0.27376701060196545,
+    "T1_hw": 0.006808571496746005,
+    "T1_se": 0.0009238486857950089,
+    "T2": 0.46042939021962764,
+    "T2_hw": 0.007745407476584352,
+    "T12": 0.7341964008215929,
+    "T12_hw": 0.003626970433348226,
+    "T3": 0.36972059573436866,
+    "T3_hw": 0.47906773760848,
+    "T3_hw_with_benchmark": 0.4816179143908947,
+    "excess": 23.923282998830945,
+    "excess_hw": 0.11818232833651099,
+    "T1_over_band": 1.2674398638979882,
+    "T2_over_T1": 1.6818293380463354,
+    "halves_pooled": [
+     0.7345687637296647,
+     0.7338240379135214
+    ],
+    "halves_change_pct": -0.10138272315884235,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.7354938802047811,
+      "second": 0.7382908110078724,
+      "change_pct": 0.38027927605768125
+     },
+     {
+      "seed": 2,
+      "first": 0.7336436472545483,
+      "second": 0.7293572648191703,
+      "change_pct": -0.5842594632174088
+     }
+    ],
+    "E_frac": 1.5053970493163382e-06,
+    "p_flag": [
+     9.265104221871921e-07,
+     5.78886627129146e-07,
+     0.0
+    ],
+    "JE_halves": [
+     3.980436543664397,
+     4.365320918040618
+    ]
+   }
+  },
+  "tab3.D.uniform.r=2000": {
+   "text": "14.3 \u00b1 0.1",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=D, cap=uniform, c2=41.16, r=2000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 2000,
+    "U": 255.09441486877856,
+    "c2": 41.15795150800614,
+    "JE": 3.3319459855041367,
+    "JE_hw": 0.8367151316598329,
+    "T1": 0.16531332796866147,
+    "T1_hw": 0.0028617870664237755,
+    "T1_se": 0.00034798113774009426,
+    "T2": 0.2747478982580282,
+    "T2_hw": 0.002953217735534446,
+    "T12": 0.4400612262266897,
+    "T12_hw": 0.0017007390401013534,
+    "T3": -0.17707697501909866,
+    "T3_hw": 0.8360876042336352,
+    "T3_hw_with_benchmark": 0.8375514313748544,
+    "excess": 14.339091338574757,
+    "excess_hw": 0.05541740781890815,
+    "T1_over_band": 1.296095236375122,
+    "T2_over_T1": 1.6619827429166043,
+    "halves_pooled": [
+     0.4388862449253952,
+     0.44123620752798415
+    ],
+    "halves_change_pct": 0.5354377426406755,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.4367763062603573,
+      "second": 0.4417941866894203,
+      "change_pct": 1.1488444673260003
+     },
+     {
+      "seed": 2,
+      "first": 0.4409961835904331,
+      "second": 0.440678228366548,
+      "change_pct": -0.07209931417010923
+     }
+    ],
+    "E_frac": 3.4644243295703617e-07,
+    "p_flag": [
+     0.0,
+     3.4644243295703617e-07,
+     0.0
+    ],
+    "JE_halves": [
+     2.9698995896582785,
+     3.693992381349995
+    ]
+   }
+  },
+  "tab3.D.uniform.r=4000": {
+   "text": "8.6 \u00b1 0.0",
+   "source": "sim/results/table3_r4000.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=D, cap=uniform, c2=41.16, r=4000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 4000,
+    "U": 301.2646319316876,
+    "c2": 41.15795150800614,
+    "JE": 3.6298559824714354,
+    "JE_hw": 0.7622943526068677,
+    "T1": 0.09988153170179134,
+    "T1_hw": 0.002229017505681378,
+    "T1_se": 0.0023535261028710328,
+    "T2": 0.16375872297696356,
+    "T2_hw": 0.0026433894698864283,
+    "T12": 0.2636402546787549,
+    "T12_hw": 0.000734886496844162,
+    "T3": 0.2972539934961341,
+    "T3_hw": 0.7618224245410112,
+    "T3_hw_with_benchmark": 0.7634286638438935,
+    "excess": 8.590535741534273,
+    "excess_hw": 0.02394576930144127,
+    "T1_over_band": 1.326163394107805,
+    "T2_over_T1": 1.639529552529145,
+    "halves_pooled": [
+     0.2634254518632836,
+     0.2638550574942263
+    ],
+    "halves_change_pct": 0.16308432913523085,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.26449834483978796,
+      "second": 0.26432281252903317,
+      "change_pct": -0.06636423787873325
+     },
+     {
+      "seed": 2,
+      "first": 0.26235255888677916,
+      "second": 0.2633873024594194,
+      "change_pct": 0.3944095598041304
+     }
+    ],
+    "E_frac": 0.0,
+    "p_flag": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "JE_halves": [
+     3.5976320595751012,
+     3.6620799053677686
+    ]
+   }
+  },
+  "tab3.D.per_pattern.r=1000": {
+   "text": "11.8 \u00b1 0.1",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=D, cap=per_pattern, c2=20.2, r=1000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 1000,
+    "U": 106.0,
+    "c2": 20.197883610410422,
+    "JE": 3.6121964833321596,
+    "JE_hw": 0.46093380941801293,
+    "T1": 0.13691659791026253,
+    "T1_hw": 0.002580178440784261,
+    "T1_se": 0.0003159088896859535,
+    "T2": 0.22612619095280526,
+    "T2_hw": 0.0037749098371660755,
+    "T12": 0.3630427888630678,
+    "T12_hw": 0.0021916747433931498,
+    "T3": 0.18019196017254568,
+    "T3_hw": 0.4619537784558436,
+    "T3_hw_with_benchmark": 0.46459790321799604,
+    "excess": 11.829498713065018,
+    "excess_hw": 0.07141420888049996,
+    "T1_over_band": 1.2916660180213446,
+    "T2_over_T1": 1.6515615667065595,
+    "halves_pooled": [
+     0.36332322521831073,
+     0.36276235250782496
+    ],
+    "halves_change_pct": -0.1543729306456417,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.36181411575181815,
+      "second": 0.36484847047610625,
+      "change_pct": 0.8386501775871753
+     },
+     {
+      "seed": 2,
+      "first": 0.36483233468480325,
+      "second": 0.3606762345395436,
+      "change_pct": -1.1391808647800625
+     }
+    ],
+    "E_frac": 5.724125544513974e-07,
+    "p_flag": [
+     0.0,
+     2.746799749135971e-07,
+     2.977325795378004e-07
+    ],
+    "JE_halves": [
+     3.693448870111144,
+     3.5309440965531746
+    ]
+   }
+  },
+  "tab3.D.per_pattern.r=2000": {
+   "text": "7.1 \u00b1 0.0",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=D, cap=per_pattern, c2=20.2, r=2000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 2000,
+    "U": 125.18522211153022,
+    "c2": 20.197883610410422,
+    "JE": 2.929314522621916,
+    "JE_hw": 0.6817756193315723,
+    "T1": 0.08288323777513588,
+    "T1_hw": 0.001573906670531833,
+    "T1_se": 0.0002385820773471922,
+    "T2": 0.13555297346009634,
+    "T2_hw": 0.0018007876180936913,
+    "T12": 0.21843621123523224,
+    "T12_hw": 0.0010040449542180758,
+    "T3": -0.3580834229098623,
+    "T3_hw": 0.6814850964852246,
+    "T3_hw_with_benchmark": 0.6832802170240286,
+    "excess": 7.1175931845009215,
+    "excess_hw": 0.03271611186928724,
+    "T1_over_band": 1.324169680368397,
+    "T2_over_T1": 1.635469089996878,
+    "halves_pooled": [
+     0.21810428852266356,
+     0.21876813394780092
+    ],
+    "halves_change_pct": 0.3043706428855409,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.21715704224146112,
+      "second": 0.21852069924288792,
+      "change_pct": 0.6279589127533414
+     },
+     {
+      "seed": 2,
+      "first": 0.219051534803866,
+      "second": 0.2190155686527139,
+      "change_pct": -0.01641903636251284
+     }
+    ],
+    "E_frac": 7.13528596503394e-08,
+    "p_flag": [
+     0.0,
+     0.0,
+     7.13528596503394e-08
+    ],
+    "JE_halves": [
+     2.617870556219559,
+     3.240758489024273
+    ]
+   }
+  },
+  "tab3.D.per_pattern.r=4000": {
+   "text": "4.2 \u00b1 0.0",
+   "source": "sim/results/table3_r4000.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=D, cap=per_pattern, c2=20.2, r=4000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 4000,
+    "U": 147.84282863314297,
+    "c2": 20.197883610410422,
+    "JE": 3.4885702388463113,
+    "JE_hw": 0.5954248715511452,
+    "T1": 0.04918552781201518,
+    "T1_hw": 0.001016287621621697,
+    "T1_se": 0.0008267253033598099,
+    "T2": 0.0801794681301162,
+    "T2_hw": 0.0009302732364978728,
+    "T12": 0.12936499594213138,
+    "T12_hw": 0.0007413901362025834,
+    "T3": 0.29024350860763365,
+    "T3_hw": 0.5955031997269774,
+    "T3_hw_with_benchmark": 0.5975566744083745,
+    "excess": 4.215269108651296,
+    "excess_hw": 0.024157685901304387,
+    "T1_over_band": 1.3307518062729735,
+    "T2_over_T1": 1.6301434933576078,
+    "halves_pooled": [
+     0.12951136127544272,
+     0.12921863060882002
+    ],
+    "halves_change_pct": -0.22602701704302033,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.13009150710974143,
+      "second": 0.1286755982637057,
+      "change_pct": -1.0883945289689936
+     },
+     {
+      "seed": 2,
+      "first": 0.12893121544114403,
+      "second": 0.12976166295393435,
+      "change_pct": 0.6441012053977062
+     }
+    ],
+    "E_frac": 0.0,
+    "p_flag": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "JE_halves": [
+     3.591834042469123,
+     3.3853064352235
+    ]
+   }
+  },
+  "tab3.E.uniform.r=1000": {
+   "text": "30.8 \u00b1 0.3",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=E, cap=uniform, c2=61.74, r=1000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 1000,
+    "U": 324.0,
+    "c2": 61.73692726200922,
+    "JE": 5.20111140150657,
+    "JE_hw": 0.6031853875592093,
+    "T1": 0.4469875061106479,
+    "T1_hw": 0.001686260014518183,
+    "T1_se": 0.0008291577359872127,
+    "T2": 0.8565755489849126,
+    "T2_hw": 0.01328013625262799,
+    "T12": 1.3035630550955606,
+    "T12_hw": 0.012769660004909823,
+    "T3": -0.3403238802956494,
+    "T3_hw": 0.6032619001778807,
+    "T3_hw_with_benchmark": 0.610968350771526,
+    "excess": 30.75984799354339,
+    "excess_hw": 0.3013224401726099,
+    "T1_over_band": 1.3795910682427406,
+    "T2_over_T1": 1.916329958387863,
+    "halves_pooled": [
+     1.3125589181939807,
+     1.2945671919971402
+    ],
+    "halves_change_pct": -1.3707366539855061,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 1.3243581908946174,
+      "second": 1.2919682050675103,
+      "change_pct": -2.4457118965094553
+     },
+     {
+      "seed": 2,
+      "first": 1.300759645493344,
+      "second": 1.2971661789267699,
+      "change_pct": -0.27625907515076037
+     }
+    ],
+    "E_frac": 1.1057627501445156e-05,
+    "p_flag": [
+     1.1057627501445156e-05,
+     0.0,
+     0.0
+    ],
+    "JE_halves": [
+     4.830578298601054,
+     5.571644504412085
+    ]
+   }
+  },
+  "tab3.E.uniform.r=2000": {
+   "text": "18.5 \u00b1 0.2",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=E, cap=uniform, c2=61.74, r=2000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 2000,
+    "U": 382.6416223031679,
+    "c2": 61.73692726200922,
+    "JE": 4.483207072537157,
+    "JE_hw": 1.4288564148704852,
+    "T1": 0.2678149529561765,
+    "T1_hw": 0.0008459339886331343,
+    "T1_se": 0.00043555632431743757,
+    "T2": 0.5149397266801026,
+    "T2_hw": 0.006787609912128916,
+    "T12": 0.7827546796362791,
+    "T12_hw": 0.0068300895470593806,
+    "T3": -0.5374198338057805,
+    "T3_hw": 1.4273690814540945,
+    "T3_hw_with_benchmark": 1.4306431770813282,
+    "excess": 18.470464368968823,
+    "excess_hw": 0.1611678970408032,
+    "T1_over_band": 1.3998213333100813,
+    "T2_over_T1": 1.9227444957651931,
+    "halves_pooled": [
+     0.7850320807497346,
+     0.7804772785228233
+    ],
+    "halves_change_pct": -0.5802058716583006,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.7806004171262249,
+      "second": 0.7820181416085248,
+      "change_pct": 0.18161974439102588
+     },
+     {
+      "seed": 2,
+      "first": 0.7894637443732443,
+      "second": 0.778936415437122,
+      "change_pct": -1.3334784543500406
+     }
+    ],
+    "E_frac": 4.413318306803704e-06,
+    "p_flag": [
+     4.413318306803704e-06,
+     0.0,
+     0.0
+    ],
+    "JE_halves": [
+     5.059010375955707,
+     3.9074037691186065
+    ]
+   }
+  },
+  "tab3.E.uniform.r=4000": {
+   "text": "11.1 \u00b1 0.2",
+   "source": "sim/results/table3_r4000.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=E, cap=uniform, c2=61.74, r=4000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 4000,
+    "U": 451.8969478975314,
+    "c2": 61.73692726200922,
+    "JE": 4.822556302141002,
+    "JE_hw": 0.878682358356172,
+    "T1": 0.15972198012504207,
+    "T1_hw": 0.0005304992563767678,
+    "T1_se": 0.0004128907029260359,
+    "T2": 0.31003880571413767,
+    "T2_hw": 0.007480917194863452,
+    "T12": 0.46976078583917974,
+    "T12_hw": 0.007412567571050294,
+    "T3": 0.11492328959516342,
+    "T3_hw": 0.8788080955549981,
+    "T3_hw_with_benchmark": 0.8841159846147189,
+    "excess": 11.084826552315405,
+    "excess_hw": 0.17491248377751964,
+    "T1_over_band": 1.4137911828628626,
+    "T2_over_T1": 1.941115464956148,
+    "halves_pooled": [
+     0.4693128008361097,
+     0.4702087708422497
+    ],
+    "halves_change_pct": 0.19091105219030363,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.46183611318278917,
+      "second": 0.4676953810598294,
+      "change_pct": 1.2686898468507577
+     },
+     {
+      "seed": 2,
+      "first": 0.4767894884894303,
+      "second": 0.47272216062467004,
+      "change_pct": -0.8530657581496659
+     }
+    ],
+    "E_frac": 8.899698645727976e-07,
+    "p_flag": [
+     8.899698645727976e-07,
+     0.0,
+     0.0
+    ],
+    "JE_halves": [
+     4.928599158807863,
+     4.716513445474138
+    ]
+   }
+  },
+  "tab3.E.per_pattern.r=1000": {
+   "text": "12.6 \u00b1 0.7",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=E, cap=per_pattern, c2=23.82, r=1000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 1000,
+    "U": 125.00000000000001,
+    "c2": 23.818258974540594,
+    "JE": 4.347505808436952,
+    "JE_hw": 0.5549668302327304,
+    "T1": 0.17551054208524294,
+    "T1_hw": 0.0004635210515257682,
+    "T1_se": 4.764719706401576e-05,
+    "T2": 0.35665424606932106,
+    "T2_hw": 0.02762754863101219,
+    "T12": 0.5321647881545639,
+    "T12_hw": 0.02762272977511312,
+    "T3": -0.42253120642426995,
+    "T3_hw": 0.5451824198301383,
+    "T3_hw_with_benchmark": 0.5536978204129905,
+    "excess": 12.557358025117257,
+    "excess_hw": 0.6518065740877549,
+    "T1_over_band": 1.4040843366819433,
+    "T2_over_T1": 2.0320958606355353,
+    "halves_pooled": [
+     0.5376396336585045,
+     0.5266899426506233
+    ],
+    "halves_change_pct": -2.0366227343343906,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.5589801880077964,
+      "second": 0.5405898690127172,
+      "change_pct": -3.2899768882010267
+     },
+     {
+      "seed": 2,
+      "first": 0.5162990793092127,
+      "second": 0.5127900162885295,
+      "change_pct": -0.6796570362624308
+     }
+    ],
+    "E_frac": 1.4973142945894173e-05,
+    "p_flag": [
+     1.4973142945894173e-05,
+     0.0,
+     0.0
+    ],
+    "JE_halves": [
+     4.073194388397207,
+     4.621817228476698
+    ]
+   }
+  },
+  "tab3.E.per_pattern.r=2000": {
+   "text": "7.3 \u00b1 0.2",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=E, cap=per_pattern, c2=23.82, r=2000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 2000,
+    "U": 147.6240826786913,
+    "c2": 23.818258974540594,
+    "JE": 4.094646366672925,
+    "JE_hw": 1.4034227416533802,
+    "T1": 0.10495891778376862,
+    "T1_hw": 0.0002332005519295795,
+    "T1_se": 0.0001321087944652355,
+    "T2": 0.20616314427825472,
+    "T2_hw": 0.010225692844109872,
+    "T12": 0.3111220620620233,
+    "T12_hw": 0.010267761618230755,
+    "T3": -0.45434792209575664,
+    "T3_hw": 1.4034159025215287,
+    "T3_hw_with_benchmark": 1.406745748487824,
+    "excess": 7.341468676222996,
+    "excess_hw": 0.24228577618561317,
+    "T1_over_band": 1.4219755459847994,
+    "T2_over_T1": 1.9642270388399226,
+    "halves_pooled": [
+     0.30580558498721383,
+     0.31643853913683284
+    ],
+    "halves_change_pct": 3.4770307252771695,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.3076587780235309,
+      "second": 0.32640809069796123,
+      "change_pct": 6.094190711826948
+     },
+     {
+      "seed": 2,
+      "first": 0.30395239195089674,
+      "second": 0.30646898757570445,
+      "change_pct": 0.8279571707447757
+     }
+    ],
+    "E_frac": 4.408639602235385e-06,
+    "p_flag": [
+     4.408639602235385e-06,
+     0.0,
+     0.0
+    ],
+    "JE_halves": [
+     4.640981475406742,
+     3.5483112579391074
+    ]
+   }
+  },
+  "tab3.E.per_pattern.r=4000": {
+   "text": "4.4 \u00b1 0.1",
+   "source": "sim/results/table3_r4000.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=E, cap=per_pattern, c2=23.82, r=4000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 4000,
+    "U": 174.3429582938007,
+    "c2": 23.818258974540594,
+    "JE": 4.740749655462466,
+    "JE_hw": 0.9617995978033377,
+    "T1": 0.06257984141894389,
+    "T1_hw": 0.00018196200537766688,
+    "T1_se": 0.00011343543227959607,
+    "T2": 0.12395793728776536,
+    "T2_hw": 0.004025422955015123,
+    "T12": 0.18653777870670926,
+    "T12_hw": 0.003970829272387536,
+    "T3": 0.31633965004909825,
+    "T3_hw": 0.9621607269433253,
+    "T3_hw_with_benchmark": 0.9670112046457163,
+    "excess": 4.401684825020593,
+    "excess_hw": 0.09369865489015351,
+    "T1_over_band": 1.4357870723630852,
+    "T2_over_T1": 1.9807966028217094,
+    "halves_pooled": [
+     0.1886124796147931,
+     0.18446307779862536
+    ],
+    "halves_change_pct": -2.1999614366144513,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 0.18978646525358034,
+      "second": 0.1841652297796272,
+      "change_pct": -2.961873738700175
+     },
+     {
+      "seed": 2,
+      "first": 0.1874384939760059,
+      "second": 0.18476092581762352,
+      "change_pct": -1.428504946654735
+     }
+    ],
+    "E_frac": 4.920454763514654e-07,
+    "p_flag": [
+     4.920454763514654e-07,
+     0.0,
+     0.0
+    ],
+    "JE_halves": [
+     5.054475390067059,
+     4.427023920857874
+    ]
+   }
+  },
+  "tab3.F.uniform.r=1000": {
+   "text": "75.3 \u00b1 0.6",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=F, cap=uniform, c2=152.4, r=1000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 1000,
+    "U": 800.0,
+    "c2": 152.43685743705979,
+    "JE": 14.628483778116687,
+    "JE_hw": 1.2596218343180192,
+    "T1": 2.4861706021584857,
+    "T1_hw": 0.1255726203100508,
+    "T1_se": 0.033443411820980755,
+    "T2": 4.132069054866902,
+    "T2_hw": 0.1461674466704469,
+    "T12": 6.618239657025386,
+    "T12_hw": 0.05676523754977125,
+    "T3": -0.7842426651440711,
+    "T3_hw": 1.26485647478982,
+    "T3_hw_with_benchmark": 1.2723422676199803,
+    "excess": 75.25441583906726,
+    "excess_hw": 0.6454639017550972,
+    "T1_over_band": 3.107713252698107,
+    "T2_over_T1": 1.6620215247012622,
+    "halves_pooled": [
+     6.628256559573648,
+     6.608222754477127
+    ],
+    "halves_change_pct": -0.3022484859549595,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 6.671239062050423,
+      "second": 6.57528826554677,
+      "change_pct": -1.4382754929211414
+     },
+     {
+      "seed": 2,
+      "first": 6.585274057096872,
+      "second": 6.641157243407483,
+      "change_pct": 0.8486083620223279
+     }
+    ],
+    "E_frac": 1.1674319087309496e-05,
+    "p_flag": [
+     0.0,
+     4.619205356921468e-06,
+     4.708047523583685e-06,
+     0.0,
+     2.3470662068043437e-06
+    ],
+    "JE_halves": [
+     15.010712149092594,
+     14.24625540714077
+    ]
+   }
+  },
+  "tab3.F.uniform.r=2000": {
+   "text": "44.9 \u00b1 0.6",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=F, cap=uniform, c2=152.4, r=2000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 2000,
+    "U": 944.7941291436242,
+    "c2": 152.43685743705979,
+    "JE": 12.366372363684562,
+    "JE_hw": 2.3706561686152665,
+    "T1": 1.5667898869444652,
+    "T1_hw": 0.09128378248490693,
+    "T1_se": 0.040418196407896345,
+    "T2": 2.3780298955939587,
+    "T2_hw": 0.11070541465150266,
+    "T12": 3.944819782538424,
+    "T12_hw": 0.05652050255071346,
+    "T3": -0.37293420508922964,
+    "T3_hw": 2.372155095608873,
+    "T3_hw_with_benchmark": 2.376155033194965,
+    "excess": 44.85559963217674,
+    "excess_hw": 0.6426810787774012,
+    "T1_over_band": 3.3166799805680998,
+    "T2_over_T1": 1.517772048064188,
+    "halves_pooled": [
+     3.927876662746838,
+     3.96176290233001
+    ],
+    "halves_change_pct": 0.862711395817468,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 3.9591302040140257,
+      "second": 3.9483624776236828,
+      "change_pct": -0.2719720200014117
+     },
+     {
+      "seed": 2,
+      "first": 3.8966231214796503,
+      "second": 3.9751633270363373,
+      "change_pct": 2.0155966617285603
+     }
+    ],
+    "E_frac": 6.67440767288208e-07,
+    "p_flag": [
+     6.67440767288208e-07,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "JE_halves": [
+     12.253081084314902,
+     12.479663643054224
+    ]
+   }
+  },
+  "tab3.F.uniform.r=4000": {
+   "text": "26.7 \u00b1 0.1",
+   "source": "sim/results/table3_r4000.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=F, cap=uniform, c2=152.4, r=4000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 4000,
+    "U": 1115.7949330803244,
+    "c2": 152.43685743705979,
+    "JE": 13.49219146000058,
+    "JE_hw": 3.264708979049225,
+    "T1": 0.8743172893486673,
+    "T1_hw": 0.04235485172162261,
+    "T1_se": 0.01429578329152159,
+    "T2": 1.4712356664262694,
+    "T2_hw": 0.03952657671556972,
+    "T12": 2.3455529557749366,
+    "T12_hw": 0.012798215875753858,
+    "T3": 2.3521517179902744,
+    "T3_hw": 3.2710785619687472,
+    "T3_hw_with_benchmark": 3.2739804371324746,
+    "excess": 26.670720108944426,
+    "excess_hw": 0.14552544323319583,
+    "T1_over_band": 3.134329663731235,
+    "T2_over_T1": 1.682725120902371,
+    "halves_pooled": [
+     2.3421056439472316,
+     2.3490002676026416
+    ],
+    "halves_change_pct": 0.29437714192047243,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 2.3305243340273405,
+      "second": 2.3438745868211335,
+      "change_pct": 0.5728433125056726
+     },
+     {
+      "seed": 2,
+      "first": 2.3536869538671223,
+      "second": 2.35412594838415,
+      "change_pct": 0.018651355326013475
+     }
+    ],
+    "E_frac": 0.0,
+    "p_flag": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "JE_halves": [
+     13.071783204601317,
+     13.912599715399839
+    ]
+   }
+  },
+  "tab3.F.per_pattern.r=1000": {
+   "text": "67.8 \u00b1 0.1",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=F, cap=per_pattern, c2=128.2, r=1000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 1000,
+    "U": 673.0000000000001,
+    "c2": 128.23750631892656,
+    "JE": 14.034584293713191,
+    "JE_hw": 1.3292269956049205,
+    "T1": 2.2649633842000747,
+    "T1_hw": 0.08814062800164604,
+    "T1_se": 0.03243116591001938,
+    "T2": 3.698474874628503,
+    "T2_hw": 0.09011162597528759,
+    "T12": 5.963438258828579,
+    "T12_hw": 0.006732253405194748,
+    "T3": -0.7233407513507554,
+    "T3_hw": 1.3286891050533214,
+    "T3_hw_with_benchmark": 1.335817233771903,
+    "excess": 67.80882618599433,
+    "excess_hw": 0.07655083882474745,
+    "T1_over_band": 3.365473082020913,
+    "T2_over_T1": 1.6329071367900752,
+    "halves_pooled": [
+     5.957605459892641,
+     5.969271057764513
+    ],
+    "halves_change_pct": 0.19581017827390745,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 5.95269702905162,
+      "second": 5.970329147999432,
+      "change_pct": 0.2962038696368965
+     },
+     {
+      "seed": 2,
+      "first": 5.962513890733662,
+      "second": 5.9682129675295945,
+      "change_pct": 0.0955817780951271
+     }
+    ],
+    "E_frac": 0.0,
+    "p_flag": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "JE_halves": [
+     14.169721497846552,
+     13.899447089579828
+    ]
+   }
+  },
+  "tab3.F.per_pattern.r=2000": {
+   "text": "40.1 \u00b1 0.0",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=F, cap=per_pattern, c2=128.2, r=2000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 2000,
+    "U": 794.808061142074,
+    "c2": 128.23750631892656,
+    "JE": 11.985915357845565,
+    "JE_hw": 2.197232731724466,
+    "T1": 1.4224422773525291,
+    "T1_hw": 0.10208701596718386,
+    "T1_se": 0.05051830522305333,
+    "T2": 2.10507837661613,
+    "T2_hw": 0.10095268643656198,
+    "T12": 3.527520653968659,
+    "T12_hw": 0.004264503183840889,
+    "T3": -0.336092082358463,
+    "T3_hw": 2.1949402348490183,
+    "T3_hw_with_benchmark": 2.1992625079134336,
+    "excess": 40.11059132512126,
+    "excess_hw": 0.048490642916371736,
+    "T1_over_band": 3.579335305957003,
+    "T2_over_T1": 1.4799042535027385,
+    "halves_pooled": [
+     3.5285992684984526,
+     3.526442039438866
+    ],
+    "halves_change_pct": -0.061135563872199,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 3.5319738166360284,
+      "second": 3.52906232852195,
+      "change_pct": -0.08243232439507713
+     },
+     {
+      "seed": 2,
+      "first": 3.525224720360877,
+      "second": 3.523821750355782,
+      "change_pct": -0.03979803037780289
+     }
+    ],
+    "E_frac": 0.0,
+    "p_flag": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "JE_halves": [
+     12.56107559609636,
+     11.410755119594766
+    ]
+   }
+  },
+  "tab3.F.per_pattern.r=4000": {
+   "text": "23.8 \u00b1 0.0",
+   "source": "sim/results/table3_r4000.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=F, cap=per_pattern, c2=128.2, r=4000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 4000,
+    "U": 938.662487453823,
+    "c2": 128.23750631892656,
+    "JE": 12.313769925007987,
+    "JE_hw": 2.7498915173097127,
+    "T1": 0.7809743444911333,
+    "T1_hw": 0.029555296980729104,
+    "T1_se": 0.005127315635455986,
+    "T2": 1.3101283730160274,
+    "T2_hw": 0.03048776844237878,
+    "T12": 2.0911027175071606,
+    "T12_hw": 0.00235246821272298,
+    "T3": 1.4281804212654587,
+    "T3_hw": 2.7483213612821933,
+    "T3_hw_with_benchmark": 2.7517745636288287,
+    "excess": 23.77742747626884,
+    "excess_hw": 0.026749351837163825,
+    "T1_over_band": 3.328030489892366,
+    "T2_over_T1": 1.6775562248074611,
+    "halves_pooled": [
+     2.089664281038294,
+     2.0925411539760272
+    ],
+    "halves_change_pct": 0.1376715371860534,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 2.0903751743445538,
+      "second": 2.0938647971782975,
+      "change_pct": 0.16693763285042612
+     },
+     {
+      "seed": 2,
+      "first": 2.088953387732034,
+      "second": 2.0912175107737574,
+      "change_pct": 0.10838552238743082
+     }
+    ],
+    "E_frac": 0.0,
+    "p_flag": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "JE_halves": [
+     12.048705362682147,
+     12.578834487333825
+    ]
+   }
+  },
+  "tab3.G.uniform.r=1000": {
+   "text": "423.0 \u00b1 7.3",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=G, cap=uniform, c2=660, r=1000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 1000,
+    "U": 3463.729237648499,
+    "c2": 660.0,
+    "JE": 125.32354596243947,
+    "JE_hw": 2.799967201599431,
+    "T1": 11.831297393003902,
+    "T1_hw": 0.28179882728577177,
+    "T1_se": 0.036835425348527906,
+    "T2": 91.56980093030849,
+    "T2_hw": 1.7863037932534211,
+    "T12": 103.40109832331241,
+    "T12_hw": 1.7766053195552083,
+    "T3": -2.522484401334652,
+    "T3_hw": 2.3143650022897453,
+    "T3_hw_with_benchmark": 2.3310644688413604,
+    "excess": 422.9960555920582,
+    "excess_hw": 7.267785881402882,
+    "T1_over_band": 3.415768549228775,
+    "T2_over_T1": 7.739624648811183,
+    "halves_pooled": [
+     103.54783922605583,
+     103.25435742056895
+    ],
+    "halves_change_pct": -0.28342629617424986,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 103.45152664208275,
+      "second": 102.12299479979116,
+      "change_pct": -1.284207092359299
+     },
+     {
+      "seed": 2,
+      "first": 103.64415181002889,
+      "second": 104.38572004134674,
+      "change_pct": 0.7154945246472655
+     }
+    ],
+    "E_frac": 0.0012276811639950957,
+    "p_flag": [
+     0.00016856920662620237,
+     0.00026724524643838407,
+     0.0001582425450967465,
+     0.00020813055023776632,
+     0.00026854114543646573,
+     0.00015695247015953064
+    ],
+    "JE_halves": [
+     127.16695223531093,
+     123.48013968956806
+    ]
+   }
+  },
+  "tab3.G.uniform.r=2000": {
+   "text": "280.5 \u00b1 7.7",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=G, cap=uniform, c2=660, r=2000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 2000,
+    "U": 4090.638810841779,
+    "c2": 660.0,
+    "JE": 95.51713782653246,
+    "JE_hw": 6.374123929043807,
+    "T1": 7.485806211192361,
+    "T1_hw": 0.11945234694938589,
+    "T1_se": 0.06580293162102357,
+    "T2": 61.08237407076209,
+    "T2_hw": 1.8815199652686418,
+    "T12": 68.56818028195445,
+    "T12_hw": 1.8882047662704775,
+    "T3": 2.504025504116257,
+    "T3_hw": 5.19233648178354,
+    "T3_hw_with_benchmark": 5.199801374488387,
+    "excess": 280.50059688633627,
+    "excess_hw": 7.7243199659752895,
+    "T1_over_band": 3.659969289565274,
+    "T2_over_T1": 8.159758928762425,
+    "halves_pooled": [
+     67.66144661566656,
+     69.47491394824232
+    ],
+    "halves_change_pct": 2.6802077450053488,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 67.69863741985908,
+      "second": 68.0629911481727,
+      "change_pct": 0.5381995003148105
+     },
+     {
+      "seed": 2,
+      "first": 67.62425581147406,
+      "second": 70.88683674831194,
+      "change_pct": 4.824572038076764
+     }
+    ],
+    "E_frac": 0.0006043045887758477,
+    "p_flag": [
+     7.585755849071911e-05,
+     0.00017481565625803813,
+     9.646492450526782e-05,
+     9.352910382185663e-05,
+     9.34097069427371e-05,
+     7.022763875722885e-05
+    ],
+    "JE_halves": [
+     92.43231294313098,
+     98.60196270993393
+    ]
+   }
+  },
+  "tab3.G.uniform.r=4000": {
+   "text": "179.5 \u00b1 7.3",
+   "source": "sim/results/table3_r4000.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=G, cap=uniform, c2=660, r=4000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 4000,
+    "U": 4831.014416162962,
+    "c2": 660.0,
+    "JE": 67.76534572751703,
+    "JE_hw": 3.511336774271885,
+    "T1": 4.733941364088245,
+    "T1_hw": 0.0845275813068594,
+    "T1_se": 0.02146839615560525,
+    "T2": 39.140981304634366,
+    "T2_hw": 1.7535515004987203,
+    "T12": 43.874922668722604,
+    "T12_hw": 1.792936135997529,
+    "T3": -0.5545089816673178,
+    "T3_hw": 2.211488941571314,
+    "T3_hw_with_benchmark": 2.2289592936532627,
+    "excess": 179.48473980659853,
+    "excess_hw": 7.334592434251095,
+    "T1_over_band": 3.919625119105467,
+    "T2_over_T1": 8.268159297780594,
+    "halves_pooled": [
+     43.60144103493518,
+     44.148404302510045
+    ],
+    "halves_change_pct": 1.2544614457504253,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 45.145003475574846,
+      "second": 45.125567544717605,
+      "change_pct": -0.043052230282266284
+     },
+     {
+      "seed": 2,
+      "first": 42.05787859429551,
+      "second": 43.17124106030248,
+      "change_pct": 2.6472149885324425
+     }
+    ],
+    "E_frac": 0.00027603596686252526,
+    "p_flag": [
+     3.0070229091005665e-05,
+     8.296273288756609e-05,
+     3.8035786810176715e-05,
+     4.820271667331457e-05,
+     6.109746544906071e-05,
+     1.6412521554401943e-05
+    ],
+    "JE_halves": [
+     65.16509345700172,
+     70.36559799803234
+    ]
+   }
+  },
+  "tab3.G.per_pattern.r=1000": {
+   "text": "29.8 \u00b1 2.2",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=G, cap=per_pattern, c2=30, r=1000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 1000,
+    "U": 157.44223807493177,
+    "c2": 30.0,
+    "JE": 30.574686331998187,
+    "JE_hw": 2.351309595426492,
+    "T1": 0.8056838093770562,
+    "T1_hw": 0.012487683088524472,
+    "T1_se": 0.003305220255175323,
+    "T2": 6.47340526774572,
+    "T2_hw": 0.5408601267435293,
+    "T12": 7.279089077122777,
+    "T12_hw": 0.5487110384419323,
+    "T3": -1.1493347855863427,
+    "T3_hw": 2.094837588472986,
+    "T3_hw_with_benchmark": 2.1132725134611383,
+    "excess": 29.777497704122396,
+    "excess_hw": 2.244682200521951,
+    "T1_over_band": 5.117329499556565,
+    "T2_over_T1": 8.034672153522447,
+    "halves_pooled": [
+     7.214291446872213,
+     7.343886707373342
+    ],
+    "halves_change_pct": 1.7963685201173143,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 7.244350112114211,
+      "second": 7.941205287041605,
+      "change_pct": 9.619291781081817
+     },
+     {
+      "seed": 2,
+      "first": 7.1842327816302145,
+      "second": 6.7465681277050775,
+      "change_pct": -6.092016603975129
+     }
+    ],
+    "E_frac": 0.0003380795274583782,
+    "p_flag": [
+     4.387140987102475e-05,
+     8.813176041109222e-05,
+     4.069778014676912e-05,
+     7.335582812164512e-05,
+     7.639647106702838e-05,
+     1.5626277840818677e-05
+    ],
+    "JE_halves": [
+     30.487478569457334,
+     30.661894094539026
+    ]
+   }
+  },
+  "tab3.G.per_pattern.r=2000": {
+   "text": "18.5 \u00b1 1.7",
+   "source": "sim/results/decomp_runs.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=G, cap=per_pattern, c2=30, r=2000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 2000,
+    "U": 185.9381277655354,
+    "c2": 30.0,
+    "JE": 32.58698230168205,
+    "JE_hw": 6.65081479107078,
+    "T1": 0.4776849954815244,
+    "T1_hw": 0.00799807108089625,
+    "T1_se": 0.005432176586555815,
+    "T2": 4.039320198389261,
+    "T2_hw": 0.409070199791027,
+    "T12": 4.5170051938707845,
+    "T12_hw": 0.4104251032598751,
+    "T3": 3.625045067349519,
+    "T3_hw": 6.396510887083501,
+    "T3_hw_with_benchmark": 6.402571961536145,
+    "excess": 18.47828902282954,
+    "excess_hw": 1.6789782952987193,
+    "T1_over_band": 5.138106973776529,
+    "T2_over_T1": 8.456033236542158,
+    "halves_pooled": [
+     4.475427254298592,
+     4.558583133442976
+    ],
+    "halves_change_pct": 1.8580545369051482,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 5.118601383471733,
+      "second": 4.833013044540921,
+      "change_pct": -5.579421360158923
+     },
+     {
+      "seed": 2,
+      "first": 3.83225312512545,
+      "second": 4.284153222345031,
+      "change_pct": 11.792021102593216
+     }
+    ],
+    "E_frac": 9.755352501937322e-05,
+    "p_flag": [
+     1.3921605650399411e-05,
+     2.408332070950951e-05,
+     1.4782387977285044e-05,
+     1.9494901114233904e-05,
+     1.8728806973866054e-05,
+     6.54250259407929e-06
+    ],
+    "JE_halves": [
+     30.823844589489482,
+     34.350120013874616
+    ]
+   }
+  },
+  "tab3.G.per_pattern.r=4000": {
+   "text": "10.1 \u00b1 0.4",
+   "source": "sim/results/table3_r4000.json; benchmark: multi_bench_crn.json",
+   "key": "runs[net=G, cap=per_pattern, c2=30, r=4000, T=250].batches.hq - .hg, pooled over seeds 1-2, / HGI_E",
+   "value": {
+    "seeds": [
+     1,
+     2
+    ],
+    "T": 250.0,
+    "n_batches": 14,
+    "r": 4000,
+    "U": 219.59156437104375,
+    "c2": 30.0,
+    "JE": 25.108136624063853,
+    "JE_hw": 1.936592107466461,
+    "T1": 0.2890204183573924,
+    "T1_hw": 0.0033139299983679983,
+    "T1_se": 0.0021424319066404574,
+    "T2": 2.178241846640028,
+    "T2_hw": 0.09156897808935471,
+    "T12": 2.4672622649974203,
+    "T12_hw": 0.09330136702167735,
+    "T3": -1.8040576813953153,
+    "T3_hw": 1.9072571995336733,
+    "T3_hw_with_benchmark": 1.927487021809504,
+    "excess": 10.093144300477325,
+    "excess_hw": 0.38167979713440414,
+    "T1_over_band": 5.264690730451462,
+    "T2_over_T1": 7.536636542911967,
+    "halves_pooled": [
+     2.48919892912655,
+     2.4453256008682906
+    ],
+    "halves_change_pct": -1.7625480930788553,
+    "halves_per_seed": [
+     {
+      "seed": 1,
+      "first": 2.576246208510043,
+      "second": 2.346400778371533,
+      "change_pct": -8.921718327202878
+     },
+     {
+      "seed": 2,
+      "first": 2.4021516497430575,
+      "second": 2.5442504233650487,
+      "change_pct": 5.915478884823552
+     }
+    ],
+    "E_frac": 2.5603020237982275e-05,
+    "p_flag": [
+     3.7529947199566025e-06,
+     6.571318529972008e-06,
+     3.3366355748261723e-06,
+     4.872954384556838e-06,
+     5.504845351661955e-06,
+     1.564271677008697e-06
+    ],
+    "JE_halves": [
+     23.361511889058164,
+     26.854761359069542
+    ]
+   }
+  },
+  "tab3.factor.A.per_pattern": {
+   "text": "x0.56 (1000 to 2000), x0.57 (2000 to 4000)",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "ratio of pooled mean(batches.hq - batches.hg)",
+   "value": [
+    0.5617957466598641,
+    0.5691146368882966
+   ]
+  },
+  "tab3.halves_r4000.A.per_pattern": {
+   "text": "+0.4% pooled; per seed +0.9%, -0.0%",
+   "source": "sim/results/table3_r4000.json",
+   "key": "halves of batches.hq - batches.hg per seed (7 post-burn batches; the middle batch is split), (second - first)/first",
+   "value": [
+    {
+     "seed": 1,
+     "first": 0.06692399191138414,
+     "second": 0.06750395879473212,
+     "change_pct": 0.866605333578919
+    },
+    {
+     "seed": 2,
+     "first": 0.06748811323927109,
+     "second": 0.06747295982638926,
+     "change_pct": -0.022453454622601735
+    }
+   ]
+  },
+  "tab3.factor.A.uniform": {
+   "text": "x0.60 (1000 to 2000), x0.59 (2000 to 4000)",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "ratio of pooled mean(batches.hq - batches.hg)",
+   "value": [
+    0.6032631053484552,
+    0.5885170263047645
+   ]
+  },
+  "tab3.halves_r4000.A.uniform": {
+   "text": "-0.6% pooled; per seed +0.9%, -2.1%",
+   "source": "sim/results/table3_r4000.json",
+   "key": "halves of batches.hq - batches.hg per seed (7 post-burn batches; the middle batch is split), (second - first)/first",
+   "value": [
+    {
+     "seed": 1,
+     "first": 0.34104643082427455,
+     "second": 0.34427867674317814,
+     "change_pct": 0.9477436579798173
+    },
+    {
+     "seed": 2,
+     "first": 0.3449862260402671,
+     "second": 0.337641159347078,
+     "change_pct": -2.1290898414975414
+    }
+   ]
+  },
+  "tab3.factor.B.uniform": {
+   "text": "x0.61 (1000 to 2000), x0.59 (2000 to 4000)",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "ratio of pooled mean(batches.hq - batches.hg)",
+   "value": [
+    0.6066458718682112,
+    0.5935411205646092
+   ]
+  },
+  "tab3.halves_r4000.B.uniform": {
+   "text": "-0.7% pooled; per seed -0.9%, -0.5%",
+   "source": "sim/results/table3_r4000.json",
+   "key": "halves of batches.hq - batches.hg per seed (7 post-burn batches; the middle batch is split), (second - first)/first",
+   "value": [
+    {
+     "seed": 1,
+     "first": 0.08817862045194115,
+     "second": 0.08738510235571141,
+     "change_pct": -0.8998985152667708
+    },
+    {
+     "seed": 2,
+     "first": 0.08861626786387042,
+     "second": 0.08819017548944329,
+     "change_pct": -0.48082861612010236
+    }
+   ]
+  },
+  "tab3.factor.C.per_pattern": {
+   "text": "x0.52 (1000 to 2000), x0.57 (2000 to 4000)",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "ratio of pooled mean(batches.hq - batches.hg)",
+   "value": [
+    0.5215011438492093,
+    0.5666340068951279
+   ]
+  },
+  "tab3.halves_r4000.C.per_pattern": {
+   "text": "+0.1% pooled; per seed -1.4%, +1.6%",
+   "source": "sim/results/table3_r4000.json",
+   "key": "halves of batches.hq - batches.hg per seed (7 post-burn batches; the middle batch is split), (second - first)/first",
+   "value": [
+    {
+     "seed": 1,
+     "first": 0.17206305821088913,
+     "second": 0.16962636556949073,
+     "change_pct": -1.4161625782635248
+    },
+    {
+     "seed": 2,
+     "first": 0.16047293727225517,
+     "second": 0.16310017542251115,
+     "change_pct": 1.6371845589132943
+    }
+   ]
+  },
+  "tab3.factor.C.uniform": {
+   "text": "x0.58 (1000 to 2000), x0.61 (2000 to 4000)",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "ratio of pooled mean(batches.hq - batches.hg)",
+   "value": [
+    0.5759377496164516,
+    0.6069739866010377
+   ]
+  },
+  "tab3.halves_r4000.C.uniform": {
+   "text": "+2.7% pooled; per seed +4.4%, +0.9%",
+   "source": "sim/results/table3_r4000.json",
+   "key": "halves of batches.hq - batches.hg per seed (7 post-burn batches; the middle batch is split), (second - first)/first",
+   "value": [
+    {
+     "seed": 1,
+     "first": 0.8195769205416402,
+     "second": 0.8557166068857194,
+     "change_pct": 4.409553934265894
+    },
+    {
+     "seed": 2,
+     "first": 0.8220017612901965,
+     "second": 0.8293860760694471,
+     "change_pct": 0.8983332064471915
+    }
+   ]
+  },
+  "tab3.factor.D.per_pattern": {
+   "text": "x0.60 (1000 to 2000), x0.59 (2000 to 4000)",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "ratio of pooled mean(batches.hq - batches.hg)",
+   "value": [
+    0.6016817244030754,
+    0.5922323739758479
+   ]
+  },
+  "tab3.halves_r4000.D.per_pattern": {
+   "text": "-0.2% pooled; per seed -1.1%, +0.6%",
+   "source": "sim/results/table3_r4000.json",
+   "key": "halves of batches.hq - batches.hg per seed (7 post-burn batches; the middle batch is split), (second - first)/first",
+   "value": [
+    {
+     "seed": 1,
+     "first": 0.13009150710974143,
+     "second": 0.1286755982637057,
+     "change_pct": -1.0883945289689936
+    },
+    {
+     "seed": 2,
+     "first": 0.12893121544114403,
+     "second": 0.12976166295393435,
+     "change_pct": 0.6441012053977062
+    }
+   ]
+  },
+  "tab3.factor.D.uniform": {
+   "text": "x0.60 (1000 to 2000), x0.60 (2000 to 4000)",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "ratio of pooled mean(batches.hq - batches.hg)",
+   "value": [
+    0.5993780761309166,
+    0.5990990320582013
+   ]
+  },
+  "tab3.halves_r4000.D.uniform": {
+   "text": "+0.2% pooled; per seed -0.1%, +0.4%",
+   "source": "sim/results/table3_r4000.json",
+   "key": "halves of batches.hq - batches.hg per seed (7 post-burn batches; the middle batch is split), (second - first)/first",
+   "value": [
+    {
+     "seed": 1,
+     "first": 0.26449834483978796,
+     "second": 0.26432281252903317,
+     "change_pct": -0.06636423787873325
+    },
+    {
+     "seed": 2,
+     "first": 0.26235255888677916,
+     "second": 0.2633873024594194,
+     "change_pct": 0.3944095598041304
+    }
+   ]
+  },
+  "tab3.factor.E.per_pattern": {
+   "text": "x0.58 (1000 to 2000), x0.60 (2000 to 4000)",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "ratio of pooled mean(batches.hq - batches.hg)",
+   "value": [
+    0.5846348142291216,
+    0.599564612905922
+   ]
+  },
+  "tab3.halves_r4000.E.per_pattern": {
+   "text": "-2.2% pooled; per seed -3.0%, -1.4%",
+   "source": "sim/results/table3_r4000.json",
+   "key": "halves of batches.hq - batches.hg per seed (7 post-burn batches; the middle batch is split), (second - first)/first",
+   "value": [
+    {
+     "seed": 1,
+     "first": 0.18978646525358034,
+     "second": 0.1841652297796272,
+     "change_pct": -2.961873738700175
+    },
+    {
+     "seed": 2,
+     "first": 0.1874384939760059,
+     "second": 0.18476092581762352,
+     "change_pct": -1.428504946654735
+    }
+   ]
+  },
+  "tab3.factor.E.uniform": {
+   "text": "x0.60 (1000 to 2000), x0.60 (2000 to 4000)",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "ratio of pooled mean(batches.hq - batches.hg)",
+   "value": [
+    0.6004732004152247,
+    0.6001379462304364
+   ]
+  },
+  "tab3.halves_r4000.E.uniform": {
+   "text": "+0.2% pooled; per seed +1.3%, -0.9%",
+   "source": "sim/results/table3_r4000.json",
+   "key": "halves of batches.hq - batches.hg per seed (7 post-burn batches; the middle batch is split), (second - first)/first",
+   "value": [
+    {
+     "seed": 1,
+     "first": 0.46183611318278917,
+     "second": 0.4676953810598294,
+     "change_pct": 1.2686898468507577
+    },
+    {
+     "seed": 2,
+     "first": 0.4767894884894303,
+     "second": 0.47272216062467004,
+     "change_pct": -0.8530657581496659
+    }
+   ]
+  },
+  "tab3.factor.F.per_pattern": {
+   "text": "x0.59 (1000 to 2000), x0.59 (2000 to 4000)",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "ratio of pooled mean(batches.hq - batches.hg)",
+   "value": [
+    0.5915246374432296,
+    0.5927967325023462
+   ]
+  },
+  "tab3.halves_r4000.F.per_pattern": {
+   "text": "+0.1% pooled; per seed +0.2%, +0.1%",
+   "source": "sim/results/table3_r4000.json",
+   "key": "halves of batches.hq - batches.hg per seed (7 post-burn batches; the middle batch is split), (second - first)/first",
+   "value": [
+    {
+     "seed": 1,
+     "first": 2.0903751743445538,
+     "second": 2.0938647971782975,
+     "change_pct": 0.16693763285042612
+    },
+    {
+     "seed": 2,
+     "first": 2.088953387732034,
+     "second": 2.0912175107737574,
+     "change_pct": 0.10838552238743082
+    }
+   ]
+  },
+  "tab3.factor.F.uniform": {
+   "text": "x0.60 (1000 to 2000), x0.59 (2000 to 4000)",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "ratio of pooled mean(batches.hq - batches.hg)",
+   "value": [
+    0.5960527250400979,
+    0.5945906492756466
+   ]
+  },
+  "tab3.halves_r4000.F.uniform": {
+   "text": "+0.3% pooled; per seed +0.6%, +0.0%",
+   "source": "sim/results/table3_r4000.json",
+   "key": "halves of batches.hq - batches.hg per seed (7 post-burn batches; the middle batch is split), (second - first)/first",
+   "value": [
+    {
+     "seed": 1,
+     "first": 2.3305243340273405,
+     "second": 2.3438745868211335,
+     "change_pct": 0.5728433125056726
+    },
+    {
+     "seed": 2,
+     "first": 2.3536869538671223,
+     "second": 2.35412594838415,
+     "change_pct": 0.018651355326013475
+    }
+   ]
+  },
+  "tab3.factor.G.per_pattern": {
+   "text": "x0.62 (1000 to 2000), x0.55 (2000 to 4000)",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "ratio of pooled mean(batches.hq - batches.hg)",
+   "value": [
+    0.6205453932508038,
+    0.5462163887580422
+   ]
+  },
+  "tab3.halves_r4000.G.per_pattern": {
+   "text": "-1.8% pooled; per seed -8.9%, +5.9%",
+   "source": "sim/results/table3_r4000.json",
+   "key": "halves of batches.hq - batches.hg per seed (7 post-burn batches; the middle batch is split), (second - first)/first",
+   "value": [
+    {
+     "seed": 1,
+     "first": 2.576246208510043,
+     "second": 2.346400778371533,
+     "change_pct": -8.921718327202878
+    },
+    {
+     "seed": 2,
+     "first": 2.4021516497430575,
+     "second": 2.5442504233650487,
+     "change_pct": 5.915478884823552
+    }
+   ]
+  },
+  "tab3.factor.G.uniform": {
+   "text": "x0.66 (1000 to 2000), x0.64 (2000 to 4000)",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "ratio of pooled mean(batches.hq - batches.hg)",
+   "value": [
+    0.6631281620196807,
+    0.6398729336013815
+   ]
+  },
+  "tab3.halves_r4000.G.uniform": {
+   "text": "+1.3% pooled; per seed -0.0%, +2.6%",
+   "source": "sim/results/table3_r4000.json",
+   "key": "halves of batches.hq - batches.hg per seed (7 post-burn batches; the middle batch is split), (second - first)/first",
+   "value": [
+    {
+     "seed": 1,
+     "first": 45.145003475574846,
+     "second": 45.125567544717605,
+     "change_pct": -0.043052230282266284
+    },
+    {
+     "seed": 2,
+     "first": 42.05787859429551,
+     "second": 43.17124106030248,
+     "change_pct": 2.6472149885324425
+    }
+   ]
+  },
+  "text.per_doubling_factor": {
+   "text": "0.58 to 0.66",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "all Definition 2.3 cells, both doublings",
+   "value": [
+    0.6032631053484552,
+    0.5885170263047645,
+    0.6066458718682112,
+    0.5935411205646092,
+    0.5759377496164516,
+    0.6069739866010377,
+    0.5993780761309166,
+    0.5990990320582013,
+    0.6004732004152247,
+    0.6001379462304364,
+    0.5960527250400979,
+    0.5945906492756466,
+    0.6631281620196807,
+    0.6398729336013815
+   ]
+  },
+  "text.halves_all_networks.r=1000_2000": {
+   "text": "pooled -4.8% to +3.9%; single seeds up to +5.2% (A, r = 2000)",
+   "source": "sim/results/decomp_runs.json",
+   "key": "pooled and per-seed halves of batches.hq - batches.hg, Definition 2.3 cells",
+   "value": {
+    "pooled": {
+     "A1000": -4.787757907173851,
+     "A2000": 2.6478509532263614,
+     "B1000": 1.2792558662339275,
+     "B2000": -0.1748907901161909,
+     "C1000": -0.3227142622206361,
+     "C2000": 3.8549357714158043,
+     "D1000": -0.10138272315884235,
+     "D2000": 0.5354377426406755,
+     "E1000": -1.3707366539855061,
+     "E2000": -0.5802058716583006,
+     "F1000": -0.3022484859549595,
+     "F2000": 0.862711395817468,
+     "G1000": -0.28342629617424986,
+     "G2000": 2.6802077450053488
+    },
+    "per_seed": {
+     "A1000s1": -5.0724157304395705,
+     "A1000s2": -4.509299299474007,
+     "A2000s1": 5.2458989220876555,
+     "A2000s2": 0.017832898187016038,
+     "B1000s1": 1.828236778038643,
+     "B1000s2": 0.7327758134187196,
+     "B2000s1": -0.5890353913255244,
+     "B2000s2": 0.23964921971313316,
+     "C1000s1": -3.08378340498553,
+     "C1000s2": 2.4772544010910424,
+     "C2000s1": 4.829857239472487,
+     "C2000s2": 2.890056546394974,
+     "D1000s1": 0.38027927605768125,
+     "D1000s2": -0.5842594632174088,
+     "D2000s1": 1.1488444673260003,
+     "D2000s2": -0.07209931417010923,
+     "E1000s1": -2.4457118965094553,
+     "E1000s2": -0.27625907515076037,
+     "E2000s1": 0.18161974439102588,
+     "E2000s2": -1.3334784543500406,
+     "F1000s1": -1.4382754929211414,
+     "F1000s2": 0.8486083620223279,
+     "F2000s1": -0.2719720200014117,
+     "F2000s2": 2.0155966617285603,
+     "G1000s1": -1.284207092359299,
+     "G1000s2": 0.7154945246472655,
+     "G2000s1": 0.5381995003148105,
+     "G2000s2": 4.824572038076764
+    }
+   }
+  },
+  "text.halves_all_networks.r=4000": {
+   "text": "pooled -0.7% to +2.7%; single seeds up to +4.4% (C, r = 4000)",
+   "source": "sim/results/table3_r4000.json",
+   "key": "pooled and per-seed halves of batches.hq - batches.hg, Definition 2.3 cells",
+   "value": {
+    "pooled": {
+     "A4000": -0.5995080165837682,
+     "B4000": -0.6898448718032358,
+     "C4000": 2.651350288903689,
+     "D4000": 0.16308432913523085,
+     "E4000": 0.19091105219030363,
+     "F4000": 0.29437714192047243,
+     "G4000": 1.2544614457504253
+    },
+    "per_seed": {
+     "A4000s1": 0.9477436579798173,
+     "A4000s2": -2.1290898414975414,
+     "B4000s1": -0.8998985152667708,
+     "B4000s2": -0.48082861612010236,
+     "C4000s1": 4.409553934265894,
+     "C4000s2": 0.8983332064471915,
+     "D4000s1": -0.06636423787873325,
+     "D4000s2": 0.3944095598041304,
+     "E4000s1": 1.2686898468507577,
+     "E4000s2": -0.8530657581496659,
+     "F4000s1": 0.5728433125056726,
+     "F4000s2": 0.018651355326013475,
+     "G4000s1": -0.043052230282266284,
+     "G4000s2": 2.6472149885324425
+    }
+   }
+  },
+  "text.T3_table3": {
+   "text": "38 of 39 cells within the batch-means half-width (38 with the benchmark's half-width added)",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json, multi_bench_crn.json",
+   "key": "|mean(hg) - HGI_E| <= hw",
+   "value": {
+    "n_in": 38,
+    "n": 39,
+    "n_in_with_benchmark": 38
+   }
+  },
+  "text.T2_over_T1_networks_cap": {
+   "text": "1.44 to 2.29",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "T2/T1 per pattern-dependent-cap cell, A and C-F",
+   "value": [
+    2.2947797900124236,
+    2.11617881302604,
+    1.9616824297610875,
+    1.9334887988542953,
+    1.5760888562496687,
+    1.4377623447339376,
+    1.6515615667065595,
+    1.635469089996878,
+    1.6301434933576078,
+    2.0320958606355353,
+    1.9642270388399226,
+    1.9807966028217094,
+    1.6329071367900752,
+    1.4799042535027385,
+    1.6775562248074611
+   ]
+  },
+  "text.T2_over_T1_networks": {
+   "text": "1.39 to 2.04 on A and C-F; 7.7 / 8.2 / 8.3 on G",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "T2/T1 per Definition 2.3 cell, r = 1000, 2000, 4000",
+   "value": {
+    "A": [
+     2.0413095941590056,
+     2.040343773171359,
+     1.9775865867266174
+    ],
+    "C": [
+     1.499438776885216,
+     1.3890939939241185,
+     1.4128469697825194
+    ],
+    "D": [
+     1.6818293380463354,
+     1.6619827429166043,
+     1.639529552529145
+    ],
+    "E": [
+     1.916329958387863,
+     1.9227444957651931,
+     1.941115464956148
+    ],
+    "F": [
+     1.6620215247012622,
+     1.517772048064188,
+     1.682725120902371
+    ],
+    "G": [
+     7.739624648811183,
+     8.159758928762425,
+     8.268159297780594
+    ]
+   }
+  },
+  "text.toy_rule_band_1000": {
+   "text": "35%",
+   "source": "sim/results/decomp_runs.json, multi_bench_crn.json",
+   "key": "tab3.A.uniform.r=1000",
+   "value": 34.86537574046337
+  },
+  "text.toy_cap_band_1000": {
+   "text": "7.6%",
+   "source": "sim/results/decomp_runs.json, multi_bench_crn.json",
+   "key": "tab3.A.per_pattern.r=1000",
+   "value": 7.624139363659463
+  },
+  "text.G_660_1000": {
+   "text": "423%",
+   "source": "sim/results/decomp_runs.json, multi_bench_crn.json",
+   "key": "tab3.G.uniform.r=1000",
+   "value": 422.9960555920582
+  },
+  "text.G_660_4000": {
+   "text": "179%",
+   "source": "sim/results/table3_r4000.json, multi_bench_crn.json",
+   "key": "tab3.G.uniform.r=4000",
+   "value": 179.48473980659853
+  },
+  "text.G_cap30_1000": {
+   "text": "30%",
+   "source": "sim/results/decomp_runs.json, multi_bench_crn.json",
+   "key": "tab3.G.per_pattern.r=1000",
+   "value": 29.777497704122396
+  },
+  "text.G_cap30_2000": {
+   "text": "18%",
+   "source": "sim/results/decomp_runs.json, multi_bench_crn.json",
+   "key": "tab3.G.per_pattern.r=2000",
+   "value": 18.47828902282954
+  },
+  "text.G_cap30_4000": {
+   "text": "10.1%",
+   "source": "sim/results/table3_r4000.json, multi_bench_crn.json",
+   "key": "tab3.G.per_pattern.r=4000",
+   "value": 10.093144300477325
+  },
+  "text.G_cap660_1000": {
+   "text": "578%",
+   "source": "sim/results/decomp_runs.json, multi_bench_crn.json",
+   "key": "runs[net=G, cap=per_pattern, c2=660, r=1000, T=250]",
+   "value": 578.0677600229754
+  },
+  "text.G_scan_400": {
+   "text": "349%",
+   "source": "sim/results/vbcap_runs.json, multi_bench_crn.json",
+   "key": "runs[net=G, tag=per_pattern_scan, c2=400, r=1000, seed=1]: (JE - hgi_path)/HGI_E",
+   "value": 349.1974884784532
+  },
+  "text.G_scan_50": {
+   "text": "41%",
+   "source": "sim/results/vbcap_runs.json, multi_bench_crn.json",
+   "key": "runs[net=G, tag=per_pattern_scan, c2=50, r=1000, seed=1]: (JE - hgi_path)/HGI_E",
+   "value": 41.007734625967146
+  },
+  "text.matched_T1": {
+   "text": "4% to 11%",
+   "source": "sim/results/decomp_matched.json",
+   "key": "T1_p / T1_u - 1 over the stationary matched-band pairs",
+   "value": [
+    11.112812155837325,
+    9.074397387463073,
+    5.173645823906736,
+    4.263489757294314,
+    10.55194143919913,
+    9.465402274704115
+   ]
+  },
+  "text.G_flag_drift_measured_max": {
+   "text": "0.45",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json (p_flag); network_g_check.json (K, theta)",
+   "key": "max over r and i of r sum_j K_ij p_flag_j / |theta_i|",
+   "value": {
+    "1000": [
+     0.3557681513489996,
+     0.4504347061360734,
+     0.3891574404618286
+    ],
+    "2000": [
+     0.31948573475973946,
+     0.43198210577986074,
+     0.3468030269403117
+    ],
+    "4000": [
+     0.25249457951659243,
+     0.41735087312868663,
+     0.30812206350303833
+    ]
+   }
+  },
+  "text.G_flag_drift_predicted": {
+   "text": "0.56 to 0.78",
+   "source": "sim/results/network_g_check.json",
+   "key": "rows[].pred_floor",
+   "value": {
+    "1000": 0.5632790307619462,
+    "2000": 0.6516844910497097,
+    "4000": 0.7842890622638232
+   }
+  },
+  "phi.A, c2 = 60": {
+   "text": "phi(r) = 0.821 / 0.867 / 0.888 / 0.907 / 0.926 at r = 300 / 1000 / 2000 / 4000 / 10000; fit phi_inf = 1.006 \u00b1 0.001, b = 43.5 \u00b1 0.4 jobs",
+   "source": "sim/results/paper_cells.json, drift_check.json",
+   "key": "least squares of mean(batches.hq - batches.hhat) r on U over the available r",
+   "value": {
+    "phi_inf": 1.005710167832975,
+    "phi_inf_se": 0.0009414951032777299,
+    "b": 43.54382952750153,
+    "b_se": 0.3731439676628086,
+    "max_resid_jobs": 0.32977625436387825,
+    "dof": 3,
+    "phi": {
+     "300": 0.8211528093573652,
+     "1000": 0.8671753021354806,
+     "2000": 0.888287209920694,
+     "4000": 0.9073137348986959,
+     "10000": 0.9258765038384031
+    }
+   }
+  },
+  "phi.A, c2 = 68": {
+   "text": "phi(r) = 0.882 \u00b1 0.001 / 0.902 \u00b1 0.000 / 0.918 \u00b1 0.000 at r = 1000 / 2000 / 4000; fit phi_inf = 1.007 \u00b1 0.001, b = 44.7 \u00b1 0.4 jobs",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "least squares of mean(batches.hq - batches.hhat) r on U over the available r",
+   "value": {
+    "phi_inf": 1.0068509570831183,
+    "phi_inf_se": 0.0008898585191757525,
+    "b": 44.693428578882255,
+    "b_se": 0.3842397830378614,
+    "max_resid_jobs": 0.07280646654021439,
+    "dof": 1,
+    "phi": {
+     "1000": 0.8822469103302075,
+     "2000": 0.901607774330123,
+     "4000": 0.9175247103825018
+    },
+    "phi_hw": {
+     "1000": 0.0010261395447680585,
+     "2000": 0.0004736905204527688,
+     "4000": 0.00018488165385708595
+    }
+   }
+  },
+  "phi.A, pattern-dependent cap (outside Def. 2.3), c2 = 13": {
+   "text": "phi(r) = 0.937 \u00b1 0.000 / 0.943 \u00b1 0.000 / 0.956 \u00b1 0.000 at r = 1000 / 2000 / 4000; fit phi_inf = 1.004 \u00b1 0.016, b = 4.7 \u00b1 1.3 jobs",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "least squares of mean(batches.hq - batches.hhat) r on U over the available r",
+   "value": {
+    "phi_inf": 1.0042991339506675,
+    "phi_inf_se": 0.01597381570530943,
+    "b": 4.72120992467062,
+    "b_se": 1.3108075648865158,
+    "max_resid_jobs": 0.2483742478689237,
+    "dof": 1,
+    "phi": {
+     "1000": 0.9370698339813525,
+     "2000": 0.9426212451539157,
+     "4000": 0.9558806216541549
+    },
+    "phi_hw": {
+     "1000": 0.00014998245859960897,
+     "2000": 9.365156407597754e-05,
+     "4000": 2.11895207391209e-05
+    }
+   }
+  },
+  "phi.C, c2 = 68": {
+   "text": "phi(r) = 2.651 \u00b1 0.003 / 2.705 \u00b1 0.002 / 2.754 \u00b1 0.000 at r = 1000 / 2000 / 4000; fit phi_inf = 3.013 \u00b1 0.004, b = 129.9 \u00b1 1.9 jobs",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "least squares of mean(batches.hq - batches.hhat) r on U over the available r",
+   "value": {
+    "phi_inf": 3.0126278920302525,
+    "phi_inf_se": 0.004356748524335613,
+    "b": 129.88832917480426,
+    "b_se": 1.8812385021518307,
+    "max_resid_jobs": 0.3564605595438479,
+    "dof": 1,
+    "phi": {
+     "1000": 2.6513596240322115,
+     "2000": 2.7054296603667365,
+     "4000": 2.7535475491197414
+    },
+    "phi_hw": {
+     "1000": 0.00282427025825158,
+     "2000": 0.001717921447468653,
+     "4000": 0.00034525192468794734
+    }
+   }
+  },
+  "phi.C, pattern-dependent cap (outside Def. 2.3), c2 = 13": {
+   "text": "phi(r) = 2.812 \u00b1 0.000 / 2.828 \u00b1 0.000 / 2.868 \u00b1 0.000 at r = 1000 / 2000 / 4000; fit phi_inf = 3.011 \u00b1 0.049, b = 14.0 \u00b1 4.0 jobs",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "least squares of mean(batches.hq - batches.hhat) r on U over the available r",
+   "value": {
+    "phi_inf": 3.011323872950942,
+    "phi_inf_se": 0.04884509360945292,
+    "b": 13.995952430494635,
+    "b_se": 4.008216908974324,
+    "max_resid_jobs": 0.7594843718712525,
+    "dof": 1,
+    "phi": {
+     "1000": 2.8122076717593245,
+     "2000": 2.8281930196146243,
+     "4000": 2.8678996616420975
+    },
+    "phi_hw": {
+     "1000": 0.00041466509296927766,
+     "2000": 0.0002675827075980588,
+     "4000": 5.0497089928298296e-05
+    }
+   }
+  },
+  "phi.D, c2 = 41": {
+   "text": "phi(r) = 1.267 \u00b1 0.032 / 1.296 \u00b1 0.022 / 1.326 \u00b1 0.030 at r = 1000 / 2000 / 4000; fit phi_inf = 1.475 \u00b1 0.011, b = 45.2 \u00b1 2.8 jobs",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "least squares of mean(batches.hq - batches.hhat) r on U over the available r",
+   "value": {
+    "phi_inf": 1.475446136266223,
+    "phi_inf_se": 0.010833095558199996,
+    "b": 45.2181260218522,
+    "b_se": 2.8144480871930297,
+    "max_resid_jobs": 0.5332868420571231,
+    "dof": 1,
+    "phi": {
+     "1000": 1.2674398638979882,
+     "2000": 1.296095236375122,
+     "4000": 1.326163394107805
+    },
+    "phi_hw": {
+     "1000": 0.03152116433678706,
+     "2000": 0.022437081328463334,
+     "4000": 0.02959547546473112
+    }
+   }
+  },
+  "phi.D, pattern-dependent cap (outside Def. 2.3), c2 = 20": {
+   "text": "phi(r) = 1.292 \u00b1 0.024 / 1.324 \u00b1 0.025 / 1.331 \u00b1 0.027 at r = 1000 / 2000 / 4000; fit phi_inf = 1.428 \u00b1 0.039, b = 13.9 \u00b1 5.0 jobs",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "least squares of mean(batches.hq - batches.hhat) r on U over the available r",
+   "value": {
+    "phi_inf": 1.4278949089176212,
+    "phi_inf_se": 0.03908223185016372,
+    "b": 13.929013095564436,
+    "b_se": 4.982784895907024,
+    "max_resid_jobs": 0.9441473210605977,
+    "dof": 1,
+    "phi": {
+     "1000": 1.2916660180213446,
+     "2000": 1.324169680368397,
+     "4000": 1.3307518062729735
+    },
+    "phi_hw": {
+     "1000": 0.024341306045134535,
+     "2000": 0.025145247082432872,
+     "4000": 0.027496433368263323
+    }
+   }
+  },
+  "phi.E, c2 = 62": {
+   "text": "phi(r) = 1.380 \u00b1 0.005 / 1.400 \u00b1 0.004 / 1.414 \u00b1 0.005 at r = 1000 / 2000 / 4000; fit phi_inf = 1.500 \u00b1 0.006, b = 38.8 \u00b1 2.3 jobs",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "least squares of mean(batches.hq - batches.hhat) r on U over the available r",
+   "value": {
+    "phi_inf": 1.5001473987669747,
+    "phi_inf_se": 0.0058978012645477295,
+    "b": 38.82442997820647,
+    "b_se": 2.298381205788384,
+    "max_resid_jobs": 0.4355015324870237,
+    "dof": 1,
+    "phi": {
+     "1000": 1.3795910682427406,
+     "2000": 1.3998213333100813,
+     "4000": 1.4137911828628626
+    },
+    "phi_hw": {
+     "1000": 0.005204506217648713,
+     "2000": 0.0044215471570570476,
+     "4000": 0.004695754276234322
+    }
+   }
+  },
+  "phi.E, pattern-dependent cap (outside Def. 2.3), c2 = 24": {
+   "text": "phi(r) = 1.404 \u00b1 0.004 / 1.422 \u00b1 0.003 / 1.436 \u00b1 0.004 at r = 1000 / 2000 / 4000; fit phi_inf = 1.516 \u00b1 0.002, b = 13.9 \u00b1 0.4 jobs",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "least squares of mean(batches.hq - batches.hhat) r on U over the available r",
+   "value": {
+    "phi_inf": 1.515979654706905,
+    "phi_inf_se": 0.0024967808743562815,
+    "b": 13.948399036763359,
+    "b_se": 0.37538538422027184,
+    "max_resid_jobs": 0.07112871863452597,
+    "dof": 1,
+    "phi": {
+     "1000": 1.4040843366819433,
+     "2000": 1.4219755459847994,
+     "4000": 1.4357870723630852
+    },
+    "phi_hw": {
+     "1000": 0.003708168412206145,
+     "2000": 0.0031593835869876082,
+     "4000": 0.004174805960812634
+    }
+   }
+  },
+  "phi.F, c2 = 152": {
+   "text": "phi(r) = 3.108 \u00b1 0.157 / 3.317 \u00b1 0.193 / 3.134 \u00b1 0.152 at r = 1000 / 2000 / 4000; fit phi_inf = 3.170 \u00b1 0.671, b = -16.7 \u00b1 645.2 jobs",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "least squares of mean(batches.hq - batches.hhat) r on U over the available r",
+   "value": {
+    "phi_inf": 3.1696281132094155,
+    "phi_inf_se": 0.6705729338307195,
+    "b": -16.672007159236507,
+    "b_se": 645.2424393323726,
+    "max_resid_jobs": 122.26173380085538,
+    "dof": 1,
+    "phi": {
+     "1000": 3.107713252698107,
+     "2000": 3.3166799805680998,
+     "4000": 3.134329663731235
+    },
+    "phi_hw": {
+     "1000": 0.15696577538756348,
+     "2000": 0.19323528728453876,
+     "4000": 0.15183740476288235
+    }
+   }
+  },
+  "phi.F, pattern-dependent cap (outside Def. 2.3), c2 = 128": {
+   "text": "phi(r) = 3.365 \u00b1 0.131 / 3.579 \u00b1 0.257 / 3.328 \u00b1 0.126 at r = 1000 / 2000 / 4000; fit phi_inf = 3.195 \u00b1 0.807, b = -182.1 \u00b1 653.2 jobs",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "least squares of mean(batches.hq - batches.hhat) r on U over the available r",
+   "value": {
+    "phi_inf": 3.194512207138112,
+    "phi_inf_se": 0.8070043523044347,
+    "b": -182.08192442057353,
+    "b_se": 653.2476535522339,
+    "max_resid_jobs": 123.77857663435407,
+    "dof": 1,
+    "phi": {
+     "1000": 3.365473082020913,
+     "2000": 3.579335305957003,
+     "4000": 3.328030489892366
+    },
+    "phi_hw": {
+     "1000": 0.13096675780333736,
+     "2000": 0.25688470200086594,
+     "4000": 0.1259464285651793
+    }
+   }
+  },
+  "phi.G, c2 = 660": {
+   "text": "phi(r) = 3.416 \u00b1 0.081 / 3.660 \u00b1 0.058 / 3.920 \u00b1 0.070 at r = 1000 / 2000 / 4000; fit phi_inf = 5.201 \u00b1 0.099, b = 6224.9 \u00b1 411.2 jobs",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "least squares of mean(batches.hq - batches.hhat) r on U over the available r",
+   "value": {
+    "phi_inf": 5.200768334769421,
+    "phi_inf_se": 0.09869382971242993,
+    "b": 6224.943221478467,
+    "b_se": 411.1694646349628,
+    "max_resid_jobs": 77.90915254157517,
+    "dof": 1,
+    "phi": {
+     "1000": 3.415768549228775,
+     "2000": 3.659969289565274,
+     "4000": 3.919625119105467
+    },
+    "phi_hw": {
+     "1000": 0.08135705996381028,
+     "2000": 0.05840278375729035,
+     "4000": 0.06998743868290545
+    }
+   }
+  },
+  "phi.G, pattern-dependent cap (outside Def. 2.3), c2 = 30": {
+   "text": "phi(r) = 5.117 \u00b1 0.079 / 5.138 \u00b1 0.086 / 5.265 \u00b1 0.060 at r = 1000 / 2000 / 4000; fit phi_inf = 5.648 \u00b1 0.203, b = 87.5 \u00b1 38.5 jobs",
+   "source": "sim/results/decomp_runs.json, table3_r4000.json",
+   "key": "least squares of mean(batches.hq - batches.hhat) r on U over the available r",
+   "value": {
+    "phi_inf": 5.647745553356079,
+    "phi_inf_se": 0.203417040858766,
+    "b": 87.46224724889196,
+    "b_se": 38.520818295618575,
+    "max_resid_jobs": 7.298996075216337,
+    "dof": 1,
+    "phi": {
+     "1000": 5.117329499556565,
+     "2000": 5.138106973776529,
+     "4000": 5.264690730451462
+    },
+    "phi_hw": {
+     "1000": 0.07931596527852447,
+     "2000": 0.08602938167670132,
+     "4000": 0.060365342500469696
+    }
+   }
+  },
+  "text.one_over_mu": {
+   "text": "46.1 to 42.9 jobs",
+   "source": "formula, d = 0.976896",
+   "key": "1/log((1 - 0.5/r)/d), r = 300 .. 1e4",
+   "value": [
+    46.068038091449516,
+    42.87230801773117
+   ]
+  },
+  "control.vb=0.25.c2=30": {
+   "text": "8.78 \u00b1 0.06 / 5.20 \u00b1 0.07 / 3.79 \u00b1 0.28 / 3.10 \u00b1 0.06",
+   "source": "sim/results/control_experiment.json",
+   "key": "summary[vb=0.25, c2=30.0].JE, .JE_se (r = 30, 100, 300, 1000)",
+   "value": [
+    8.780354892150267,
+    5.195989708937703,
+    3.790267565868409,
+    3.1013918661846724
+   ]
+  },
+  "control.T12_factor.c2=30": {
+   "text": "0.41 / 0.44 / 0.41",
+   "source": "sim/results/control_experiment.json",
+   "key": "ratio of summary.T12 between consecutive r",
+   "value": [
+    0.4148046687779127,
+    0.4405545778919985,
+    0.40654595368096924
+   ]
+  },
+  "control.vb=bmax.c2=30": {
+   "text": "6.03 \u00b1 0.06 / 4.47 \u00b1 0.09 / 3.79 \u00b1 0.33 / 3.50 \u00b1 0.18",
+   "source": "sim/results/control_experiment.json",
+   "key": "summary[vb=None, c2=30.0].JE, .JE_se (r = 30, 100, 300, 1000)",
+   "value": [
+    6.033043978862109,
+    4.47344499039657,
+    3.788997356859587,
+    3.4995751892826763
+   ]
+  },
+  "control.vb=0.25.c2=60": {
+   "text": "15.58 \u00b1 0.06 / 7.92 \u00b1 0.07 / 4.97 \u00b1 0.28 / 3.57 \u00b1 0.06",
+   "source": "sim/results/control_experiment.json",
+   "key": "summary[vb=0.25, c2=60.0].JE, .JE_se (r = 30, 100, 300, 1000)",
+   "value": [
+    15.579703543269671,
+    7.923547313526946,
+    4.970265367443412,
+    3.570109439313635
+   ]
+  },
+  "control.T12_factor.c2=60": {
+   "text": "0.41 / 0.44 / 0.40",
+   "source": "sim/results/control_experiment.json",
+   "key": "ratio of summary.T12 between consecutive r",
+   "value": [
+    0.4077413339723261,
+    0.4363002851762355,
+    0.40275287533602966
+   ]
+  },
+  "control.vb=bmax.c2=60": {
+   "text": "10.00 \u00b1 0.06 / 6.70 \u00b1 0.07 / 4.63 \u00b1 0.23 / 3.49 \u00b1 0.15",
+   "source": "sim/results/control_experiment.json",
+   "key": "summary[vb=None, c2=60.0].JE, .JE_se (r = 30, 100, 300, 1000)",
+   "value": [
+    9.99702128331394,
+    6.700070844898468,
+    4.631767501431115,
+    3.491339337688908
+   ]
+  },
+  "control.vb=0.25.c2=10": {
+   "text": "4.30 \u00b1 0.07 / 3.39 \u00b1 0.09 / 3.05 \u00b1 0.29 / 2.83 \u00b1 0.06",
+   "source": "sim/results/control_experiment.json",
+   "key": "summary[vb=0.25, c2=10.0].JE, .JE_se (r = 30, 100, 300, 1000)",
+   "value": [
+    4.299258447556712,
+    3.3943968682305785,
+    3.046530040216768,
+    2.832708389712459
+   ]
+  },
+  "control.T12_factor.c2=10": {
+   "text": "0.45 / 0.52 / 0.45",
+   "source": "sim/results/control_experiment.json",
+   "key": "ratio of summary.T12 between consecutive r",
+   "value": [
+    0.44711025265991033,
+    0.5218482905953624,
+    0.45381479499118876
+   ]
+  },
+  "control.vb=bmax.c2=10": {
+   "text": "5.60 \u00b1 0.19 / 441.09 \u00b1 19.22 / 371.09 \u00b1 7.56 / 543.08 \u00b1 7.94",
+   "source": "sim/results/control_experiment.json",
+   "key": "summary[vb=None, c2=10.0].JE, .JE_se (r = 30, 100, 300, 1000)",
+   "value": [
+    5.601927363632338,
+    441.08921995502766,
+    371.08647197511453,
+    543.0809459812427
+   ]
+  },
+  "text.control_factor": {
+   "text": "0.40 to 0.52",
+   "source": "sim/results/control_experiment.json",
+   "key": "ratios of summary.T12",
+   "value": [
+    0.4148046687779127,
+    0.4405545778919985,
+    0.40654595368096924,
+    0.4077413339723261,
+    0.4363002851762355,
+    0.40275287533602966,
+    0.44711025265991033,
+    0.5218482905953624,
+    0.45381479499118876
+   ]
+  },
+  "text.screen": {
+   "text": "7.5 against 266 for the worst cell; (1, 30, 0.24): 7.9; paired difference 0.46 \u00b1 0.71",
+   "source": "sim/results/screen_r300.json",
+   "key": "summary[c].JE; tie.diff, tie.hw95",
+   "value": null
+  },
+  "text.split_r100": {
+   "text": "7.12, 6.67, 6.83 (SE 0.18 to 0.20); largest pairwise difference 1.7 SE",
+   "source": "sim/results/split_r100.json",
+   "key": "stats[split].JE = [mean, SE, hw]; pairwise_z[pair].JE",
+   "value": null
+  },
+  "text.r400_T320": {
+   "text": "14.9 \u00b1 9.6",
+   "source": "sim/results/drift_check.json",
+   "key": "analysis.a_JE.mean, .hw",
+   "value": {
+    "mean": 14.860374170478009,
+    "hw": 9.63811841716136,
+    "half_change": -0.2739130863991337,
+    "half_change_hw": 6.67411158416355,
+    "rel": -0.018432448823751443,
+    "rel_hw": 0.44912136851994666
+   }
+  },
+  "text.r400_flag_drift": {
+   "text": "0.93",
+   "source": "sim/results/drift_check.json",
+   "key": "analysis.a_flag_only.mean",
+   "value": {
+    "mean": 0.9338877965354315,
+    "hw": 0.014805974932248715
+   }
+  },
+  "JD.deep.r=1000": {
+   "text": "2.07 \u00b1 0.08 (32 seeds)",
+   "source": "sim/results/jd_seeds.json",
+   "key": "mean and SE of JD over seeds, r=1000",
+   "value": [
+    2.069596896905699,
+    0.07563757633760981
+   ]
+  },
+  "JD.deep.r=2000": {
+   "text": "1.74 \u00b1 0.07 (32 seeds)",
+   "source": "sim/results/jd_seeds.json",
+   "key": "mean and SE of JD over seeds, r=2000",
+   "value": [
+    1.7389794684236919,
+    0.06866977042464245
+   ]
+  },
+  "JD.deep.r=4000": {
+   "text": "1.63 \u00b1 0.09 (32 seeds)",
+   "source": "sim/results/jd_seeds.json",
+   "key": "mean and SE of JD over seeds, r=4000",
+   "value": [
+    1.6262434552076073,
+    0.08634224925512339
+   ]
+  },
+  "JD.deep.r=10000": {
+   "text": "1.34 \u00b1 0.13 (8 seeds)",
+   "source": "sim/results/jd_seeds.json",
+   "key": "mean and SE of JD over seeds, r=10000",
+   "value": [
+    1.3447140472518557,
+    0.12902463420921048
+   ]
+  },
+  "JD.tuned.r=100": {
+   "text": "3.41 \u00b1 0.04 (200 seeds)",
+   "source": "sim/results/production.json",
+   "key": "kind=discounted, consts=tuned, r=100: mean and SE of JD",
+   "value": [
+    3.411184479511844,
+    0.04306267918928018
+   ]
+  },
+  "JD.tuned.r=300": {
+   "text": "2.29 \u00b1 0.05 (100 seeds)",
+   "source": "sim/results/production.json",
+   "key": "kind=discounted, consts=tuned, r=300: mean and SE of JD",
+   "value": [
+    2.2887199741823694,
+    0.05149317304105775
+   ]
+  },
+  "JD.tuned.r=1000": {
+   "text": "1.91 \u00b1 0.09 (48 seeds)",
+   "source": "sim/results/production.json",
+   "key": "kind=discounted, consts=tuned, r=1000: mean and SE of JD",
+   "value": [
+    1.9108457688601412,
+    0.09420483994474503
+   ]
+  },
+  "JD.tuned.r=3000": {
+   "text": "1.84 \u00b1 0.18 (12 seeds)",
+   "source": "sim/results/production.json",
+   "key": "kind=discounted, consts=tuned, r=3000: mean and SE of JD",
+   "value": [
+    1.8359500198430443,
+    0.181977876605382
+   ]
+  }
+ },
+ "latex": {
+  "table1": [
+   "10 & 1000 & 80 & $777\\pm11$ & $566\\to989$ & 15.7 / 16.0 \\\\",
+   "30 & 100 & 160 & $5.45\\pm0.52$ & $5.5\\to5.3$ & 0.57 / 0.61 \\\\",
+   "30 & 400 & 160 & $7.56\\pm1.39$ & $6.6\\to8.6$ & 0.95 / 0.92 \\\\",
+   "30 & 1000 & 160 & $32.8\\pm7.2$ & $23.5\\to42.2$ & 1.24 / 1.22 \\\\",
+   "30 & 4000 & 40 & $18.5\\pm3.6$ & $17.8\\to19.2$ & 1.45 / 1.35 \\\\"
+  ],
+  "table2": [
+   "300   & $4.66\\pm0.72$ & 0.646 & $1.320\\pm0.057$ & $71.2\\pm2.1$ & $-0.07\\pm0.69$ & 0.82 \\\\",
+   "1000  & $3.60\\pm0.52$ & 0.273 & $0.615\\pm0.057$ & $32.1\\pm2.1$ & $-0.05\\pm0.48$ & 0.87 \\\\",
+   "2000  & $2.82\\pm0.59$ & 0.165 & $0.371\\pm0.038$ & $19.4\\pm1.4$ & $-0.48\\pm0.56$ & 0.89 \\\\",
+   "4000  & $3.14\\pm0.42$ & 0.100 & $0.210\\pm0.007$ & $11.2\\pm0.3$ & $+0.07\\pm0.42$ & 0.91 \\\\",
+   "10000 & $2.53\\pm0.73$ & 0.051 & $0.103\\pm0.004$ & $5.6\\pm0.1$ & $-0.39\\pm0.73$ & 0.93 \\\\"
+  ],
+  "table3": [
+   "A & 0.041 & 2.76 & 68 & $34.9\\pm1.0$ & $21.0\\pm0.6$ & $12.4\\pm0.1$ & 13 & $7.6\\pm0.7$ & $4.3\\pm0.2$ & $2.4\\pm0.0$ \\\\",
+   "B & 0.250 & 4.01 & 13 & $6.1\\pm0.1$ & $3.7\\pm0.0$ & $2.2\\pm0.0$ & 13 & same & same & same \\\\",
+   "C & 0.041 & 4.01 & 68 & $59.3\\pm2.0$ & $34.1\\pm0.8$ & $20.7\\pm0.5$ & 13 & $14.0\\pm1.0$ & $7.3\\pm0.6$ & $4.1\\pm0.1$ \\\\",
+   "D & 0.080 & 3.07 & 41 & $23.9\\pm0.1$ & $14.3\\pm0.1$ & $8.6\\pm0.0$ & 20 & $11.8\\pm0.1$ & $7.1\\pm0.0$ & $4.2\\pm0.0$ \\\\",
+   "E & 0.043 & 4.24 & 62 & $30.8\\pm0.3$ & $18.5\\pm0.2$ & $11.1\\pm0.2$ & 24 & $12.6\\pm0.7$ & $7.3\\pm0.2$ & $4.4\\pm0.1$ \\\\",
+   "F & 0.036 & 8.79 & 152 & $75.3\\pm0.6$ & $44.9\\pm0.6$ & $26.7\\pm0.1$ & 128 & $67.8\\pm0.1$ & $40.1\\pm0.0$ & $23.8\\pm0.0$ \\\\",
+   "G & 0.0028 & 24.44 & 660$^\\dagger$ & $423\\pm7$ & $281\\pm8$ & $179\\pm7$ & $30^\\ast$ & $29.8\\pm2.2$ & $18.5\\pm1.7$ & $10.1\\pm0.4$ \\\\"
+  ]
+ },
+ "table3_r4000_runs_available": 26
+}

@@ -1,0 +1,8 @@
+G per-pattern c2=50 r= 1000 s=1 JE= 45.078 sameHGI=35.054 excess=  40.4% 1st/2nd=53.45/36.71 floor pred=7.382 Efrac=0.0e+00 idle=[0.64, 0.74, 0.83] (43s)
+G per-pattern c2=30 r= 1000 s=1 JE= 43.423 sameHGI=35.552 excess=  31.8% 1st/2nd=55.02/31.83 floor pred=12.480 Efrac=2.8e-04 idle=[0.58, 0.78, 0.83] (44s)
+G per-pattern c2=70 r= 1000 s=1 JE= 48.868 sameHGI=34.526 excess=  57.9% 1st/2nd=57.49/40.24 floor pred=5.202 Efrac=0.0e+00 idle=[0.68, 0.75, 0.84] (44s)
+best c2 at r = 1000: 30
+G per-pattern c2=30 r= 1000 s=2 JE= 28.760 sameHGI=21.846 excess=  27.9% 1st/2nd=26.28/31.24 floor pred=12.480 Efrac=3.0e-04 idle=[0.89, 0.8, 0.94] (90s)
+G per-pattern c2=30 r= 2000 s=1 JE= 26.773 sameHGI=22.017 excess=  19.2% 1st/2nd=26.98/26.56 floor pred=20.778 Efrac=1.1e-04 idle=[1.14, 0.84, 0.67] (227s)
+G per-pattern c2=30 r= 2000 s=2 JE= 32.238 sameHGI=27.633 excess=  18.6% 1st/2nd=29.90/34.57 floor pred=20.778 Efrac=9.5e-05 idle=[0.33, 0.68, 1.12] (229s)
+ALL DONE

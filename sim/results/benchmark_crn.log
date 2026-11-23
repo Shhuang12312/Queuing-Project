@@ -1,0 +1,9 @@
+network                         common-path HGI_E (8 seeds)   95% hw   multi_bench.json   difference
+A toy (Ex. 2.2)                      2.7567 ± 0.0138 (SE)   0.0326             2.8094       +1.91%
+B cost-trivial (Ex. 2.1)             4.0130 ± 0.0191 (SE)   0.0452             4.0685       +1.38%
+C shared type costly                 4.0130 ± 0.0191 (SE)   0.0452             4.0685       +1.38%
+D unequal rates                      3.0704 ± 0.0127 (SE)   0.0300             3.1011       +1.00%
+E unequal loads, costs               4.2533 ± 0.0218 (SE)   0.0516             4.2314       -0.51%
+F 3x5 network                        8.7557 ± 0.0391 (SE)   0.0924             8.9766       +2.52%
+G ranking-map fails (BJ20 Ex        24.4244 ± 0.1037 (SE)   0.2451            24.7907       +1.50%
+586s

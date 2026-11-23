@@ -1,0 +1,7 @@
+d = 0.976896; x_3 below U = 0.4869
+c2 = 10, r = 1000, T = 80: reproduces production.json: True;  predicted 15.666 | total idle 15.951 ± 0.061 | flag-only 0.5 r d E_frac 15.898 ± 0.060 | r d P(E_j=1), local types 15.951 ± 0.061 | f_below 0.511  -> predicted/flag-only = 0.985
+c2 = 30, r = 100, T = 160: reproduces production.json: True;  predicted 0.570 | total idle 1.013 ± 0.078 | flag-only 0.5 r d E_frac 0.645 ± 0.030 | r d P(E_j=1), local types 0.610 ± 0.030 | f_below 0.541  -> predicted/flag-only = 0.883
+c2 = 30, r = 400, T = 160: reproduces production.json: True;  predicted 0.952 | total idle 1.083 ± 0.064 | flag-only 0.5 r d E_frac 0.930 ± 0.012 | r d P(E_j=1), local types 0.922 ± 0.011 | f_below 0.500  -> predicted/flag-only = 1.023
+c2 = 30, r = 1000, T = 160: reproduces production.json: True;  predicted 1.244 | total idle 1.222 ± 0.017 | flag-only 0.5 r d E_frac 1.219 ± 0.018 | r d P(E_j=1), local types 1.219 ± 0.018 | f_below 0.487  -> predicted/flag-only = 1.020
+c2 = 30, r = 4000, T = 40: reproduces production.json: True;  predicted 1.449 | total idle 1.352 ± 0.024 | flag-only 0.5 r d E_frac 1.352 ± 0.024 | r d P(E_j=1), local types 1.352 ± 0.024 | f_below 0.481  -> predicted/flag-only = 1.072
+495s

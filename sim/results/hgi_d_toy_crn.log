@@ -1,0 +1,4 @@
+seed 12345: HGI_D = 1.3363 ± 0.0055  legs 1.3001 (dt 1e-3), 1.3107 (dt 5e-4)  (239s)
+seed 20261117: HGI_D = 1.3283 ± 0.0053  legs 1.2919 (dt 1e-3), 1.3026 (dt 5e-4)  (239s)
+reproduces the stored value bit for bit: True; pooled 1.3323 ± 0.0038; z between the two sets +1.05
+477s

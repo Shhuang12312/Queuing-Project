@@ -1,0 +1,27 @@
+toykern3 r=1000 T=40 seed 1: 2.399e+08 events, 10.99 s, 2.182e+07 ev/s
+toykern3 r=1000 T=40 seed 2: 2.399e+08 events, 11.01 s, 2.179e+07 ev/s
+toykern3 r=1000 T=40 seed 3: 2.399e+08 events, 11.91 s, 2.014e+07 ev/s
+genkern A toy (Ex. (I=2, J=3) seed 1: 5.996e+07 events, 4.15 s, 1.445e+07 ev/s
+genkern A toy (Ex. (I=2, J=3) seed 2: 5.996e+07 events, 4.08 s, 1.471e+07 ev/s
+genkern B cost-tri (I=2, J=3) seed 1: 5.996e+07 events, 3.57 s, 1.678e+07 ev/s
+genkern B cost-tri (I=2, J=3) seed 2: 5.996e+07 events, 3.48 s, 1.725e+07 ev/s
+genkern C shared t (I=2, J=3) seed 1: 5.996e+07 events, 3.18 s, 1.885e+07 ev/s
+genkern C shared t (I=2, J=3) seed 2: 5.995e+07 events, 3.99 s, 1.502e+07 ev/s
+genkern D unequal  (I=2, J=3) seed 1: 5.796e+07 events, 3.84 s, 1.510e+07 ev/s
+genkern D unequal  (I=2, J=3) seed 2: 5.795e+07 events, 3.94 s, 1.469e+07 ev/s
+genkern E unequal  (I=2, J=3) seed 1: 4.597e+07 events, 3.13 s, 1.467e+07 ev/s
+genkern E unequal  (I=2, J=3) seed 2: 4.596e+07 events, 3.13 s, 1.469e+07 ev/s
+genkern F 3x5 netw (I=3, J=5) seed 1: 9.995e+07 events, 7.62 s, 1.311e+07 ev/s
+genkern F 3x5 netw (I=3, J=5) seed 2: 9.993e+07 events, 8.01 s, 1.247e+07 ev/s
+genkern G ranking- (I=3, J=6) seed 1: 1.199e+08 events, 11.30 s, 1.061e+07 ev/s
+genkern G ranking- (I=3, J=6) seed 2: 1.199e+08 events, 11.49 s, 1.043e+07 ev/s
+toykern3 r=10000 T=20 seed 1: 1.200e+10 events, 574.2 s = 9.57 min, 2.090e+07 ev/s, J_E = 2.9455
+toy kernel: 2.125e+07 ev/s (min 2.014e+07, max 2.182e+07)
+general kernel, A: 1.458e+07 ev/s
+general kernel, B: 1.702e+07 ev/s
+general kernel, C: 1.693e+07 ev/s
+general kernel, D: 1.490e+07 ev/s
+general kernel, E: 1.468e+07 ev/s
+general kernel, F: 1.279e+07 ev/s
+general kernel, G: 1.052e+07 ev/s
+685s

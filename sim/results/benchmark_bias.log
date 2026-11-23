@@ -1,0 +1,22 @@
+Part A: time average of h^(W), 8 seeds, mean ± SE (same Brownian paths at every dt)
+   dt =  0.0100: reflection map 2.6404 ± 0.0136   reflected Euler 2.6404 ± 0.0136   max |map − Euler| over seeds 2.4e-14
+   dt =  0.0040: reflection map 2.6831 ± 0.0137   reflected Euler 2.6831 ± 0.0137   max |map − Euler| over seeds 6.0e-14
+   dt =  0.0010: reflection map 2.7200 ± 0.0136   reflected Euler 2.7200 ± 0.0136   max |map − Euler| over seeds 9.8e-14
+   dt =  0.0005: reflection map 2.7307 ± 0.0137   reflected Euler 2.7307 ± 0.0137   max |map − Euler| over seeds 1.2e-13
+   sqrt(dt) extrapolation from dt = (0.004, 0.001): 2.7569 ± 0.0136 (SE), 95% CI ± 0.0322
+   sqrt(dt) extrapolation from dt = (0.001, 0.0005): 2.7567 ± 0.0139 (SE), 95% CI ± 0.0329
+   sqrt(dt) extrapolation from dt = (0.01, 0.004): 2.7565 ± 0.0138 (SE), 95% CI ± 0.0326
+   sqrt(dt) extrapolation from dt = (0.01, 0.0005): 2.7568 ± 0.0138 (SE), 95% CI ± 0.0325
+   least-squares line in sqrt(dt) over the four grids, per seed: intercept 2.7568 ± 0.0137 (SE), slope -1.164 ± 0.003
+   bias of the grid value at dt = 0.01: -4.22% ± 0.02% of the fitted intercept
+   bias of the grid value at dt = 0.004: -2.67% ± 0.01% of the fitted intercept
+   bias of the grid value at dt = 0.001: -1.33% ± 0.00% of the fitted intercept
+   bias of the grid value at dt = 0.0005: -0.94% ± 0.01% of the fitted intercept
+Part B: lattice free process (no time discretization), 8 seeds, T = 20000
+   r =   25: 2.7174 ± 0.0116  (7.42e+07 events per seed)
+   r =   50: 2.7286 ± 0.0201  (2.98e+08 events per seed)
+   r =  100: 2.7330 ± 0.0172  (1.20e+09 events per seed)
+   line in 1/r over r = 25, 50, 100 (per seed; seeds are independent across r): intercept 2.7386 ± 0.0212 (SE), 95% CI ± 0.0501; slope -0.52
+   two-point Richardson from r = 50, 100: 2.7373 ± 0.0270 (SE), 95% CI ± 0.0637
+Part C: HGI_D single leg at dt = 1e-2: 1.2171 ± 0.0054 (-8.9% vs 1.3363); dt = 4e-3: 1.2716 ± 0.0055 (-4.8%)
+369s

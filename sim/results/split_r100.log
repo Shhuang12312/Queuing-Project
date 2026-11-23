@@ -1,0 +1,7 @@
+all-alpha  seeds 1-8: JE = 7.123 ± 0.179  T1 = 1.375 ± 0.005  T2 = 2.913 ± 0.046  T12 = 4.287 ± 0.044  hG = 2.836 ± 0.171   (± = SE across 8 seeds)
+all-beta   seeds 11-18: JE = 6.675 ± 0.196  T1 = 1.398 ± 0.009  T2 = 2.864 ± 0.010  T12 = 4.262 ± 0.013  hG = 2.413 ± 0.184   (± = SE across 8 seeds)
+mixed      seeds 21-28: JE = 6.835 ± 0.177  T1 = 1.384 ± 0.011  T2 = 2.841 ± 0.038  T12 = 4.226 ± 0.039  hG = 2.609 ± 0.180   (± = SE across 8 seeds)
+   all-alpha vs all-beta: z(JE) = +1.69  z(T1) = -2.27  z(T2) = +1.05  z(T12) = +0.56
+   all-alpha vs mixed: z(JE) = +1.14  z(T1) = -0.79  z(T2) = +1.20  z(T12) = +1.05
+   all-beta vs mixed: z(JE) = -0.61  z(T1) = +0.97  z(T2) = +0.57  z(T12) = +0.88
+9s

@@ -1,0 +1,7 @@
+r = 1000 seed 1 T = 250: T1+T2 =  102.787 ( 414.6% of HGI_E)  halves  103.452 ->  102.123 (-1.3%)  flag drift measured [0.36, 0.45, 0.42] vs predicted 0.56  total idle [1.02, 1.1, 1.2]  E_frac 1.2e-03
+r = 1000 seed 2 T = 250: T1+T2 =  104.015 ( 419.6% of HGI_E)  halves  103.644 ->  104.386 (+0.7%)  flag drift measured [0.36, 0.46, 0.36] vs predicted 0.56  total idle [0.88, 1.02, 1.08]  E_frac 1.2e-03
+r = 2000 seed 1 T = 250: T1+T2 =   67.881 ( 273.8% of HGI_E)  halves   67.699 ->   68.063 (+0.5%)  flag drift measured [0.26, 0.44, 0.27] vs predicted 0.65  total idle [0.92, 0.89, 0.83]  E_frac 5.7e-04
+r = 2000 seed 2 T = 250: T1+T2 =   69.256 ( 279.4% of HGI_E)  halves   67.624 ->   70.887 (+4.7%)  flag drift measured [0.38, 0.42, 0.42] vs predicted 0.65  total idle [1.2, 0.99, 1.03]  E_frac 6.4e-04
+r = 4000 seed 1 T = 40: T1+T2 =   44.473 ( 179.4% of HGI_E)  halves   41.998 ->   46.949 (+11.1%)  flag drift measured [0.32, 0.5, 0.23] vs predicted 0.78  total idle [1.09, 1.21, 0.84]  E_frac 3.1e-04
+r = 4000 seed 2 T = 40: T1+T2 =   41.898 ( 169.0% of HGI_E)  halves   40.918 ->   42.879 (+4.7%)  flag drift measured [0.4, 0.48, 0.23] vs predicted 0.78  total idle [1.17, 1.43, 1.44]  E_frac 2.9e-04
+756s

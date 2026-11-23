@@ -1,0 +1,20 @@
+(a) toy, c2 = 30, r = 400, T = 320, 8 seeds, 14 post-burn batches of 16
+   seed 1: J_E  15.52 (halves  13.68 ->  17.36)  T1+T2 12.560 (halves 10.542 -> 14.577)  total idle drift 0.940  flag-only 0.915
+   seed 2: J_E  11.46 (halves   5.27 ->  17.64)  T1+T2  8.424 (halves  2.455 -> 14.392)  total idle drift 1.083  flag-only 0.946
+   seed 3: J_E   9.54 (halves  12.61 ->   6.48)  T1+T2  6.853 (halves  9.668 ->  4.037)  total idle drift 0.996  flag-only 0.932
+   seed 4: J_E   8.79 (halves   9.00 ->   8.57)  T1+T2  6.231 (halves  6.182 ->  6.280)  total idle drift 1.150  flag-only 0.946
+   seed 5: J_E   4.61 (halves   5.20 ->   4.03)  T1+T2  2.520 (halves  3.058 ->  1.982)  total idle drift 1.143  flag-only 0.949
+   seed 6: J_E  11.03 (halves   8.72 ->  13.35)  T1+T2  8.573 (halves  6.274 -> 10.872)  total idle drift 0.983  flag-only 0.942
+   seed 7: J_E  16.00 (halves  23.41 ->   8.59)  T1+T2 13.191 (halves 19.955 ->  6.428)  total idle drift 0.971  flag-only 0.942
+   seed 8: J_E  41.92 (halves  42.09 ->  41.76)  T1+T2 38.687 (halves 38.726 -> 38.648)  total idle drift 0.900  flag-only 0.900
+   J_E: mean 14.860 ± 9.638;  second half − first half = -0.274 ± 6.674 (95% CI, 8 seeds) = -1.8% ± 44.9% of the mean
+   T1+T2: mean 12.130 ± 9.416;  second half − first half = +0.045 ± 6.286 (95% CI, 8 seeds) = +0.4% ± 51.8% of the mean
+   least-squares slope of T1+T2 per diffusion time unit: +0.00477 ± 0.04844  (window 224 units: +1.069 ± 10.850)
+   total idle drift / |theta|: 1.021 ± 0.078
+   flag-only drift 0.5 r d E_frac: 0.934 ± 0.015
+(b) toy, c2 = 60, T = 250, batches of 25: seeds 1-2 (paper_cells.json) + 3-8 (new)
+   r = 1000: per-seed change of T1+T2, second vs first half (% of the window mean): [-6.8, 10.2, 6.4, 7.1, -0.5, 2.5, 0.7, 4.6]
+            mean +3.02% ± 4.42% (95% CI, 8 seeds; t = 1.62);  excess 31.03 ± 1.00% of HGI_E;  T3 = +0.010 ± 0.296
+   r = 2000: per-seed change of T1+T2, second vs first half (% of the window mean): [14.1, 3.5, -4.6, 8.9, 2.2, 3.9, -0.2, -6.8]
+            mean +2.64% ± 5.69% (95% CI, 8 seeds; t = 1.10);  excess 18.56 ± 0.54% of HGI_E;  T3 = -0.272 ± 0.293
+   r = 1000 and 2000 pooled (16 runs): +2.83% ± 3.14%

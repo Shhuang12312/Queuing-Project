@@ -1,0 +1,9 @@
+network                                   HGI_E (8 seeds)   95% hw   exact  multi_bench.json  old/new
+A toy (Ex. 2.2)                          2.7628 ± 0.0201   0.0475       -            2.8094   1.0169
+B cost-trivial (Ex. 2.1)                 4.0146 ± 0.0275   0.0651   4.000            4.0685   1.0134
+C shared type costly                     4.0146 ± 0.0275   0.0651   4.000            4.0685   1.0134
+D unequal rates                          3.0690 ± 0.0209   0.0495       -            3.1011   1.0105
+E unequal loads, costs                   4.2379 ± 0.0409   0.0967       -            4.2314   0.9985
+F 3x5 network                            8.7945 ± 0.0583   0.1378       -            8.9766   1.0207
+G ranking-map fails (BJ20 Ex. 6.6)      24.4449 ± 0.1178   0.2785       -           24.7907   1.0141
+593s

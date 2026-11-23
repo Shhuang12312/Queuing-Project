@@ -1,0 +1,653 @@
+{
+ "A toy (Ex. 2.2)": {
+  "net": "A toy (Ex. 2.2)",
+  "label_uniform": "Definition 2.3, eq. (6)",
+  "label_per_pattern": "outside eq. (6): per-pattern cap |lambda_c(z)|/(4|beta||h|) on M, rho*/4 off M",
+  "lam": -0.5773502691896257,
+  "lam_tilde": -0.48999999999999994,
+  "M": 2,
+  "b_max_eq6": 0.04083333333333333,
+  "rho_star_over_4": 0.25,
+  "b_cap_in_M": [
+   0.040833333
+  ],
+  "step47_uniform": {
+   "ok": true,
+   "n": 2,
+   "worst_lhs": -0.49,
+   "min_margin": 0.12250000000000005,
+   "min_margin_tilde": 0.12250000000000005,
+   "lam_tilde": -0.48999999999999994
+  },
+  "step47_per_pattern": {
+   "ok": true,
+   "n": 2,
+   "worst_lhs": -0.49,
+   "min_margin": 0.12250000000000005,
+   "min_margin_tilde": 0.12250000000000005,
+   "lam_tilde": -0.48999999999999994
+  },
+  "push_uniform": {
+   "all": {
+    "n": 7,
+    "min": 0.040016666666666666,
+    "median": 0.040016666666666666,
+    "max": 0.040016666666666666
+   },
+   "in_M": {
+    "n": 1,
+    "min": 0.040016666666666666,
+    "median": 0.040016666666666666,
+    "max": 0.040016666666666666
+   },
+   "off_M": {
+    "n": 6,
+    "min": 0.040016666666666666,
+    "median": 0.040016666666666666,
+    "max": 0.040016666666666666
+   },
+   "b_max_eq6": 0.04083333333333333,
+   "vb_cap": "uniform",
+   "label": "Definition 2.3, eq. (6)"
+  },
+  "push_per_pattern": {
+   "all": {
+    "n": 7,
+    "min": 0.040016666666666666,
+    "median": 0.245,
+    "max": 0.245
+   },
+   "in_M": {
+    "n": 1,
+    "min": 0.040016666666666666,
+    "median": 0.040016666666666666,
+    "max": 0.040016666666666666
+   },
+   "off_M": {
+    "n": 6,
+    "min": 0.245,
+    "median": 0.245,
+    "max": 0.245
+   },
+   "b_max_eq6": 0.04083333333333333,
+   "vb_cap": "per_pattern",
+   "label": "outside eq. (6): per-pattern cap |lambda_c(z)|/(4|beta||h|) on M, rho*/4 off M"
+  },
+  "c2_rule_uniform": 68.40603977488058,
+  "c2_rule_per_pattern": 12.957132882150082,
+  "c2_rule_fssc_uniform": 64.40457226715776,
+  "c2_rule_fssc_per_pattern": 12.194948594964783,
+  "c2_phase2": 68.40603977488058,
+  "c2_model_uniform": 70.0,
+  "c2_model_per_pattern": 16.0,
+  "mu_worst_uniform": [
+   0.022874580473724877,
+   0.022874580473724877,
+   0.022874580473724877
+  ],
+  "mu_worst_per_pattern": [
+   0.1520111845642504,
+   0.1520111845642504,
+   0.1520111845642504
+  ]
+ },
+ "B cost-trivial (Ex. 2.1)": {
+  "net": "B cost-trivial (Ex. 2.1)",
+  "label_uniform": "Definition 2.3, eq. (6)",
+  "label_per_pattern": "outside eq. (6): per-pattern cap |lambda_c(z)|/(4|beta||h|) on M, rho*/4 off M",
+  "lam": 0.0,
+  "lam_tilde": null,
+  "M": 0,
+  "b_max_eq6": 0.25,
+  "rho_star_over_4": 0.25,
+  "b_cap_in_M": [],
+  "step47_uniform": {
+   "ok": true,
+   "n": 0,
+   "worst_lhs": null,
+   "min_margin": null,
+   "note": "Case A: M empty"
+  },
+  "step47_per_pattern": {
+   "ok": true,
+   "n": 0,
+   "worst_lhs": null,
+   "min_margin": null,
+   "note": "Case A: M empty"
+  },
+  "push_uniform": {
+   "all": {
+    "n": 7,
+    "min": 0.245,
+    "median": 0.245,
+    "max": 0.245
+   },
+   "in_M": {
+    "n": 0
+   },
+   "off_M": {
+    "n": 7,
+    "min": 0.245,
+    "median": 0.245,
+    "max": 0.245
+   },
+   "b_max_eq6": 0.25,
+   "vb_cap": "uniform",
+   "label": "Definition 2.3, eq. (6)"
+  },
+  "push_per_pattern": {
+   "all": {
+    "n": 7,
+    "min": 0.245,
+    "median": 0.245,
+    "max": 0.245
+   },
+   "in_M": {
+    "n": 0
+   },
+   "off_M": {
+    "n": 7,
+    "min": 0.245,
+    "median": 0.245,
+    "max": 0.245
+   },
+   "b_max_eq6": 0.25,
+   "vb_cap": "per_pattern",
+   "label": "outside eq. (6): per-pattern cap |lambda_c(z)|/(4|beta||h|) on M, rho*/4 off M"
+  },
+  "c2_rule_uniform": 12.957132882150082,
+  "c2_rule_per_pattern": 12.957132882150082,
+  "c2_rule_fssc_uniform": 12.194948594964783,
+  "c2_rule_fssc_per_pattern": 12.194948594964783,
+  "c2_phase2": 12.957132882150082,
+  "c2_model_uniform": 16.0,
+  "c2_model_per_pattern": 16.0,
+  "mu_worst_uniform": [
+   0.1520111845642504,
+   0.1520111845642504,
+   0.1520111845642504
+  ],
+  "mu_worst_per_pattern": [
+   0.1520111845642504,
+   0.1520111845642504,
+   0.1520111845642504
+  ]
+ },
+ "C shared type costly": {
+  "net": "C shared type costly",
+  "label_uniform": "Definition 2.3, eq. (6)",
+  "label_per_pattern": "outside eq. (6): per-pattern cap |lambda_c(z)|/(4|beta||h|) on M, rho*/4 off M",
+  "lam": -1.7320508075688772,
+  "lam_tilde": -1.47,
+  "M": 4,
+  "b_max_eq6": 0.04083333333333333,
+  "rho_star_over_4": 0.25,
+  "b_cap_in_M": [
+   0.040833333
+  ],
+  "step47_uniform": {
+   "ok": true,
+   "n": 4,
+   "worst_lhs": -1.47,
+   "min_margin": 0.36749999999999994,
+   "min_margin_tilde": 0.36749999999999994,
+   "lam_tilde": -1.47
+  },
+  "step47_per_pattern": {
+   "ok": true,
+   "n": 4,
+   "worst_lhs": -1.47,
+   "min_margin": 0.36749999999999994,
+   "min_margin_tilde": 0.36749999999999994,
+   "lam_tilde": -1.47
+  },
+  "push_uniform": {
+   "all": {
+    "n": 7,
+    "min": 0.040016666666666666,
+    "median": 0.040016666666666666,
+    "max": 0.040016666666666666
+   },
+   "in_M": {
+    "n": 3,
+    "min": 0.040016666666666666,
+    "median": 0.040016666666666666,
+    "max": 0.040016666666666666
+   },
+   "off_M": {
+    "n": 4,
+    "min": 0.040016666666666666,
+    "median": 0.040016666666666666,
+    "max": 0.040016666666666666
+   },
+   "b_max_eq6": 0.04083333333333333,
+   "vb_cap": "uniform",
+   "label": "Definition 2.3, eq. (6)"
+  },
+  "push_per_pattern": {
+   "all": {
+    "n": 7,
+    "min": 0.040016666666666666,
+    "median": 0.245,
+    "max": 0.245
+   },
+   "in_M": {
+    "n": 3,
+    "min": 0.040016666666666666,
+    "median": 0.040016666666666666,
+    "max": 0.040016666666666666
+   },
+   "off_M": {
+    "n": 4,
+    "min": 0.245,
+    "median": 0.245,
+    "max": 0.245
+   },
+   "b_max_eq6": 0.04083333333333333,
+   "vb_cap": "per_pattern",
+   "label": "outside eq. (6): per-pattern cap |lambda_c(z)|/(4|beta||h|) on M, rho*/4 off M"
+  },
+  "c2_rule_uniform": 68.40603977488058,
+  "c2_rule_per_pattern": 12.957132882150082,
+  "c2_rule_fssc_uniform": 69.16822406206587,
+  "c2_rule_fssc_per_pattern": 12.957132882150082,
+  "c2_phase2": 68.40603977488058,
+  "c2_model_uniform": 70.0,
+  "c2_model_per_pattern": 16.0,
+  "mu_worst_uniform": [
+   0.022874580473724877,
+   0.022874580473724877,
+   0.022874580473724877
+  ],
+  "mu_worst_per_pattern": [
+   0.1520111845642504,
+   0.1520111845642504,
+   0.1520111845642504
+  ]
+ },
+ "D unequal rates": {
+  "net": "D unequal rates",
+  "label_uniform": "Definition 2.3, eq. (6)",
+  "label_per_pattern": "outside eq. (6): per-pattern cap |lambda_c(z)|/(4|beta||h|) on M, rho*/4 off M",
+  "lam": -0.9237604307034014,
+  "lam_tilde": -1.3328000000000004,
+  "M": 2,
+  "b_max_eq6": 0.08009499678690338,
+  "rho_star_over_4": 0.175,
+  "b_cap_in_M": [
+   0.080094997
+  ],
+  "step47_uniform": {
+   "ok": true,
+   "n": 2,
+   "worst_lhs": -1.3328,
+   "min_margin": 0.3331999999999997,
+   "min_margin_tilde": 0.3331999999999997,
+   "lam_tilde": -1.3328000000000004
+  },
+  "step47_per_pattern": {
+   "ok": true,
+   "n": 2,
+   "worst_lhs": -1.3328,
+   "min_margin": 0.3331999999999997,
+   "min_margin_tilde": 0.3331999999999997,
+   "lam_tilde": -1.3328000000000004
+  },
+  "push_uniform": {
+   "all": {
+    "n": 7,
+    "min": 0.07849309685116532,
+    "median": 0.07849309685116532,
+    "max": 0.07849309685116532
+   },
+   "in_M": {
+    "n": 1,
+    "min": 0.07849309685116532,
+    "median": 0.07849309685116532,
+    "max": 0.07849309685116532
+   },
+   "off_M": {
+    "n": 6,
+    "min": 0.07849309685116532,
+    "median": 0.07849309685116532,
+    "max": 0.07849309685116532
+   },
+   "b_max_eq6": 0.08009499678690338,
+   "vb_cap": "uniform",
+   "label": "Definition 2.3, eq. (6)"
+  },
+  "push_per_pattern": {
+   "all": {
+    "n": 7,
+    "min": 0.07849309685116532,
+    "median": 0.1715,
+    "max": 0.1715
+   },
+   "in_M": {
+    "n": 1,
+    "min": 0.07849309685116532,
+    "median": 0.07849309685116532,
+    "max": 0.07849309685116532
+   },
+   "off_M": {
+    "n": 6,
+    "min": 0.1715,
+    "median": 0.1715,
+    "max": 0.1715
+   },
+   "b_max_eq6": 0.08009499678690338,
+   "vb_cap": "per_pattern",
+   "label": "outside eq. (6): per-pattern cap |lambda_c(z)|/(4|beta||h|) on M, rho*/4 off M"
+  },
+  "c2_rule_uniform": 41.15795150800614,
+  "c2_rule_per_pattern": 20.197883610410422,
+  "c2_rule_fssc_uniform": 33.53610863615315,
+  "c2_rule_fssc_per_pattern": 16.768054318076576,
+  "c2_phase2": 41.15795150800614,
+  "c2_model_uniform": 45.0,
+  "c2_model_per_pattern": 24.0,
+  "mu_worst_uniform": [
+   0.06635913776962564,
+   0.06006991717194938,
+   0.03799645953966364
+  ],
+  "mu_worst_per_pattern": [
+   0.15193971770697515,
+   0.13714195121746448,
+   0.0856167168601685
+  ],
+  "c2_used": 20.197883610410422
+ },
+ "E unequal loads, costs": {
+  "net": "E unequal loads, costs",
+  "label_uniform": "Definition 2.3, eq. (6)",
+  "label_per_pattern": "outside eq. (6): per-pattern cap |lambda_c(z)|/(4|beta||h|) on M, rho*/4 off M",
+  "lam": -0.8660254037844386,
+  "lam_tilde": -0.8085,
+  "M": 2,
+  "b_max_eq6": 0.04334014922081786,
+  "rho_star_over_4": 0.125,
+  "b_cap_in_M": [
+   0.043340149
+  ],
+  "step47_uniform": {
+   "ok": true,
+   "n": 2,
+   "worst_lhs": -0.8085,
+   "min_margin": 0.202125,
+   "min_margin_tilde": 0.202125,
+   "lam_tilde": -0.8085
+  },
+  "step47_per_pattern": {
+   "ok": true,
+   "n": 2,
+   "worst_lhs": -0.8085,
+   "min_margin": 0.202125,
+   "min_margin_tilde": 0.202125,
+   "lam_tilde": -0.8085
+  },
+  "push_uniform": {
+   "all": {
+    "n": 7,
+    "min": 0.042473346236401505,
+    "median": 0.042473346236401505,
+    "max": 0.042473346236401505
+   },
+   "in_M": {
+    "n": 1,
+    "min": 0.042473346236401505,
+    "median": 0.042473346236401505,
+    "max": 0.042473346236401505
+   },
+   "off_M": {
+    "n": 6,
+    "min": 0.042473346236401505,
+    "median": 0.042473346236401505,
+    "max": 0.042473346236401505
+   },
+   "b_max_eq6": 0.04334014922081786,
+   "vb_cap": "uniform",
+   "label": "Definition 2.3, eq. (6)"
+  },
+  "push_per_pattern": {
+   "all": {
+    "n": 7,
+    "min": 0.042473346236401505,
+    "median": 0.1225,
+    "max": 0.1225
+   },
+   "in_M": {
+    "n": 1,
+    "min": 0.042473346236401505,
+    "median": 0.042473346236401505,
+    "max": 0.042473346236401505
+   },
+   "off_M": {
+    "n": 6,
+    "min": 0.1225,
+    "median": 0.1225,
+    "max": 0.1225
+   },
+   "b_max_eq6": 0.04334014922081786,
+   "vb_cap": "per_pattern",
+   "label": "outside eq. (6): per-pattern cap |lambda_c(z)|/(4|beta||h|) on M, rho*/4 off M"
+  },
+  "c2_rule_uniform": 61.73692726200922,
+  "c2_rule_per_pattern": 23.818258974540594,
+  "c2_rule_fssc_uniform": 56.78272939530477,
+  "c2_rule_fssc_per_pattern": 22.10334432837367,
+  "c2_phase2": 61.73692726200922,
+  "c2_model_uniform": 65.0,
+  "c2_model_per_pattern": 27.0,
+  "mu_worst_uniform": [
+   0.024527624531193663,
+   0.04908675956543571,
+   0.030506916124176612
+  ],
+  "mu_worst_per_pattern": [
+   0.0730509607668575,
+   0.15131058902941372,
+   0.09193620174403251
+  ],
+  "c2_used": 23.818258974540594
+ },
+ "F 3x5 network": {
+  "net": "F 3x5 network",
+  "label_uniform": "Definition 2.3, eq. (6)",
+  "label_per_pattern": "outside eq. (6): per-pattern cap |lambda_c(z)|/(4|beta||h|) on M, rho*/4 off M",
+  "lam": -2.1213203435596424,
+  "lam_tilde": -1.4699999999999995,
+  "M": 12,
+  "b_max_eq6": 0.035864327680858586,
+  "rho_star_over_4": 0.25,
+  "b_cap_in_M": [
+   0.035864328
+  ],
+  "step47_uniform": {
+   "ok": true,
+   "n": 12,
+   "worst_lhs": -1.409123539031905,
+   "min_margin": 0.306623539031905,
+   "min_margin_tilde": 0.3066235390319054,
+   "lam_tilde": -1.4699999999999995
+  },
+  "step47_per_pattern": {
+   "ok": true,
+   "n": 12,
+   "worst_lhs": -1.4091235390319048,
+   "min_margin": 0.30662353903190476,
+   "min_margin_tilde": 0.3066235390319052,
+   "lam_tilde": -1.4699999999999995
+  },
+  "push_uniform": {
+   "all": {
+    "n": 31,
+    "min": 0.03514704112724141,
+    "median": 0.035147041127241416,
+    "max": 0.035147041127241416
+   },
+   "in_M": {
+    "n": 11,
+    "min": 0.03514704112724141,
+    "median": 0.035147041127241416,
+    "max": 0.035147041127241416
+   },
+   "off_M": {
+    "n": 20,
+    "min": 0.03514704112724141,
+    "median": 0.035147041127241416,
+    "max": 0.035147041127241416
+   },
+   "b_max_eq6": 0.035864327680858586,
+   "vb_cap": "uniform",
+   "label": "Definition 2.3, eq. (6)"
+  },
+  "push_per_pattern": {
+   "all": {
+    "n": 31,
+    "min": 0.03514704112724141,
+    "median": 0.24499999999999997,
+    "max": 0.245
+   },
+   "in_M": {
+    "n": 11,
+    "min": 0.03514704112724141,
+    "median": 0.035147041127241416,
+    "max": 0.03514704112724142
+   },
+   "off_M": {
+    "n": 20,
+    "min": 0.24499999999999997,
+    "median": 0.245,
+    "max": 0.245
+   },
+   "b_max_eq6": 0.035864327680858586,
+   "vb_cap": "per_pattern",
+   "label": "outside eq. (6): per-pattern cap |lambda_c(z)|/(4|beta||h|) on M, rho*/4 off M"
+  },
+  "c2_rule_uniform": 152.43685743705979,
+  "c2_rule_per_pattern": 128.23750631892656,
+  "c2_rule_fssc_uniform": 154.53286422681936,
+  "c2_rule_fssc_per_pattern": 123.85494666761107,
+  "c2_phase2": 152.43685743705979,
+  "c2_model_uniform": 138.0,
+  "c2_model_per_pattern": 117.0,
+  "mu_worst_uniform": [
+   0.012004083297632194,
+   0.008937713437965221,
+   0.012004083297632194,
+   0.008937713437965221,
+   0.008937713437965221
+  ],
+  "mu_worst_per_pattern": [
+   0.01722964308714862,
+   0.06722105995484216,
+   0.01722964308714862,
+   0.010153657119837822,
+   0.010153657119837822
+  ],
+  "c2_used": 128.23750631892656
+ },
+ "G ranking-map fails (BJ20 Ex. 6.6)": {
+  "net": "G ranking-map fails (BJ20 Ex. 6.6)",
+  "label_uniform": "Definition 2.3, eq. (6)",
+  "label_per_pattern": "outside eq. (6): per-pattern cap |lambda_c(z)|/(4|beta||h|) on M, rho*/4 off M",
+  "lam": -2.1213203435596415,
+  "lam_tilde": -0.48999999999999966,
+  "M": 42,
+  "b_max_eq6": 0.0028449931416907703,
+  "rho_star_over_4": 0.25,
+  "b_cap_in_M": [
+   0.002844993,
+   0.005689986,
+   0.008534979,
+   0.011379973
+  ],
+  "step47_uniform": {
+   "ok": true,
+   "n": 42,
+   "worst_lhs": -0.48442381344228574,
+   "min_margin": 0.11692381344228603,
+   "min_margin_tilde": 0.11692381344228603,
+   "lam_tilde": -0.48999999999999966
+  },
+  "step47_per_pattern": {
+   "ok": true,
+   "n": 42,
+   "worst_lhs": -0.48442381344228574,
+   "min_margin": 0.11692381344228603,
+   "min_margin_tilde": 0.11692381344228603,
+   "lam_tilde": -0.48999999999999966
+  },
+  "push_uniform": {
+   "all": {
+    "n": 63,
+    "min": 0.0027880932788569546,
+    "median": 0.002788093278856955,
+    "max": 0.0027880932788569555
+   },
+   "in_M": {
+    "n": 41,
+    "min": 0.0027880932788569546,
+    "median": 0.002788093278856955,
+    "max": 0.0027880932788569555
+   },
+   "off_M": {
+    "n": 22,
+    "min": 0.002788093278856955,
+    "median": 0.002788093278856955,
+    "max": 0.0027880932788569555
+   },
+   "b_max_eq6": 0.0028449931416907703,
+   "vb_cap": "uniform",
+   "label": "Definition 2.3, eq. (6)"
+  },
+  "push_per_pattern": {
+   "all": {
+    "n": 63,
+    "min": 0.0027880932788569546,
+    "median": 0.008364279836570865,
+    "max": 0.24500000000000002
+   },
+   "in_M": {
+    "n": 41,
+    "min": 0.0027880932788569546,
+    "median": 0.005576186557713912,
+    "max": 0.011152373115427822
+   },
+   "off_M": {
+    "n": 22,
+    "min": 0.24499999999999997,
+    "median": 0.245,
+    "max": 0.24500000000000002
+   },
+   "b_max_eq6": 0.0028449931416907703,
+   "vb_cap": "per_pattern",
+   "label": "outside eq. (6): per-pattern cap |lambda_c(z)|/(4|beta||h|) on M, rho*/4 off M"
+  },
+  "c2_rule_uniform": NaN,
+  "c2_rule_per_pattern": 2261.972418294171,
+  "c2_rule_fssc_uniform": NaN,
+  "c2_rule_fssc_per_pattern": 2261.972418294171,
+  "c2_phase2": 660.0,
+  "c2_model_uniform": 662.0,
+  "c2_model_per_pattern": 545.0,
+  "mu_worst_uniform": [
+   0.00012350598564345945,
+   5.7649141190955306e-05,
+   0.00012350598564345945,
+   9.038420455645683e-06,
+   9.038420455645683e-06,
+   9.038420455645683e-06
+  ],
+  "mu_worst_per_pattern": [
+   0.0004861009513680333,
+   0.00012350598564345945,
+   0.0004861009513680333,
+   0.0006157346097384852,
+   0.00012350598564345945,
+   0.0006157346097384852
+  ],
+  "c2_used": 2261.972418294171
+ }
+}

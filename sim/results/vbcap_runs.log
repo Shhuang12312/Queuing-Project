@@ -1,0 +1,35 @@
+A toy (Ex. 2.2)            |M|=  2 lam~= -0.4900 b_max=0.04083 rho*/4=0.2500 | step47 margin uni 0.123 per 0.123 | push: eq6 0.0400; per-pattern on M 0.0400-0.0400, off M 0.2450 | mu_worst eq6 [0.0229, 0.0229, 0.0229] per [0.152, 0.152, 0.152] | c2 rule eq6 68.4 -> per-pattern 13.0 (model minimizer 70 -> 16); f_ssc variant 64.4 -> 12.2
+B cost-trivial (Ex. 2.1)   |M|=  0 lam~=  0.0000 b_max=0.25000 rho*/4=0.2500 | step47 margin uni 0.000 per 0.000 | push: eq6 0.2450; per-pattern on M 0.0000-0.0000, off M 0.2450 | mu_worst eq6 [0.152, 0.152, 0.152] per [0.152, 0.152, 0.152] | c2 rule eq6 13.0 -> per-pattern 13.0 (model minimizer 16 -> 16); f_ssc variant 12.2 -> 12.2
+C shared type costly       |M|=  4 lam~= -1.4700 b_max=0.04083 rho*/4=0.2500 | step47 margin uni 0.367 per 0.367 | push: eq6 0.0400; per-pattern on M 0.0400-0.0400, off M 0.2450 | mu_worst eq6 [0.0229, 0.0229, 0.0229] per [0.152, 0.152, 0.152] | c2 rule eq6 68.4 -> per-pattern 13.0 (model minimizer 70 -> 16); f_ssc variant 69.2 -> 13.0
+D unequal rates            |M|=  2 lam~= -1.3328 b_max=0.08009 rho*/4=0.1750 | step47 margin uni 0.333 per 0.333 | push: eq6 0.0785; per-pattern on M 0.0785-0.0785, off M 0.1715 | mu_worst eq6 [0.0664, 0.0601, 0.038] per [0.1519, 0.1371, 0.0856] | c2 rule eq6 41.2 -> per-pattern 20.2 (model minimizer 45 -> 24); f_ssc variant 33.5 -> 16.8
+E unequal loads, costs     |M|=  2 lam~= -0.8085 b_max=0.04334 rho*/4=0.1250 | step47 margin uni 0.202 per 0.202 | push: eq6 0.0425; per-pattern on M 0.0425-0.0425, off M 0.1225 | mu_worst eq6 [0.0245, 0.0491, 0.0305] per [0.0731, 0.1513, 0.0919] | c2 rule eq6 61.7 -> per-pattern 23.8 (model minimizer 65 -> 27); f_ssc variant 56.8 -> 22.1
+F 3x5 network              |M|= 12 lam~= -1.4700 b_max=0.03586 rho*/4=0.2500 | step47 margin uni 0.307 per 0.307 | push: eq6 0.0351; per-pattern on M 0.0351-0.0351, off M 0.2450 | mu_worst eq6 [0.012, 0.0089, 0.012, 0.0089, 0.0089] per [0.0172, 0.0672, 0.0172, 0.0102, 0.0102] | c2 rule eq6 152.4 -> per-pattern 128.2 (model minimizer 138 -> 117); f_ssc variant 154.5 -> 123.9
+G ranking-map fails (BJ20  |M|= 42 lam~= -0.4900 b_max=0.00284 rho*/4=0.2500 | step47 margin uni 0.117 per 0.117 | push: eq6 0.0028; per-pattern on M 0.0028-0.0112, off M 0.2450 | mu_worst eq6 [0.0001, 0.0001, 0.0001, 0.0, 0.0, 0.0] per [0.0005, 0.0001, 0.0005, 0.0006, 0.0001, 0.0006] | c2 rule eq6 nan -> per-pattern 2262.0 (model minimizer 662 -> 545); f_ssc variant nan -> 2262.0
+F 3x5 network            per-pattern c2= 128.2 r= 2000 s=2 JE= 11.962 sameHGI= 8.432 excess=  39.3% gap=1.503 1st/2nd=13.14/10.78 floor pred=0.029 Efrac=0.0e+00 (110s)
+F 3x5 network            per-pattern c2= 128.2 r= 2000 s=1 JE= 12.163 sameHGI= 8.629 excess=  39.4% gap=1.619 1st/2nd=14.37/9.95 floor pred=0.029 Efrac=0.0e+00 (112s)
+D unequal rates          per-pattern c2=  20.2 r= 2000 s=1 JE=  3.004 sameHGI= 2.789 excess=   7.0% gap=0.079 1st/2nd=3.27/2.74 floor pred=0.020 Efrac=0.0e+00 (167s)
+D unequal rates          per-pattern c2=  20.2 r= 2000 s=2 JE=  4.102 sameHGI= 3.886 excess=   7.0% gap=0.076 1st/2nd=5.02/3.18 floor pred=0.020 Efrac=0.0e+00 (169s)
+G ranking-map fails (BJ2 per-pattern c2=2262.0 r= 2000 s=2 JE=313.286 sameHGI=26.210 excess=1158.0% gap=30.638 1st/2nd=310.67/315.90 floor pred=0.011 Efrac=0.0e+00 (194s)
+G ranking-map fails (BJ2 per-pattern c2=2262.0 r= 2000 s=1 JE=308.374 sameHGI=21.321 excess=1157.9% gap=29.564 1st/2nd=307.90/308.85 floor pred=0.011 Efrac=0.0e+00 (196s)
+E unequal loads, costs   per-pattern c2=  23.8 r= 2000 s=1 JE=  3.394 sameHGI= 3.068 excess=   7.7% gap=0.104 1st/2nd=3.89/2.90 floor pred=0.020 Efrac=6.5e-06 (213s)
+E unequal loads, costs   per-pattern c2=  23.8 r= 2000 s=2 JE=  4.189 sameHGI= 3.838 excess=   8.3% gap=0.105 1st/2nd=5.25/3.13 floor pred=0.020 Efrac=6.7e-06 (216s)
+F 3x5 network            per-pattern c2= 128.2 r= 1000 s=1 JE= 16.250 sameHGI=10.276 excess=  66.6% gap=2.092 1st/2nd=18.15/14.35 floor pred=0.050 Efrac=0.0e+00 (225s)
+F 3x5 network            per-pattern c2= 128.2 r= 1000 s=2 JE= 13.760 sameHGI= 7.804 excess=  66.4% gap=2.282 1st/2nd=11.95/15.57 floor pred=0.050 Efrac=0.0e+00 (228s)
+D unequal rates          per-pattern c2=  20.2 r= 1000 s=1 JE=  4.731 sameHGI= 4.381 excess=  11.3% gap=0.132 1st/2nd=4.55/4.91 floor pred=0.049 Efrac=0.0e+00 (240s)
+D unequal rates          per-pattern c2=  20.2 r= 1000 s=2 JE=  3.406 sameHGI= 3.043 excess=  11.7% gap=0.135 1st/2nd=3.23/3.59 floor pred=0.049 Efrac=0.0e+00 (243s)
+E unequal loads, costs   per-pattern c2=  23.8 r= 1000 s=1 JE=  4.893 sameHGI= 4.363 excess=  12.5% gap=0.175 1st/2nd=3.50/6.29 floor pred=0.047 Efrac=2.3e-05 (253s)
+E unequal loads, costs   per-pattern c2=  23.8 r= 1000 s=2 JE=  2.213 sameHGI= 1.698 excess=  12.2% gap=0.175 1st/2nd=2.01/2.41 floor pred=0.047 Efrac=4.0e-05 (255s)
+G ranking-map fails (BJ2 per-pattern c2=2262.0 r= 1000 s=1 JE=520.875 sameHGI=34.886 excess=1960.4% gap=51.321 1st/2nd=529.18/512.57 floor pred=0.050 Efrac=0.0e+00 (257s)
+G ranking-map fails (BJ2 per-pattern c2=2262.0 r= 1000 s=2 JE=513.601 sameHGI=27.651 excess=1960.2% gap=51.134 1st/2nd=509.10/518.10 floor pred=0.050 Efrac=0.0e+00 (260s)
+
+=== side by side: same-path excess (J_E - hgi_path)/HGI_E, mean +- SE over seeds ===
+network                        r | eq. (6) c2           excess   E_frac | per-pattern c2           excess   E_frac  [per-pattern = OUTSIDE eq. (6)]
+D unequal rates             1000 |       41.2    23.8 +-   0.1%  6.7e-06 |           20.2    11.5 +-   0.2%  0.0e+00
+D unequal rates             2000 |       41.2    14.3 +-   0.0%  0.0e+00 |           20.2     7.0 +-   0.0%  0.0e+00
+E unequal loads, costs      1000 |       61.7    31.0 +-   0.6%  4.6e-05 |           23.8    12.3 +-   0.2%  3.2e-05
+E unequal loads, costs      2000 |       61.7    18.8 +-   0.1%  7.1e-06 |           23.8     8.0 +-   0.3%  6.6e-06
+F 3x5 network               1000 |      152.4    72.9 +-   0.0%  0.0e+00 |          128.2    66.5 +-   0.1%  0.0e+00
+F 3x5 network               2000 |      152.4    43.9 +-   0.2%  0.0e+00 |          128.2    39.4 +-   0.0%  0.0e+00
+G ranking-map fails (BJ20   1000 |      660.0   431.8 +-   1.9%  9.3e-04 |         2262.0  1960.3 +-   0.1%  0.0e+00
+G ranking-map fails (BJ20   2000 |      660.0   265.5 +-   5.6%  2.9e-04 |         2262.0  1158.0 +-   0.0%  0.0e+00
+ALL DONE

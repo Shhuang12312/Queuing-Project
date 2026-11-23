@@ -1,0 +1,93 @@
+F 3x5 network          uniform     c2=  152 r= 2000 s=1 JE= 13.643 h^(W)= 12.036 h^(G)=  9.690 T3=+0.713 Efrac=0.0e+00 (912s)
+F 3x5 network          uniform     c2=  152 r= 2000 s=2 JE= 11.089 h^(W)=  9.563 h^(G)=  7.153 T3=-1.823 Efrac=1.3e-06 (918s)
+G ranking-map fails (B uniform     c2=  660 r= 2000 s=1 JE= 97.442 h^(W)= 89.891 h^(G)= 29.562 T3=+4.771 Efrac=5.7e-04 (1289s)
+G ranking-map fails (B uniform     c2=  660 r= 2000 s=2 JE= 93.592 h^(W)= 86.172 h^(G)= 24.336 T3=-0.454 Efrac=6.4e-04 (1291s)
+F 3x5 network          per_pattern c2=  128 r= 2000 s=1 JE= 12.984 h^(W)= 11.511 h^(G)=  9.453 T3=+0.476 Efrac=0.0e+00 (1824s)
+F 3x5 network          per_pattern c2=  128 r= 2000 s=2 JE= 10.988 h^(W)=  9.616 h^(G)=  7.464 T3=-1.513 Efrac=0.0e+00 (1833s)
+G ranking-map fails (B per_pattern c2=   30 r= 2000 s=2 JE= 27.771 h^(W)= 27.299 h^(G)= 23.713 T3=-1.078 Efrac=9.2e-05 (2605s)
+G ranking-map fails (B per_pattern c2=   30 r= 2000 s=1 JE= 37.403 h^(W)= 36.920 h^(G)= 32.427 T3=+7.637 Efrac=1.0e-04 (2605s)
+A toy (Ex. 2.2)        uniform     c2=   68 r= 2000 s=2 JE=  2.460 h^(W)=  2.269 h^(G)=  1.890 T3=-0.919 Efrac=9.9e-06 (3069s)
+A toy (Ex. 2.2)        uniform     c2=   68 r= 2000 s=1 JE=  3.286 h^(W)=  3.095 h^(G)=  2.694 T3=-0.116 Efrac=1.1e-05 (3069s)
+G ranking-map fails (B per_pattern c2=  660 r= 2000 s=1 JE=116.687 h^(W)=106.446 h^(G)= 33.205 T3=+8.414 Efrac=0.0e+00 (3149s)
+G ranking-map fails (B per_pattern c2=  660 r= 2000 s=2 JE=106.996 h^(W)= 97.380 h^(G)= 23.498 T3=-1.293 Efrac=0.0e+00 (3152s)
+B cost-trivial (Ex. 2. uniform     c2=   13 r= 2000 s=2 JE=  3.031 h^(W)=  3.031 h^(G)=  2.882 T3=-1.187 Efrac=2.3e-07 (3505s)
+B cost-trivial (Ex. 2. uniform     c2=   13 r= 2000 s=1 JE=  4.334 h^(W)=  4.334 h^(G)=  4.186 T3=+0.118 Efrac=0.0e+00 (3505s)
+C shared type costly   uniform     c2=   68 r= 2000 s=1 JE=  5.381 h^(W)=  4.808 h^(G)=  4.012 T3=-0.057 Efrac=9.3e-06 (3591s)
+C shared type costly   uniform     c2=   68 r= 2000 s=2 JE=  4.256 h^(W)=  3.683 h^(G)=  2.886 T3=-1.183 Efrac=8.8e-06 (3595s)
+E unequal loads, costs uniform     c2=   62 r= 2000 s=1 JE=  4.598 h^(W)=  4.330 h^(G)=  3.817 T3=-0.415 Efrac=4.4e-06 (3942s)
+D unequal rates        uniform     c2=   41 r= 2000 s=2 JE=  2.589 h^(W)=  2.423 h^(G)=  2.148 T3=-0.953 Efrac=0.0e+00 (3946s)
+D unequal rates        uniform     c2=   41 r= 2000 s=1 JE=  4.075 h^(W)=  3.910 h^(G)=  3.636 T3=+0.535 Efrac=6.9e-07 (3946s)
+E unequal loads, costs uniform     c2=   62 r= 2000 s=2 JE=  4.368 h^(W)=  4.101 h^(G)=  3.584 T3=-0.647 Efrac=4.4e-06 (3948s)
+B cost-trivial (Ex. 2. per_pattern c2=   13 r= 2000 s=2 JE=  3.031 h^(W)=  3.031 h^(G)=  2.882 T3=-1.187 Efrac=2.3e-07 (4385s)
+B cost-trivial (Ex. 2. per_pattern c2=   13 r= 2000 s=1 JE=  4.334 h^(W)=  4.334 h^(G)=  4.186 T3=+0.118 Efrac=0.0e+00 (4386s)
+A toy (Ex. 2.2)        per_pattern c2=   13 r= 2000 s=1 JE=  3.221 h^(W)=  3.183 h^(G)=  3.098 T3=+0.289 Efrac=6.4e-06 (4400s)
+A toy (Ex. 2.2)        per_pattern c2=   13 r= 2000 s=2 JE=  1.913 h^(W)=  1.875 h^(G)=  1.798 T3=-1.011 Efrac=6.8e-06 (4405s)
+C shared type costly   per_pattern c2=   13 r= 2000 s=2 JE=  3.210 h^(W)=  3.096 h^(G)=  2.938 T3=-1.131 Efrac=5.3e-06 (4820s)
+C shared type costly   per_pattern c2=   13 r= 2000 s=1 JE=  4.532 h^(W)=  4.418 h^(G)=  4.217 T3=+0.149 Efrac=6.5e-06 (4823s)
+D unequal rates        per_pattern c2=   20 r= 2000 s=1 JE=  3.584 h^(W)=  3.500 h^(G)=  3.366 T3=+0.265 Efrac=1.4e-07 (4835s)
+D unequal rates        per_pattern c2=   20 r= 2000 s=2 JE=  2.275 h^(W)=  2.192 h^(G)=  2.056 T3=-1.045 Efrac=0.0e+00 (4839s)
+F 3x5 network          uniform     c2=  152 r= 1000 s=1 JE= 15.007 h^(W)= 12.487 h^(G)=  8.384 T3=-0.593 Efrac=9.3e-06 (5059s)
+F 3x5 network          uniform     c2=  152 r= 1000 s=2 JE= 14.250 h^(W)= 11.797 h^(G)=  7.637 T3=-1.340 Efrac=1.4e-05 (5066s)
+E unequal loads, costs per_pattern c2=   24 r= 2000 s=1 JE=  4.105 h^(W)=  4.000 h^(G)=  3.788 T3=-0.443 Efrac=3.4e-06 (5169s)
+E unequal loads, costs per_pattern c2=   24 r= 2000 s=2 JE=  4.084 h^(W)=  3.979 h^(G)=  3.779 T3=-0.453 Efrac=5.4e-06 (5173s)
+G ranking-map fails (B uniform     c2=  660 r= 1000 s=1 JE=124.111 h^(W)=112.317 h^(G)= 21.324 T3=-3.466 Efrac=1.2e-03 (5388s)
+G ranking-map fails (B uniform     c2=  660 r= 1000 s=2 JE=126.536 h^(W)=114.667 h^(G)= 22.521 T3=-2.270 Efrac=1.2e-03 (5391s)
+F 3x5 network          per_pattern c2=  128 r= 1000 s=1 JE= 14.112 h^(W)= 11.815 h^(G)=  8.151 T3=-0.826 Efrac=0.0e+00 (5400s)
+F 3x5 network          per_pattern c2=  128 r= 1000 s=2 JE= 13.957 h^(W)= 11.725 h^(G)=  7.992 T3=-0.985 Efrac=0.0e+00 (5403s)
+G ranking-map fails (B per_pattern c2=   30 r= 1000 s=1 JE= 30.796 h^(W)= 29.987 h^(G)= 23.204 T3=-1.587 Efrac=3.5e-04 (5708s)
+G ranking-map fails (B per_pattern c2=   30 r= 1000 s=2 JE= 30.353 h^(W)= 29.551 h^(G)= 23.388 T3=-1.403 Efrac=3.3e-04 (5713s)
+G ranking-map fails (B per_pattern c2=  660 r= 1000 s=1 JE=164.047 h^(W)=147.984 h^(G)= 22.745 T3=-2.046 Efrac=0.0e+00 (5721s)
+G ranking-map fails (B per_pattern c2=  660 r= 1000 s=2 JE=165.370 h^(W)=149.205 h^(G)= 24.056 T3=-0.735 Efrac=0.0e+00 (5723s)
+A toy (Ex. 2.2)        uniform     c2=   68 r= 1000 s=1 JE=  3.325 h^(W)=  3.009 h^(G)=  2.374 T3=-0.436 Efrac=4.2e-05 (5819s)
+A toy (Ex. 2.2)        uniform     c2=   68 r= 1000 s=2 JE=  4.033 h^(W)=  3.716 h^(G)=  3.058 T3=+0.248 Efrac=5.6e-05 (5822s)
+B cost-trivial (Ex. 2. uniform     c2=   13 r= 1000 s=1 JE=  3.845 h^(W)=  3.845 h^(G)=  3.600 T3=-0.469 Efrac=2.4e-06 (5827s)
+B cost-trivial (Ex. 2. uniform     c2=   13 r= 1000 s=2 JE=  4.333 h^(W)=  4.333 h^(G)=  4.089 T3=+0.020 Efrac=1.2e-06 (5828s)
+C shared type costly   uniform     c2=   68 r= 1000 s=1 JE=  6.110 h^(W)=  5.158 h^(G)=  3.747 T3=-0.321 Efrac=5.8e-05 (5925s)
+C shared type costly   uniform     c2=   68 r= 1000 s=2 JE=  6.885 h^(W)=  5.933 h^(G)=  4.489 T3=+0.421 Efrac=4.9e-05 (5929s)
+D unequal rates        uniform     c2=   41 r= 1000 s=1 JE=  4.138 h^(W)=  3.865 h^(G)=  3.401 T3=+0.300 Efrac=0.0e+00 (5933s)
+D unequal rates        uniform     c2=   41 r= 1000 s=2 JE=  4.208 h^(W)=  3.933 h^(G)=  3.476 T3=+0.375 Efrac=3.0e-06 (5934s)
+E unequal loads, costs uniform     c2=   62 r= 1000 s=1 JE=  4.904 h^(W)=  4.458 h^(G)=  3.596 T3=-0.635 Efrac=1.5e-05 (6012s)
+E unequal loads, costs uniform     c2=   62 r= 1000 s=2 JE=  5.498 h^(W)=  5.050 h^(G)=  4.199 T3=-0.032 Efrac=7.4e-06 (6015s)
+A toy (Ex. 2.2)        per_pattern c2=   13 r= 1000 s=1 JE=  2.911 h^(W)=  2.848 h^(G)=  2.686 T3=-0.124 Efrac=3.5e-05 (6047s)
+A toy (Ex. 2.2)        per_pattern c2=   13 r= 1000 s=2 JE=  3.647 h^(W)=  3.583 h^(G)=  3.451 T3=+0.642 Efrac=3.5e-05 (6047s)
+B cost-trivial (Ex. 2. per_pattern c2=   13 r= 1000 s=1 JE=  3.849 h^(W)=  3.849 h^(G)=  3.600 T3=-0.468 Efrac=2.0e-06 (6120s)
+B cost-trivial (Ex. 2. per_pattern c2=   13 r= 1000 s=2 JE=  4.337 h^(W)=  4.337 h^(G)=  4.090 T3=+0.021 Efrac=9.0e-07 (6122s)
+C shared type costly   per_pattern c2=   13 r= 1000 s=2 JE=  4.748 h^(W)=  4.556 h^(G)=  4.170 T3=+0.101 Efrac=4.0e-05 (6156s)
+C shared type costly   per_pattern c2=   13 r= 1000 s=1 JE=  4.014 h^(W)=  3.822 h^(G)=  3.467 T3=-0.602 Efrac=3.7e-05 (6156s)
+D unequal rates        per_pattern c2=   20 r= 1000 s=1 JE=  3.499 h^(W)=  3.362 h^(G)=  3.136 T3=+0.035 Efrac=1.1e-06 (6234s)
+D unequal rates        per_pattern c2=   20 r= 1000 s=2 JE=  3.725 h^(W)=  3.589 h^(G)=  3.362 T3=+0.261 Efrac=0.0e+00 (6238s)
+E unequal loads, costs per_pattern c2=   24 r= 1000 s=1 JE=  4.501 h^(W)=  4.325 h^(G)=  3.951 T3=-0.280 Efrac=1.6e-05 (6247s)
+E unequal loads, costs per_pattern c2=   24 r= 1000 s=2 JE=  4.194 h^(W)=  4.019 h^(G)=  3.680 T3=-0.552 Efrac=1.4e-05 (6250s)
+
+network                cap             c2     r |     J_E       T1=SSC gap    T2=idling gap     T3=h^(G)-HGI |    Efrac 3Jc2r^(k-1) 2rC_i T sum p_flag
+A toy (Ex. 2.2)        uniform         68  1000 |   3.679   0.317 ± 0.000   0.647 ± 0.029  -0.094 ± 0.485 |  4.9e-05       3.231              34.48
+A toy (Ex. 2.2)        uniform         68  2000 |   2.873   0.191 ± 0.000   0.390 ± 0.016  -0.518 ± 0.559 |  1.1e-05       1.908              14.91
+B cost-trivial (Ex. 2. uniform         13  1000 |   4.089   0.000 ± 0.000   0.245 ± 0.002  -0.224 ± 0.517 |  1.8e-06       0.612               1.27
+B cost-trivial (Ex. 2. uniform         13  2000 |   3.682   0.000 ± 0.000   0.148 ± 0.001  -0.534 ± 0.894 |  1.2e-07       0.361               0.16
+C shared type costly   uniform         68  1000 |   6.497   0.952 ± 0.001   1.427 ± 0.081   0.050 ± 0.582 |  5.3e-05       3.231              37.21
+C shared type costly   uniform         68  2000 |   4.819   0.574 ± 0.000   0.797 ± 0.031  -0.620 ± 0.807 |  9.1e-06       1.908              12.70
+D unequal rates        uniform         41  1000 |   4.173   0.274 ± 0.007   0.460 ± 0.008   0.338 ± 0.479 |  1.5e-06       1.944               1.04
+D unequal rates        uniform         41  2000 |   3.332   0.165 ± 0.003   0.275 ± 0.003  -0.209 ± 0.836 |  3.5e-07       1.148               0.48
+E unequal loads, costs uniform         62  1000 |   5.201   0.447 ± 0.002   0.857 ± 0.013  -0.334 ± 0.603 |  1.1e-05       2.916               6.97
+E unequal loads, costs uniform         62  2000 |   4.483   0.268 ± 0.001   0.515 ± 0.007  -0.531 ± 1.427 |  4.4e-06       1.722               5.56
+F 3x5 network          uniform        152  1000 |  14.628   2.486 ± 0.126   4.132 ± 0.146  -0.966 ± 1.265 |  1.2e-05      12.000              12.26
+F 3x5 network          uniform        152  2000 |  12.366   1.567 ± 0.091   2.378 ± 0.111  -0.555 ± 2.372 |  6.7e-07       7.086               1.40
+G ranking-map fails (B uniform        660  1000 | 125.324  11.831 ± 0.282  91.570 ± 1.786  -2.868 ± 2.314 |  1.2e-03      62.347            1718.75
+G ranking-map fails (B uniform        660  2000 |  95.517   7.486 ± 0.119  61.082 ± 1.882   2.158 ± 5.192 |  6.0e-04      36.816            1692.05
+A toy (Ex. 2.2)        per_pattern     13  1000 |   3.279   0.064 ± 0.000   0.147 ± 0.019   0.259 ± 0.863 |  3.5e-05       0.614              24.57
+A toy (Ex. 2.2)        per_pattern     13  2000 |   2.567   0.038 ± 0.000   0.080 ± 0.005  -0.361 ± 0.746 |  6.6e-06       0.363               9.24
+B cost-trivial (Ex. 2. per_pattern     13  1000 |   4.093   0.000 ± 0.000   0.248 ± 0.002  -0.223 ± 0.517 |  1.5e-06       0.614               1.02
+B cost-trivial (Ex. 2. per_pattern     13  2000 |   3.682   0.000 ± 0.000   0.148 ± 0.001  -0.534 ± 0.894 |  1.2e-07       0.363               0.16
+C shared type costly   per_pattern     13  1000 |   4.381   0.192 ± 0.000   0.371 ± 0.039  -0.250 ± 0.663 |  3.9e-05       0.614              27.11
+C shared type costly   per_pattern     13  2000 |   3.871   0.114 ± 0.000   0.180 ± 0.025  -0.491 ± 0.920 |  5.9e-06       0.363               8.26
+D unequal rates        per_pattern     20  1000 |   3.612   0.137 ± 0.003   0.226 ± 0.004   0.148 ± 0.462 |  5.7e-07       0.954               0.39
+D unequal rates        per_pattern     20  2000 |   2.929   0.083 ± 0.002   0.136 ± 0.002  -0.390 ± 0.681 |  7.1e-08       0.563               0.10
+E unequal loads, costs per_pattern     24  1000 |   4.348   0.176 ± 0.000   0.357 ± 0.028  -0.416 ± 0.545 |  1.5e-05       1.125               9.43
+E unequal loads, costs per_pattern     24  2000 |   4.095   0.105 ± 0.000   0.206 ± 0.010  -0.448 ± 1.403 |  4.4e-06       0.664               5.55
+F 3x5 network          per_pattern    128  1000 |  14.035   2.265 ± 0.088   3.698 ± 0.090  -0.905 ± 1.329 |  0.0e+00      10.095               0.00
+F 3x5 network          per_pattern    128  2000 |  11.986   1.422 ± 0.102   2.105 ± 0.101  -0.518 ± 2.195 |  0.0e+00       5.961               0.00
+G ranking-map fails (B per_pattern     30  1000 |  30.575   0.806 ± 0.012   6.473 ± 0.541  -1.495 ± 2.095 |  3.4e-04       2.834             473.31
+G ranking-map fails (B per_pattern     30  2000 |  32.587   0.478 ± 0.008   4.039 ± 0.409   3.279 ± 6.397 |  9.8e-05       1.673             273.15
+G ranking-map fails (B per_pattern    660  1000 | 164.709  16.114 ± 0.399 125.194 ± 0.404  -1.390 ± 2.050 |  0.0e+00      62.347               0.00
+G ranking-map fails (B per_pattern    660  2000 | 111.842   9.929 ± 0.327  73.561 ± 0.333   3.561 ± 6.141 |  0.0e+00      36.816               0.00
+ALL DONE

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.so
+*.dylib
+.ipynb_checkpoints/
+.pytest_cache/
+dist/

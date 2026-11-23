@@ -1,0 +1,42 @@
+all-alpha seed  3: JE=4.0453 h^(W)=3.7719 h^(G)=3.1939 E_frac=9.2e-05 (73s)
+all-alpha seed  2: JE=3.4590 h^(W)=3.1853 h^(G)=2.5908 E_frac=1.2e-04 (73s)
+all-alpha seed  4: JE=3.4613 h^(W)=3.1884 h^(G)=2.6326 E_frac=1.2e-04 (73s)
+all-alpha seed  1: JE=3.2645 h^(W)=2.9918 h^(G)=2.3801 E_frac=1.4e-04 (74s)
+all-beta  seed 13: JE=5.0218 h^(W)=4.7464 h^(G)=4.1732 E_frac=1.4e-04 (142s)
+all-beta  seed 14: JE=3.1894 h^(W)=2.9148 h^(G)=2.3544 E_frac=1.0e-04 (143s)
+all-beta  seed 11: JE=3.0620 h^(W)=2.7878 h^(G)=2.2064 E_frac=1.4e-04 (144s)
+all-beta  seed 12: JE=4.1618 h^(W)=3.8867 h^(G)=3.2626 E_frac=1.1e-04 (145s)
+mixed     seed 21: JE=3.4644 h^(W)=3.1911 h^(G)=2.6205 E_frac=1.1e-04 (212s)
+mixed     seed 22: JE=3.1135 h^(W)=2.8398 h^(G)=2.2741 E_frac=1.2e-04 (212s)
+mixed     seed 23: JE=4.5701 h^(W)=4.2962 h^(G)=3.7580 E_frac=1.0e-04 (213s)
+mixed     seed 24: JE=5.0500 h^(W)=4.7755 h^(G)=4.1672 E_frac=1.4e-04 (214s)
+all-beta  seed  1: JE=3.2612 h^(W)=2.9869 h^(G)=2.3758 E_frac=1.4e-04 (279s)
+all-beta  seed  2: JE=3.4651 h^(W)=3.1899 h^(G)=2.5961 E_frac=1.2e-04 (281s)
+all-beta  seed  3: JE=4.0494 h^(W)=3.7741 h^(G)=3.1965 E_frac=9.2e-05 (282s)
+all-beta  seed  4: JE=3.4627 h^(W)=3.1882 h^(G)=2.6322 E_frac=1.2e-04 (282s)
+mixed     seed  1: JE=3.2642 h^(W)=2.9907 h^(G)=2.3792 E_frac=1.4e-04 (347s)
+mixed     seed  3: JE=4.0258 h^(W)=3.7515 h^(G)=3.1751 E_frac=8.9e-05 (350s)
+mixed     seed  2: JE=3.4627 h^(W)=3.1882 h^(G)=2.5940 E_frac=1.2e-04 (350s)
+mixed     seed  4: JE=3.4618 h^(W)=3.1881 h^(G)=2.6321 E_frac=1.2e-04 (351s)
+all-alpha: alpha^r=[0.9995, 0.9995, 0.9995] beta^r=[1.0, 1.0, 1.0] eta=[-0.5, -0.5, -0.5] theta=[-1.0, -1.0] Sigma=[[4.0, 2.0], [2.0, 4.0]]
+all-beta: alpha^r=[1.0, 1.0, 1.0] beta^r=[1.0005, 1.0005, 1.0005] eta=[-0.5, -0.5, -0.5] theta=[-1.0, -1.0] Sigma=[[4.0, 2.0], [2.0, 4.0]]
+mixed: alpha^r=[0.99975, 0.99975, 0.99975] beta^r=[1.00025, 1.00025, 1.00025] eta=[-0.5, -0.5, -0.5] theta=[-1.0, -1.0] Sigma=[[4.0, 2.0], [2.0, 4.0]]
+
+(A) independent seeds (different across splits), r = 1000, T = 160.0, batches of 16.0 -> 28 batch means per split; ± = 95% half-width
+split                   J_E               T1               T2            T1+T2               T3   E_frac
+all-alpha   3.5575 ± 0.3390  0.2732 ± 0.0003  0.5850 ± 0.0229  0.8582 ± 0.0229 -0.1101 ± 0.3350  1.2e-04
+all-beta    3.8587 ± 0.7063  0.2748 ± 0.0005  0.5848 ± 0.0281  0.8596 ± 0.0284  0.1897 ± 0.6943  1.2e-04
+mixed       4.0495 ± 0.6982  0.2739 ± 0.0004  0.5707 ± 0.0262  0.8445 ± 0.0264  0.3956 ± 0.6828  1.2e-04
+pairwise z = (m_a - m_b)/sqrt(se_a^2 + se_b^2):
+  all-alpha vs all-beta : T1 z=-5.71  T2 z=+0.01  T1+T2 z=-0.08  JE z=-0.79  T3 z=-0.80
+  all-alpha vs mixed    : T1 z=-2.65  T2 z=+0.84  T1+T2 z=+0.80  JE z=-1.30  T3 z=-1.36
+  all-beta  vs mixed    : T1 z=+3.05  T2 z=+0.75  T1+T2 z=+0.80  JE z=-0.39  T3 z=-0.43
+
+(B) SAME seeds (1, 2, 3, 4) for all three splits — code-consistency check, NOT a statistical test
+  seed 1: J_E 3.2645 / 3.2612 / 3.2642  (beta - alpha -0.0034, mixed - alpha -0.0003); T1+T2 0.8845 / 0.8854 / 0.8850
+  seed 2: J_E 3.4590 / 3.4651 / 3.4627  (beta - alpha +0.0061, mixed - alpha +0.0037); T1+T2 0.8682 / 0.8690 / 0.8687
+  seed 3: J_E 4.0453 / 4.0494 / 4.0258  (beta - alpha +0.0041, mixed - alpha -0.0195); T1+T2 0.8514 / 0.8529 / 0.8507
+  seed 4: J_E 3.4613 / 3.4627 / 3.4618  (beta - alpha +0.0014, mixed - alpha +0.0005); T1+T2 0.8287 / 0.8305 / 0.8298
+  same-seed split means (for reference only): all-alpha: J_E 3.5575, T1+T2 0.8582; all-beta: J_E 3.5596, T1+T2 0.8594; mixed: J_E 3.5536, T1+T2 0.8585
+
+saved results/split_invariance.json (commit d7b84a2), 352s
